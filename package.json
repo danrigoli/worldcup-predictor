@@ -20,7 +20,8 @@
     "ml:train": "ml/.venv/bin/python -m ml.pipeline",
     "ml:backtest": "ml/.venv/bin/python -m ml.pipeline --stage backtest",
     "ml:calibrate": "tsx scripts/calibrate-matrix.ts",
-    "ml:all": "pnpm ml:train && pnpm ml:calibrate"
+    "ml:check": "ml/.venv/bin/python -m ml.selfcheck",
+    "ml:all": "pnpm ml:train && pnpm ml:calibrate && pnpm ml:check"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.15",
