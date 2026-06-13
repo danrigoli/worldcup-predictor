@@ -29,19 +29,10 @@ export default async function MatchesPage() {
   const standings = liveGroupStandings(matchData.matches, fifaRank);
 
   return (
-    <div className="space-y-6 animate-fade-in">
-      <div>
-        <h1 className="text-2xl font-bold">Matches</h1>
-        <p className="text-sm text-muted-foreground">
-          Win / draw / loss probabilities and most-likely scorelines for every
-          fixture. Results lock in as they&apos;re played.
-        </p>
-      </div>
-      <MatchesView
-        matches={matchData.matches}
-        predictions={predictions}
-        standings={standings}
-      />
-    </div>
+    <MatchesView
+      matches={matchData.matches}
+      predictions={predictions}
+      standings={standings}
+    />
   );
 }

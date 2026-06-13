@@ -19,7 +19,9 @@ export default function ModelPage() {
   return (
     <div className="space-y-6 animate-fade-in">
       <div>
-        <h1 className="text-2xl font-bold">The model</h1>
+        <h1 className="m-0 mb-1 font-display text-[34px] font-extrabold tracking-[-1px] text-ink">
+          The model
+        </h1>
         <p className="text-sm text-muted-foreground">
           A LightGBM Poisson goals model (Python) trained on ~49,000
           internationals since 1872 plus historical squad market values. It

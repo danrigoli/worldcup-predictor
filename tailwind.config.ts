@@ -1,69 +1,59 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
-  darkMode: "class",
-  content: [
-    "./app/**/*.{ts,tsx}",
-    "./components/**/*.{ts,tsx}",
-  ],
+  content: ["./app/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}"],
   theme: {
     container: {
       center: true,
-      padding: "1rem",
-      screens: { "2xl": "1280px" },
+      padding: "22px",
+      screens: { "2xl": "1220px" },
     },
     extend: {
+      fontFamily: {
+        sans: ["var(--font-body)", "system-ui", "sans-serif"],
+        display: ["var(--font-display)", "system-ui", "sans-serif"],
+      },
       colors: {
-        border: "hsl(var(--border))",
-        input: "hsl(var(--input))",
-        ring: "hsl(var(--ring))",
-        background: "hsl(var(--background))",
-        foreground: "hsl(var(--foreground))",
-        primary: {
-          DEFAULT: "hsl(var(--primary))",
-          foreground: "hsl(var(--primary-foreground))",
-        },
-        secondary: {
-          DEFAULT: "hsl(var(--secondary))",
-          foreground: "hsl(var(--secondary-foreground))",
-        },
-        muted: {
-          DEFAULT: "hsl(var(--muted))",
-          foreground: "hsl(var(--muted-foreground))",
-        },
-        accent: {
-          DEFAULT: "hsl(var(--accent))",
-          foreground: "hsl(var(--accent-foreground))",
-        },
-        destructive: {
-          DEFAULT: "hsl(var(--destructive))",
-          foreground: "hsl(var(--destructive-foreground))",
-        },
-        card: {
-          DEFAULT: "hsl(var(--card))",
-          foreground: "hsl(var(--card-foreground))",
-        },
-        popover: {
-          DEFAULT: "hsl(var(--popover))",
-          foreground: "hsl(var(--popover-foreground))",
-        },
-        win: "hsl(var(--win))",
-        draw: "hsl(var(--draw))",
-        loss: "hsl(var(--loss))",
+        // shadcn-semantic names → design tokens (raw var(), no hsl wrapper)
+        border: "var(--line)",
+        input: "var(--line)",
+        ring: "var(--accent)",
+        background: "var(--bg)",
+        foreground: "var(--ink)",
+        primary: { DEFAULT: "var(--accent)", foreground: "var(--accent-ink)" },
+        secondary: { DEFAULT: "var(--panel)", foreground: "var(--ink)" },
+        muted: { DEFAULT: "var(--panel)", foreground: "var(--muted)" },
+        accent: { DEFAULT: "var(--panel)", foreground: "var(--ink)" },
+        destructive: { DEFAULT: "var(--neg)", foreground: "#ffffff" },
+        card: { DEFAULT: "var(--card)", foreground: "var(--ink)" },
+        popover: { DEFAULT: "var(--card)", foreground: "var(--ink)" },
+        // design-direct names for new components
+        ink: "var(--ink)",
+        panel: "var(--panel)",
+        line: "var(--line)",
+        track: "var(--track)",
+        accent2: "var(--accent2)",
+        accentInk: "var(--accent-ink)",
+        win: "var(--pos)",
+        draw: "var(--draw)",
+        loss: "var(--neg)",
       },
       borderRadius: {
         lg: "var(--radius)",
-        md: "calc(var(--radius) - 2px)",
-        sm: "calc(var(--radius) - 4px)",
+        md: "calc(var(--radius) - 4px)",
+        sm: "calc(var(--radius) - 8px)",
+      },
+      boxShadow: {
+        kit: "var(--shadow)",
       },
       keyframes: {
         "fade-in": {
-          from: { opacity: "0", transform: "translateY(4px)" },
-          to: { opacity: "1", transform: "translateY(0)" },
+          from: { opacity: "0", transform: "translateY(8px)" },
+          to: { opacity: "1", transform: "none" },
         },
       },
       animation: {
-        "fade-in": "fade-in 0.3s ease-out",
+        "fade-in": "fade-in 0.4s ease both",
       },
     },
   },

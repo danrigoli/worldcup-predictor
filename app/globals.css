@@ -2,56 +2,75 @@
 @tailwind components;
 @tailwind utilities;
 
+/*
+ * Two FIFA-26 "kits" (from the Claude Design handoff):
+ *   Home  = Pitch   — light, grass-green color-blocking
+ *   Away  = Stadium — dark, neon broadcast
+ * Selected via data-kit on <html>. All design tokens are raw color values;
+ * tailwind colors map straight to var(--token) (see tailwind.config.ts).
+ */
 @layer base {
-  :root {
-    --background: 0 0% 100%;
-    --foreground: 224 71% 4%;
-    --card: 0 0% 100%;
-    --card-foreground: 224 71% 4%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 224 71% 4%;
-    --primary: 142 72% 29%;
-    --primary-foreground: 144 70% 96%;
-    --secondary: 220 14% 96%;
-    --secondary-foreground: 224 71% 4%;
-    --muted: 220 14% 96%;
-    --muted-foreground: 220 9% 46%;
-    --accent: 220 14% 96%;
-    --accent-foreground: 224 71% 4%;
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 142 72% 29%;
-    --radius: 0.5rem;
-    --win: 142 72% 35%;
-    --draw: 220 9% 60%;
-    --loss: 0 72% 51%;
+  :root,
+  [data-kit="home"] {
+    --bg: #eef1ea;
+    --panel: #e9ede2;
+    --card: #ffffff;
+    --ink: #0b1710;
+    --muted: #5f7064;
+    --line: #e0e5d9;
+    --track: #e4e8dd;
+    --accent: #009e4b;
+    --accent2: #c4ff3d;
+    --accent-ink: #06210f;
+    --pos: #009e4b;
+    --neg: #e0392f;
+    --draw: #e3920a;
+    --radius: 18px;
+    --shadow: 0 1px 2px rgba(16, 40, 25, 0.05), 0 10px 26px rgba(16, 40, 25, 0.05);
+    --header-bg: rgba(238, 241, 234, 0.82);
+
+    --hero-bg: radial-gradient(125% 135% at 100% 0%, #19a04c 0%, #0c5e2e 44%, #093f20 100%);
+    --hero-ink: #ffffff;
+    --hero-muted: rgba(255, 255, 255, 0.74);
+    --hero-accent: #c4ff3d;
+    --hero-chip-bg: rgba(255, 255, 255, 0.16);
+    --hero-chip-ink: #ffffff;
+    --hero-card: rgba(255, 255, 255, 0.1);
+    --hero-card-line: rgba(255, 255, 255, 0.2);
+    --hero-track: rgba(255, 255, 255, 0.2);
+    --hero-wm: rgba(196, 255, 61, 0.1);
   }
 
-  .dark {
-    --background: 224 71% 4%;
-    --foreground: 210 20% 98%;
-    --card: 224 47% 8%;
-    --card-foreground: 210 20% 98%;
-    --popover: 224 47% 8%;
-    --popover-foreground: 210 20% 98%;
-    --primary: 142 70% 45%;
-    --primary-foreground: 144 80% 10%;
-    --secondary: 215 28% 17%;
-    --secondary-foreground: 210 20% 98%;
-    --muted: 215 28% 17%;
-    --muted-foreground: 218 11% 65%;
-    --accent: 215 28% 17%;
-    --accent-foreground: 210 20% 98%;
-    --destructive: 0 63% 50%;
-    --destructive-foreground: 210 20% 98%;
-    --border: 215 28% 17%;
-    --input: 215 28% 17%;
-    --ring: 142 70% 45%;
-    --win: 142 70% 45%;
-    --draw: 218 11% 50%;
-    --loss: 0 72% 55%;
+  [data-kit="away"] {
+    --bg: #08130d;
+    --panel: #0e1c14;
+    --card: rgba(255, 255, 255, 0.038);
+    --ink: #eafff3;
+    --muted: #85b29a;
+    --line: rgba(140, 255, 190, 0.14);
+    --track: rgba(255, 255, 255, 0.08);
+    --accent: #b6ff3a;
+    --accent2: #37efd6;
+    --accent-ink: #082110;
+    --pos: #b6ff3a;
+    --neg: #ff5a5a;
+    --draw: #ffcb45;
+    --radius: 16px;
+    --shadow: 0 0 0 1px rgba(140, 255, 190, 0.04), 0 20px 44px rgba(0, 0, 0, 0.5);
+    --header-bg: rgba(8, 19, 13, 0.82);
+
+    --hero-bg: radial-gradient(130% 120% at 100% -10%, rgba(182, 255, 58, 0.2), transparent 52%),
+      radial-gradient(120% 130% at 0% 110%, rgba(55, 239, 214, 0.14), transparent 50%),
+      linear-gradient(160deg, #0a1a11, #06110b);
+    --hero-ink: #eafff3;
+    --hero-muted: rgba(234, 255, 243, 0.72);
+    --hero-accent: #b6ff3a;
+    --hero-chip-bg: rgba(182, 255, 58, 0.14);
+    --hero-chip-ink: #b6ff3a;
+    --hero-card: rgba(255, 255, 255, 0.05);
+    --hero-card-line: rgba(140, 255, 190, 0.2);
+    --hero-track: rgba(255, 255, 255, 0.12);
+    --hero-wm: rgba(182, 255, 58, 0.08);
   }
 }
 
@@ -63,3 +82,29 @@
     @apply bg-background text-foreground antialiased;
   }
 }
+
+/* FIFA-26 motion (from the design) */
+@keyframes wcfade {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes wcbar {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+@keyframes wcspin {
+  to { transform: rotate(360deg); }
+}
+@keyframes wcpulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.35; }
+}
+@keyframes wcrise {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: none; }
+}
+
+.animate-fade-in { animation: wcfade 0.4s ease both; }
+
+::-webkit-scrollbar { height: 8px; width: 8px; }
+::-webkit-scrollbar-thumb { background: rgba(128, 128, 128, 0.35); border-radius: 8px; }

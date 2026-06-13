@@ -13,10 +13,10 @@ export default async function TrendsPage() {
     snapshotStore.loadAll(),
   ]);
 
-  // Top 8 teams by current title odds drive the legend.
+  // Top 6 teams by current title odds drive the legend.
   const topTeams = (Object.keys(result.odds) as TeamId[])
     .sort((a, b) => result.odds[b].winner - result.odds[a].winner)
-    .slice(0, 8);
+    .slice(0, 6);
 
   const today = new Date().toISOString().slice(0, 10);
   const points: TrendPoint[] = snapshots
@@ -41,10 +41,12 @@ export default async function TrendsPage() {
   return (
     <div className="space-y-6 animate-fade-in">
       <div>
-        <h1 className="text-2xl font-bold">Odds over time</h1>
-        <p className="text-sm text-muted-foreground">
-          How each contender&apos;s championship probability has moved as
-          results come in.
+        <h1 className="m-0 mb-1 font-display text-[34px] font-extrabold tracking-[-1px] text-ink">
+          Odds over time
+        </h1>
+        <p className="m-0 text-sm text-[var(--muted)]">
+          How each contender&apos;s title probability has evolved across daily
+          snapshots.
         </p>
       </div>
 
