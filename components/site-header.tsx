@@ -8,8 +8,9 @@ export function SiteHeader() {
       className="sticky top-0 z-50 border-b border-line backdrop-blur-[14px]"
       style={{ background: "var(--header-bg)" }}
     >
-      <div className="mx-auto flex max-w-[1220px] flex-wrap items-center gap-5 px-[22px] py-[13px]">
-        <Link href="/" className="flex items-center gap-3">
+      <div className="mx-auto flex max-w-[1220px] flex-wrap items-center gap-x-5 gap-y-3 px-[22px] py-[13px]">
+        {/* Brand — always first */}
+        <Link href="/" className="order-1 flex flex-shrink-0 items-center gap-3">
           <div
             className="grid h-[46px] w-[46px] place-items-center rounded-[14px] font-display text-[21px] font-extrabold tracking-[-1.5px] text-primary-foreground shadow-kit"
             style={{ background: "var(--accent)" }}
@@ -26,11 +27,13 @@ export function SiteHeader() {
           </div>
         </Link>
 
-        <NavLinks />
-
-        <div className="ml-auto">
+        {/* KIT switcher — row 1 right on mobile, far right on desktop */}
+        <div className="order-2 ml-auto md:order-3">
           <KitSwitcher />
         </div>
+
+        {/* Nav — second full-width scrollable row on mobile, inline on desktop */}
+        <NavLinks className="order-3 -mx-[22px] w-[calc(100%+44px)] px-[22px] md:order-2 md:mx-0 md:ml-1 md:w-auto md:px-0" />
       </div>
     </header>
   );

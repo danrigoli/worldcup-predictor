@@ -15,7 +15,7 @@ const body = Hanken_Grotesk({
 });
 
 const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://worldcup-predictor.vercel.app";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://wc.danterigoli.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

@@ -96,7 +96,14 @@ export const snapshotSchema = z.object({
   ),
 });
 
-/** ESPN scoreboard — only the fields the fallback needs. */
+/** ESPN scoreboard — status, scores and per-team statistics. */
+const espnStatSchema = z
+  .object({
+    name: z.string(),
+    displayValue: z.union([z.string(), z.number()]).optional(),
+  })
+  .passthrough();
+
 export const espnScoreboardSchema = z
   .object({
     events: z.array(
@@ -105,7 +112,16 @@ export const espnScoreboardSchema = z
           date: z.string(),
           status: z
             .object({
-              type: z.object({ completed: z.boolean() }).passthrough(),
+              displayClock: z.string().optional(),
+              period: z.number().optional(),
+              type: z
+                .object({
+                  completed: z.boolean(),
+                  state: z.string().optional(),
+                  shortDetail: z.string().optional(),
+                  detail: z.string().optional(),
+                })
+                .passthrough(),
             })
             .passthrough(),
           competitions: z.array(
@@ -119,6 +135,7 @@ export const espnScoreboardSchema = z
                       team: z
                         .object({ displayName: z.string() })
                         .passthrough(),
+                      statistics: z.array(espnStatSchema).optional(),
                     })
                     .passthrough()
                 ),

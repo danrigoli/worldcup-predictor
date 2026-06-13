@@ -92,3 +92,27 @@ export interface MatchProbabilities {
   away: number;
   topScorelines: Array<{ home: number; away: number; p: number }>;
 }
+
+/** Per-side in-match statistics (from ESPN). null when unavailable. */
+export interface MatchStats {
+  possession: number | null;
+  shots: number | null;
+  shotsOnTarget: number | null;
+  corners: number | null;
+  fouls: number | null;
+}
+
+/** Live status for a match, fetched from ESPN on a short cache. */
+export interface LiveInfo {
+  /** "pre" = not started, "in" = in progress, "post" = finished. */
+  state: "pre" | "in" | "post";
+  /** Short status, e.g. "FT", "HT", "62'". */
+  detail: string;
+  /** Display clock for in-progress matches, e.g. "62'", "90'+3'". */
+  clock: string | null;
+  homeScore: number | null;
+  awayScore: number | null;
+  stats: { home: MatchStats; away: MatchStats } | null;
+}
+
+export type LiveByMatch = Record<number, LiveInfo>;

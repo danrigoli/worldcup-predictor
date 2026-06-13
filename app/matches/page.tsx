@@ -1,13 +1,17 @@
 import { getPrediction } from "@/lib/engine";
 import { predictMatch } from "@/lib/sim/match-predictions";
 import { liveGroupStandings } from "@/lib/standings";
+import { getLiveMatches } from "@/lib/data/live";
 import { MatchesView } from "@/components/matches-view";
 import type { MatchProbabilities } from "@/lib/types";
 
-export const revalidate = 7200;
+// Short revalidate so live status/scores refresh ~each minute. The heavy sim is
+// cached separately (2h) inside getPrediction, so this stays cheap.
+export const revalidate = 60;
 
 export default async function MatchesPage() {
   const { matchData, effective, fifaRank } = await getPrediction();
+  const live = await getLiveMatches(matchData.matches);
 
   // Predict every upcoming match whose teams are already known.
   const predictions: Record<number, MatchProbabilities> = {};
@@ -33,6 +37,7 @@ export default async function MatchesPage() {
       matches={matchData.matches}
       predictions={predictions}
       standings={standings}
+      live={live}
     />
   );
 }
