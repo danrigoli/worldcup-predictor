@@ -9,6 +9,7 @@ const links = [
   { href: "/matches", label: "Matches" },
   { href: "/simulator", label: "Simulator" },
   { href: "/trends", label: "Trends" },
+  { href: "/model", label: "Model" },
 ];
 
 export function NavLinks() {

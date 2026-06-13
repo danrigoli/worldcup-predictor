@@ -1,0 +1,28 @@
+{
+  "asOf": "2026-06-10",
+  "source": "Opta supercomputer + de-vigged bookmaker consensus (pre-tournament). Calibration target only.",
+  "note": "Used to fit the calibration temperature so the simulated favorite lands near the consensus. Values are de-vigged title probabilities summing to ~1.",
+  "title_prob": {
+    "ESP": 0.161,
+    "FRA": 0.130,
+    "ENG": 0.112,
+    "ARG": 0.104,
+    "BRA": 0.090,
+    "GER": 0.070,
+    "POR": 0.062,
+    "NED": 0.050,
+    "BEL": 0.030,
+    "URU": 0.025,
+    "CRO": 0.018,
+    "MAR": 0.016,
+    "COL": 0.015,
+    "ITA": 0.0,
+    "MEX": 0.013,
+    "USA": 0.012,
+    "SUI": 0.010,
+    "JPN": 0.010,
+    "SEN": 0.009,
+    "ECU": 0.008,
+    "KOR": 0.006
+  }
+}

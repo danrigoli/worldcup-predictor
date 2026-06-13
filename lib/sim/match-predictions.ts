@@ -1,11 +1,11 @@
-import { lambdasFor } from "@/lib/model/goals";
 import { oneXTwo, scoreGrid, topScorelines } from "@/lib/model/dixon-coles";
-import { netHomeAdvantage } from "@/lib/data/venues";
+import { defaultMatchModel } from "@/lib/sim/match-model";
 import type { Match, MatchProbabilities, Ratings, TeamId } from "@/lib/types";
 
 /**
  * Exact W/D/L + most-likely scorelines for a single match between two known
- * teams, using the Dixon-Coles grid (no sampling). Used on the matches page.
+ * teams, using the Dixon-Coles grid (no sampling). Uses the same ML λ-matrix
+ * the tournament sim uses. Called on the matches page.
  */
 export function predictMatch(
   ratings: Ratings,
@@ -14,8 +14,11 @@ export function predictMatch(
   hostCountry: Match["hostCountry"],
   topN = 5
 ): MatchProbabilities {
-  const ha = netHomeAdvantage({ hostCountry }, home, away);
-  const { lambdaHome, lambdaAway } = lambdasFor(ratings[home], ratings[away], ha);
+  const { lambdaHome, lambdaAway } = defaultMatchModel(ratings).lambdas(
+    home,
+    away,
+    hostCountry
+  );
   const grid = scoreGrid(lambdaHome, lambdaAway);
   const { home: h, draw, away: a } = oneXTwo(grid);
   return {

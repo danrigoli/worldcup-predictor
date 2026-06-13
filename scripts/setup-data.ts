@@ -29,7 +29,10 @@ import {
   resolveTeamOrThrow,
 } from "../lib/names";
 import { parseSlot } from "../lib/data/placeholders";
-import { hostCountryForVenue } from "../lib/data/venues";
+import {
+  hostCountryForVenue,
+  hostCountryForVenueOrNull,
+} from "../lib/data/venues";
 import {
   fixtureFeedSchema,
   fixturesSeedSchema,
@@ -350,6 +353,12 @@ function rowToMatch(row: FixtureRow): Match {
               : row.MatchNumber === 103
                 ? "third-place"
                 : "final";
+
+  if (hostCountryForVenueOrNull(row.Location) === null) {
+    throw new Error(
+      `Match ${row.MatchNumber}: unrecognized venue "${row.Location}" — add it to lib/data/venues.ts`
+    );
+  }
 
   const progression = KNOCKOUT_PROGRESSION[row.MatchNumber];
   const home = parseSlot(row.HomeTeam) ?? progression?.home;

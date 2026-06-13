@@ -32,8 +32,8 @@ export default async function DashboardPage() {
         <div>
           <h1 className="text-2xl font-bold">Championship Odds</h1>
           <p className="text-sm text-muted-foreground">
-            {result.simCount.toLocaleString()} Monte Carlo simulations · blended
-            Elo + FIFA ranking + squad value
+            {result.simCount.toLocaleString()} Monte Carlo simulations · LightGBM
+            goals model trained on 49k internationals + squad market values
           </p>
         </div>
       </div>
@@ -111,9 +111,10 @@ export default async function DashboardPage() {
           </CardHeader>
           <CardContent className="space-y-2 text-sm text-muted-foreground">
             <p>
-              Each team&apos;s strength blends a 150-year Elo rating (computed
-              from ~49,000 historical internationals), the latest FIFA ranking,
-              and total squad market value.
+              A machine-learning goals model (LightGBM, Poisson) predicts the
+              expected goals for any matchup from team strength (150-year Elo +
+              FIFA rank), historical squad market values, recent form, rest and
+              host advantage — it beats a strong Elo baseline out-of-sample.
             </p>
             <p>
               The full tournament — all 104 matches, the 12 groups, the
@@ -122,9 +123,9 @@ export default async function DashboardPage() {
               in and the favourites re-computed each time the data refreshes.
             </p>
             <p>
-              Use the <strong>Simulator</strong> to force any result and watch
-              the odds shift, or <strong>Matches</strong> for per-game
-              predictions.
+              See the <strong>Model</strong> tab for the backtest and learned
+              ratings, the <strong>Simulator</strong> to force any result, or{" "}
+              <strong>Matches</strong> for per-game predictions.
             </p>
           </CardContent>
         </Card>

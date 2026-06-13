@@ -31,8 +31,7 @@ export function runSims(
   }
 
   for (let i = 0; i < simCount; i++) {
-    const ratings = { ...ctx.baseRatings };
-    const { reached } = simulateOnce(ctx, ratings, sampler, rng);
+    const { reached } = simulateOnce(ctx, sampler, rng);
     for (const [team, flags] of reached) {
       const t = tally.get(team);
       if (!t) continue;

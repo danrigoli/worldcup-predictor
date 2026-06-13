@@ -55,6 +55,23 @@ describe("rankGroup", () => {
     expect(ranked[1]).toBe("BBB");
   });
 
+  it("recomputes the mini-table per subgroup (sequential criteria, not a collapsed triple)", () => {
+    // 3-way cycle tied on 6 group points; head-to-head points/GD/GF are all
+    // identical (a balanced 1-0 cycle), so H2H cannot separate anyone and the
+    // tie must fall to OVERALL GD — driven by the lopsided wins over DDD.
+    const matches: PlayedGroupMatch[] = [
+      { home: "AAA", away: "BBB", homeScore: 1, awayScore: 0 },
+      { home: "BBB", away: "CCC", homeScore: 1, awayScore: 0 },
+      { home: "CCC", away: "AAA", homeScore: 1, awayScore: 0 },
+      { home: "AAA", away: "DDD", homeScore: 5, awayScore: 0 }, // AAA best overall GD
+      { home: "BBB", away: "DDD", homeScore: 1, awayScore: 0 },
+      { home: "CCC", away: "DDD", homeScore: 2, awayScore: 0 }, // CCC > BBB overall
+    ];
+    // H2H {A,B,C}: each 3 pts, GD 0, GF 1 → fully level → overall GD:
+    // AAA +5, CCC +2, BBB +1 → AAA, CCC, BBB, then DDD.
+    expect(rankGroup(teams, matches, fifa)).toEqual(["AAA", "CCC", "BBB", "DDD"]);
+  });
+
   it("falls back to FIFA ranking when all else is equal", () => {
     // Everyone draws 0-0 → identical on every metric except FIFA points.
     const matches: PlayedGroupMatch[] = [

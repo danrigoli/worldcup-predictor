@@ -24,13 +24,24 @@ const VENUE_COUNTRY: Record<string, HostCountry> = {
 const MX = ["guadalajara", "mexico city", "monterrey"];
 const CA = ["vancouver", "toronto"];
 
-export function hostCountryForVenue(venue: string): HostCountry {
+/** Resolve a venue to its host country, or null if unrecognized. */
+export function hostCountryForVenueOrNull(venue: string): HostCountry | null {
   const exact = VENUE_COUNTRY[venue];
   if (exact) return exact;
   const v = venue.toLowerCase();
   if (MX.some((c) => v.includes(c))) return "Mexico";
   if (CA.some((c) => v.includes(c))) return "Canada";
-  return "United States";
+  return null;
+}
+
+/**
+ * Host country for a venue. Unknown venues default to the United States (the
+ * majority host); this only matters if a US team plays at an unrecognized
+ * venue, so setup-data validates every feed venue against the known map and
+ * fails loudly on drift — keeping this resilient at runtime.
+ */
+export function hostCountryForVenue(venue: string): HostCountry {
+  return hostCountryForVenueOrNull(venue) ?? "United States";
 }
 
 const HOST_TEAM: Record<string, HostCountry> = {

@@ -1,0 +1,63 @@
+# Knobs for the ML pipeline. Keep numeric constants in sync with the TS engine
+# (lib/constants.ts: RHO, LAMBDA_MIN/MAX) where noted.
+
+paths:
+  results_csv: data/raw/results.csv            # reused from `pnpm setup-data`
+  fifa_rankings: data/seeds/fifa-rankings.json # committed seed (trigram -> points)
+  players_csv: ml/data/cache/players.csv.gz    # dcaribou, auto-downloaded
+  coaches_seed: ml/seeds/coaches_2026.csv      # curated (built by agent)
+  host_cities: ml/seeds/host_cities.csv        # curated venue -> altitude/coords
+  market_consensus: ml/seeds/market_consensus_2026.json # calibration target
+  artifacts_dir: public/artifacts
+
+training:
+  start_date: "1994-01-01"   # modern era; pre-1994 down-weighted to noise anyway
+  cutoff_date: "2026-06-11"  # tournament start; later matches feed live conditioning, not training
+  half_life_days: 575        # exponential time-decay on sample weights (~1.6y)
+  importance_weights:
+    fifa_world_cup: 1.0
+    continental: 0.9
+    qualifier: 0.8
+    nations_league: 0.7
+    other_tournament: 0.6
+    friendly: 0.35
+
+elo:
+  k_world_cup: 60
+  k_continental_final: 50
+  k_qualifier: 40
+  k_tournament: 30
+  k_friendly: 20
+  home_advantage: 80
+  seed_rating: 1500
+
+form:
+  window_matches: 10         # trailing matches for rolling form features
+  form_half_life_days: 365
+
+# Blend that turns the no-historical-data 2026 signals (FIFA rank, coach record)
+# into each team's effective strength for the export. Market value is NOT here —
+# it has historical coverage so it's a first-class trained GBM feature instead.
+strength_blend:
+  elo: 0.72
+  fifa: 0.20
+  coach: 0.08
+
+model:
+  objective: poisson
+  num_leaves: 16
+  learning_rate: 0.03
+  n_estimators: 450
+  min_child_samples: 200
+  subsample: 0.8
+  colsample_bytree: 0.8
+  reg_lambda: 3.0
+  reg_alpha: 1.0
+  max_depth: 4
+
+dixon_coles_rho: -0.13       # MUST equal lib/constants.ts RHO
+lambda_clamp: [0.30, 3.50]   # MUST equal lib/constants.ts LAMBDA_MIN/MAX
+
+calibration:
+  target_favorite_title_prob: 0.165  # Opta had Spain 16.1%
+  max_team_title_prob: 0.25

@@ -1,9 +1,7 @@
-import { K_FACTORS } from "@/lib/constants";
-import { eloDelta, expectedScore } from "@/lib/model/elo";
-import { lambdasFor } from "@/lib/model/goals";
+import { oneXTwo, scoreGrid } from "@/lib/model/dixon-coles";
 import { ScoreSampler } from "@/lib/model/score-sampler";
-import { netHomeAdvantage } from "@/lib/data/venues";
 import { computeGroupStandings, type PlayedGroupMatch } from "@/lib/sim/groups";
+import type { MatchModel } from "@/lib/sim/match-model";
 import {
   allocateThirds,
   rankThirds,
@@ -32,7 +30,7 @@ export interface GroupMatchDesc {
   group: GroupLetter;
   home: TeamId;
   away: TeamId;
-  ha: number; // net Elo home advantage (home perspective)
+  hostCountry: HostCountry;
   locked: { homeScore: number; awayScore: number } | null;
 }
 
@@ -46,7 +44,7 @@ export interface KnockoutMatchDesc {
 }
 
 export interface SimContext {
-  baseRatings: Ratings;
+  matchModel: MatchModel;
   fifaRank: Ratings;
   groups: Record<GroupLetter, TeamId[]>;
   groupMatches: GroupMatchDesc[];
@@ -73,32 +71,28 @@ function emptyFlags(): ReachFlags {
   return { r32: false, r16: false, qf: false, sf: false, final: false, winner: false };
 }
 
-/** Resolve the winner of a knockout match given both sides' current ratings. */
+/** Resolve a knockout winner from the match's expected goals. */
 function knockoutWinner(
   home: TeamId,
   away: TeamId,
-  ratingHome: number,
-  ratingAway: number,
-  ha: number,
+  lambdaHome: number,
+  lambdaAway: number,
   sampler: ScoreSampler,
   rng: RNG
 ): TeamId {
-  const { lambdaHome, lambdaAway } = lambdasFor(ratingHome, ratingAway, ha);
   const { home: hg, away: ag } = sampler.sample(lambdaHome, lambdaAway, rng);
   if (hg > ag) return home;
   if (ag > hg) return away;
-  // Drawn after 90'+ET → penalties as an Elo-weighted coin flip (no HA).
-  const pHome = expectedScore(ratingHome - ratingAway);
+  // Drawn after 90'+ET → penalties as a strength-weighted coin flip, using the
+  // model's win probabilities conditioned on a decisive result.
+  const { home: pH, away: pA } = oneXTwo(scoreGrid(lambdaHome, lambdaAway));
+  const pHome = pH + pA > 0 ? pH / (pH + pA) : 0.5;
   return rng() < pHome ? home : away;
 }
 
-/**
- * Simulate one complete tournament from the given context.
- * `ratings` is mutated locally (caller passes a fresh clone per sim).
- */
+/** Simulate one complete tournament from the given context. */
 export function simulateOnce(
   ctx: SimContext,
-  ratings: Ratings,
   sampler: ScoreSampler,
   rng: RNG
 ): SimOutcome {
@@ -115,26 +109,15 @@ export function simulateOnce(
       hs = gm.locked.homeScore;
       as = gm.locked.awayScore;
     } else {
-      const { lambdaHome, lambdaAway } = lambdasFor(
-        ratings[gm.home],
-        ratings[gm.away],
-        gm.ha
+      const { lambdaHome, lambdaAway } = ctx.matchModel.lambdas(
+        gm.home,
+        gm.away,
+        gm.hostCountry
       );
       const sampled = sampler.sample(lambdaHome, lambdaAway, rng);
       hs = sampled.home;
       as = sampled.away;
     }
-    // Forward Elo update inside the sim (K=60).
-    const delta = eloDelta(
-      ratings[gm.home],
-      ratings[gm.away],
-      hs,
-      as,
-      K_FACTORS.worldCup,
-      gm.ha
-    );
-    ratings[gm.home] += delta;
-    ratings[gm.away] -= delta;
     perGroupResults
       .get(gm.group)!
       .push({ home: gm.home, away: gm.away, homeScore: hs, awayScore: as });
@@ -162,8 +145,13 @@ export function simulateOnce(
 
   const rankedThirds = rankThirds(thirds, ctx.fifaRank);
   const qualifyingThirds = rankedThirds.slice(0, 8);
-  const thirdAllocation =
-    allocateThirds(qualifyingThirds, ctx.thirdSlots) ?? new Map<number, TeamId>();
+  const thirdAllocation = allocateThirds(qualifyingThirds, ctx.thirdSlots);
+  if (!thirdAllocation) {
+    // Every C(12,8) subset of qualifying groups has a valid bijective matching
+    // against the real feed pools, so this is unreachable in production — but
+    // fail loudly rather than silently corrupting a simulation if it ever isn't.
+    throw new Error("No valid best-thirds allocation for the qualifying groups");
+  }
 
   // ---- Knockouts ----
   const reached = new Map<TeamId, ReachFlags>();
@@ -211,23 +199,24 @@ export function simulateOnce(
     }
 
     let winner: TeamId;
-    if (km.locked) {
-      // A knockout override locks the winning SIDE (teams unknown at build
-      // time); an actual played result locks the concrete winning team.
-      if (km.locked.winner === SIDE_HOME) winner = home;
-      else if (km.locked.winner === SIDE_AWAY) winner = away;
-      else winner = km.locked.winner;
+    if (km.locked && km.locked.winner === SIDE_HOME) {
+      winner = home; // override locking the home side
+    } else if (km.locked && km.locked.winner === SIDE_AWAY) {
+      winner = away; // override locking the away side
+    } else if (
+      km.locked &&
+      (km.locked.winner === home || km.locked.winner === away)
+    ) {
+      winner = km.locked.winner; // played result, winner is a resolved participant
     } else {
-      const ha = netHomeAdvantage(km, home, away);
-      winner = knockoutWinner(
+      // Either not locked, or a locked concrete winner that doesn't match either
+      // resolved participant (data inconsistency) — simulate the match instead.
+      const { lambdaHome, lambdaAway } = ctx.matchModel.lambdas(
         home,
         away,
-        ratings[home],
-        ratings[away],
-        ha,
-        sampler,
-        rng
+        km.hostCountry
       );
+      winner = knockoutWinner(home, away, lambdaHome, lambdaAway, sampler, rng);
     }
     const loser = winner === home ? away : home;
     winners.set(km.matchNumber, winner);

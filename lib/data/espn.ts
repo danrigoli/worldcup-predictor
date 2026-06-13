@@ -35,6 +35,15 @@ export async function fetchEspnResults(yyyymmdd: string): Promise<EspnResult[]> 
       if (!home || !away) continue;
       const homeId = resolveTeam(home.team.displayName);
       const awayId = resolveTeam(away.team.displayName);
+      // Reject missing/blank scores explicitly — Number("") coerces to 0.
+      if (
+        home.score === undefined ||
+        away.score === undefined ||
+        home.score.trim() === "" ||
+        away.score.trim() === ""
+      ) {
+        continue;
+      }
       const hs = Number(home.score);
       const as = Number(away.score);
       if (!homeId || !awayId || !Number.isFinite(hs) || !Number.isFinite(as)) {

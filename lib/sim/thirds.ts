@@ -36,8 +36,13 @@ export interface ThirdSlot {
  * Assign the 8 qualifying thirds to the 8 third-pool R32 slots such that each
  * third lands in a slot whose pool includes its group (bijective). Solved as
  * a perfect bipartite matching with deterministic backtracking: slots in fixed
- * match-number order, candidates tried in seeding (rank) order. FIFA's official
- * allocation table is exactly the set of such pool-constrained matchings.
+ * match-number order, candidates tried in seeding (rank) order.
+ *
+ * NOTE: this returns SOME valid pool-constrained matching, which may differ
+ * from FIFA's specific official allocation-table entry for a given set of 8
+ * qualifying groups (FIFA fixes one assignment per combination). For Monte
+ * Carlo odds any valid matching is fine; if exact bracket reproduction ever
+ * matters, replace this with FIFA's 12-choose-8 lookup table.
  */
 export function allocateThirds(
   qualifyingThirds: ThirdPlaceTeam[],

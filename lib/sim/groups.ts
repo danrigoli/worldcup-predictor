@@ -106,6 +106,12 @@ function groupByKey(teams: TeamId[], key: (t: TeamId) => string): TeamId[][] {
  * before overall GD). Recurses into still-tied subsets so the mini-table is
  * recomputed for the smaller group, per FIFA regulations.
  */
+const H2H_CRITERIA: Array<(s: TeamStanding) => number> = [
+  (s) => s.points,
+  (s) => s.gd,
+  (s) => s.gf,
+];
+
 function rankByHeadToHead(
   tied: TeamId[],
   allMatches: PlayedGroupMatch[],
@@ -113,36 +119,30 @@ function rankByHeadToHead(
   fifaRank: Ratings
 ): TeamId[] {
   if (tied.length === 1) return tied;
-  const set = new Set(tied);
-  const h2h = statsAmong(tied, set, allMatches);
+  // Mini-table recomputed over ONLY the currently-tied teams.
+  const h2h = statsAmong(tied, new Set(tied), allMatches);
 
-  // Order the tied teams by h2h points → gd → gf.
-  const sorted = [...tied].sort((x, y) => {
-    const sx = h2h.get(x)!;
-    const sy = h2h.get(y)!;
-    if (sy.points !== sx.points) return sy.points - sx.points;
-    if (sy.gd !== sx.gd) return sy.gd - sx.gd;
-    return sy.gf - sx.gf;
-  });
-
-  const buckets = groupByKey(sorted, (t) => {
-    const s = h2h.get(t)!;
-    return `${s.points}|${s.gd}|${s.gf}`;
-  });
-
-  const result: TeamId[] = [];
-  for (const bucket of buckets) {
-    if (bucket.length === 1) {
-      result.push(bucket[0]);
-    } else if (bucket.length === tied.length) {
-      // H2H couldn't separate anyone → fall to overall GD/GF/FIFA.
-      result.push(...byOverall(bucket, overall, fifaRank));
-    } else {
-      // A genuine sub-tie: recompute H2H within the smaller subset.
-      result.push(...rankByHeadToHead(bucket, allMatches, overall, fifaRank));
+  // Apply the head-to-head criteria strictly in sequence. The first criterion
+  // that separates anyone is used to split; each resulting still-level subgroup
+  // is then re-ranked FROM criterion 1 with its own freshly recomputed
+  // mini-table (FIFA's recursion — the GD/GF among a smaller subgroup can
+  // differ from the GD/GF over the full tied set).
+  for (const crit of H2H_CRITERIA) {
+    const sorted = [...tied].sort(
+      (x, y) => crit(h2h.get(y)!) - crit(h2h.get(x)!)
+    );
+    const buckets = groupByKey(sorted, (t) => `${crit(h2h.get(t)!)}`);
+    if (buckets.length > 1) {
+      const result: TeamId[] = [];
+      for (const bucket of buckets) {
+        result.push(...rankByHeadToHead(bucket, allMatches, overall, fifaRank));
+      }
+      return result;
     }
   }
-  return result;
+
+  // No head-to-head criterion separated anyone → overall GD/GF/FIFA ranking.
+  return byOverall(tied, overall, fifaRank);
 }
 
 /**

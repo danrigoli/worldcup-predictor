@@ -1,0 +1,389 @@
+{
+  "version": "2026-06-11",
+  "teams": {
+    "MEX": {
+      "attack": 1.097,
+      "defense": 1.254,
+      "elo": 1983.5,
+      "strength": 1985.5,
+      "market_value_m": 184,
+      "title_prob": 0.018
+    },
+    "RSA": {
+      "attack": 0.612,
+      "defense": 0.735,
+      "elo": 1656.4,
+      "strength": 1679.3,
+      "market_value_m": 24.1,
+      "title_prob": 0
+    },
+    "KOR": {
+      "attack": 1.181,
+      "defense": 0.935,
+      "elo": 1903.8,
+      "strength": 1903.2,
+      "market_value_m": null,
+      "title_prob": 0.007
+    },
+    "CZE": {
+      "attack": 0.898,
+      "defense": 0.844,
+      "elo": 1775.4,
+      "strength": 1783.2,
+      "market_value_m": 175.4,
+      "title_prob": 0.001
+    },
+    "CAN": {
+      "attack": 0.944,
+      "defense": 1.135,
+      "elo": 1895,
+      "strength": 1889,
+      "market_value_m": 172.8,
+      "title_prob": 0.004
+    },
+    "BIH": {
+      "attack": 0.689,
+      "defense": 0.734,
+      "elo": 1652.1,
+      "strength": 1654,
+      "market_value_m": 119.8,
+      "title_prob": 0
+    },
+    "QAT": {
+      "attack": 0.517,
+      "defense": 0.63,
+      "elo": 1574.7,
+      "strength": 1616.4,
+      "market_value_m": 11.8,
+      "title_prob": 0
+    },
+    "SUI": {
+      "attack": 1.193,
+      "defense": 1.132,
+      "elo": 1959.7,
+      "strength": 1958.5,
+      "market_value_m": 333.2,
+      "title_prob": 0.017
+    },
+    "BRA": {
+      "attack": 1.405,
+      "defense": 1.434,
+      "elo": 2061.3,
+      "strength": 2061.8,
+      "market_value_m": 1333,
+      "title_prob": 0.061
+    },
+    "MAR": {
+      "attack": 1.133,
+      "defense": 1.38,
+      "elo": 1989,
+      "strength": 1993.6,
+      "market_value_m": 546,
+      "title_prob": 0.024
+    },
+    "HAI": {
+      "attack": 0.715,
+      "defense": 0.678,
+      "elo": 1689.7,
+      "strength": 1667.7,
+      "market_value_m": 53.1,
+      "title_prob": 0
+    },
+    "SCO": {
+      "attack": 0.972,
+      "defense": 0.899,
+      "elo": 1837.5,
+      "strength": 1828.7,
+      "market_value_m": 292.3,
+      "title_prob": 0.001
+    },
+    "USA": {
+      "attack": 1.076,
+      "defense": 0.959,
+      "elo": 1839.5,
+      "strength": 1869,
+      "market_value_m": 441.5,
+      "title_prob": 0.005
+    },
+    "PAR": {
+      "attack": 0.856,
+      "defense": 1.119,
+      "elo": 1912.4,
+      "strength": 1890.6,
+      "market_value_m": 140.6,
+      "title_prob": 0.002
+    },
+    "AUS": {
+      "attack": 0.934,
+      "defense": 1.006,
+      "elo": 1901.4,
+      "strength": 1899.3,
+      "market_value_m": 48,
+      "title_prob": 0.002
+    },
+    "TUR": {
+      "attack": 1.168,
+      "defense": 1.114,
+      "elo": 1962.4,
+      "strength": 1941.2,
+      "market_value_m": 465.5,
+      "title_prob": 0.012
+    },
+    "GER": {
+      "attack": 1.35,
+      "defense": 1.286,
+      "elo": 2011.9,
+      "strength": 2011.1,
+      "market_value_m": 1166,
+      "title_prob": 0.038
+    },
+    "CUW": {
+      "attack": 0.625,
+      "defense": 0.576,
+      "elo": 1599,
+      "strength": 1599.6,
+      "market_value_m": 30.4,
+      "title_prob": 0
+    },
+    "CIV": {
+      "attack": 0.941,
+      "defense": 1.013,
+      "elo": 1814.8,
+      "strength": 1810.6,
+      "market_value_m": 487,
+      "title_prob": 0.003
+    },
+    "ECU": {
+      "attack": 1.001,
+      "defense": 1.519,
+      "elo": 2020.9,
+      "strength": 1993.8,
+      "market_value_m": 341.6,
+      "title_prob": 0.024
+    },
+    "NED": {
+      "attack": 1.34,
+      "defense": 1.35,
+      "elo": 2013.6,
+      "strength": 2022.9,
+      "market_value_m": 1099,
+      "title_prob": 0.045
+    },
+    "JPN": {
+      "attack": 1.119,
+      "defense": 1.301,
+      "elo": 1994.6,
+      "strength": 1984.2,
+      "market_value_m": 319.5,
+      "title_prob": 0.017
+    },
+    "SWE": {
+      "attack": 0.954,
+      "defense": 0.791,
+      "elo": 1767.1,
+      "strength": 1781.9,
+      "market_value_m": 590,
+      "title_prob": 0.001
+    },
+    "TUN": {
+      "attack": 0.726,
+      "defense": 0.864,
+      "elo": 1734.5,
+      "strength": 1747.7,
+      "market_value_m": 64.2,
+      "title_prob": 0
+    },
+    "BEL": {
+      "attack": 1.224,
+      "defense": 1.234,
+      "elo": 1968.4,
+      "strength": 1984.4,
+      "market_value_m": 674,
+      "title_prob": 0.025
+    },
+    "EGY": {
+      "attack": 0.838,
+      "defense": 1.061,
+      "elo": 1808,
+      "strength": 1812.8,
+      "market_value_m": 117.5,
+      "title_prob": 0.002
+    },
+    "IRN": {
+      "attack": 0.954,
+      "defense": 1.033,
+      "elo": 1897.5,
+      "strength": 1904.5,
+      "market_value_m": 37.7,
+      "title_prob": 0.003
+    },
+    "NZL": {
+      "attack": 0.714,
+      "defense": 0.695,
+      "elo": 1731.7,
+      "strength": 1703.7,
+      "market_value_m": 27.4,
+      "title_prob": 0
+    },
+    "ESP": {
+      "attack": 1.664,
+      "defense": 1.657,
+      "elo": 2206.7,
+      "strength": 2199.4,
+      "market_value_m": 1255,
+      "title_prob": 0.166
+    },
+    "URU": {
+      "attack": 1.017,
+      "defense": 1.359,
+      "elo": 1968.5,
+      "strength": 1970.8,
+      "market_value_m": 535,
+      "title_prob": 0.014
+    },
+    "KSA": {
+      "attack": 0.542,
+      "defense": 0.755,
+      "elo": 1694.2,
+      "strength": 1703,
+      "market_value_m": 8,
+      "title_prob": 0
+    },
+    "CPV": {
+      "attack": 0.654,
+      "defense": 0.721,
+      "elo": 1650,
+      "strength": 1656.3,
+      "market_value_m": 58.9,
+      "title_prob": 0
+    },
+    "FRA": {
+      "attack": 1.569,
+      "defense": 1.573,
+      "elo": 2119.1,
+      "strength": 2129.9,
+      "market_value_m": 1750,
+      "title_prob": 0.112
+    },
+    "SEN": {
+      "attack": 1.077,
+      "defense": 1.253,
+      "elo": 1908.4,
+      "strength": 1917.7,
+      "market_value_m": 448.5,
+      "title_prob": 0.012
+    },
+    "NOR": {
+      "attack": 1.139,
+      "defense": 1.152,
+      "elo": 1959.2,
+      "strength": 1932.6,
+      "market_value_m": 561.5,
+      "title_prob": 0.011
+    },
+    "IRQ": {
+      "attack": 0.578,
+      "defense": 0.816,
+      "elo": 1738,
+      "strength": 1737.6,
+      "market_value_m": 8.2,
+      "title_prob": 0
+    },
+    "ARG": {
+      "attack": 1.496,
+      "defense": 1.826,
+      "elo": 2183,
+      "strength": 2179.8,
+      "market_value_m": 1006,
+      "title_prob": 0.148
+    },
+    "ALG": {
+      "attack": 0.971,
+      "defense": 1.094,
+      "elo": 1881.6,
+      "strength": 1866.5,
+      "market_value_m": 262.3,
+      "title_prob": 0.004
+    },
+    "AUT": {
+      "attack": 1.063,
+      "defense": 1.152,
+      "elo": 1895.4,
+      "strength": 1898.5,
+      "market_value_m": 324,
+      "title_prob": 0.008
+    },
+    "JOR": {
+      "attack": 0.733,
+      "defense": 0.715,
+      "elo": 1773.7,
+      "strength": 1759.1,
+      "market_value_m": 6.2,
+      "title_prob": 0
+    },
+    "POR": {
+      "attack": 1.352,
+      "defense": 1.35,
+      "elo": 2028.7,
+      "strength": 2040,
+      "market_value_m": 1186,
+      "title_prob": 0.046
+    },
+    "COL": {
+      "attack": 1.294,
+      "defense": 1.319,
+      "elo": 2057.7,
+      "strength": 2044.4,
+      "market_value_m": 330.5,
+      "title_prob": 0.033
+    },
+    "UZB": {
+      "attack": 0.791,
+      "defense": 0.923,
+      "elo": 1822.8,
+      "strength": 1810.5,
+      "market_value_m": 59,
+      "title_prob": 0.001
+    },
+    "COD": {
+      "attack": 0.7,
+      "defense": 1.05,
+      "elo": 1759.4,
+      "strength": 1751.3,
+      "market_value_m": 152.3,
+      "title_prob": 0.001
+    },
+    "ENG": {
+      "attack": 1.399,
+      "defense": 1.778,
+      "elo": 2086,
+      "strength": 2093.5,
+      "market_value_m": 1785,
+      "title_prob": 0.115
+    },
+    "CRO": {
+      "attack": 1.215,
+      "defense": 1.154,
+      "elo": 1962.5,
+      "strength": 1974.5,
+      "market_value_m": 379,
+      "title_prob": 0.016
+    },
+    "GHA": {
+      "attack": 0.688,
+      "defense": 0.764,
+      "elo": 1622.7,
+      "strength": 1630.3,
+      "market_value_m": 314.5,
+      "title_prob": 0
+    },
+    "PAN": {
+      "attack": 0.88,
+      "defense": 0.827,
+      "elo": 1842.1,
+      "strength": 1841.7,
+      "market_value_m": 18.4,
+      "title_prob": 0
+    }
+  }
+}

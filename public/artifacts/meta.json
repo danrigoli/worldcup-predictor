@@ -1,0 +1,73 @@
+{
+  "version": "2026-06-11",
+  "training_cutoff": "2026-06-11",
+  "training_start": "1994-01-01",
+  "half_life_days": 575,
+  "features": [
+    "strength_diff",
+    "value_diff",
+    "self_form_gf",
+    "self_form_ga",
+    "opp_form_gf",
+    "opp_form_ga",
+    "rest_diff",
+    "is_home",
+    "is_neutral",
+    "importance"
+  ],
+  "strength_blend": {
+    "elo": 0.72,
+    "fifa": 0.2,
+    "coach": 0.08
+  },
+  "host_boost": 0.1209,
+  "backtest": {
+    "gbm_rps": 0.20094122427351854,
+    "baseline_rps": 0.20349460687184276,
+    "per_tournament": [
+      {
+        "tournament": "WC2014",
+        "matches": 64,
+        "gbm_rps": 0.1903783255517787,
+        "baseline_rps": 0.18220922508346318
+      },
+      {
+        "tournament": "EURO2016",
+        "matches": 51,
+        "gbm_rps": 0.21717603807354294,
+        "baseline_rps": 0.2260351494144508
+      },
+      {
+        "tournament": "WC2018",
+        "matches": 64,
+        "gbm_rps": 0.20304802864668414,
+        "baseline_rps": 0.20925495115128806
+      },
+      {
+        "tournament": "EURO2021",
+        "matches": 51,
+        "gbm_rps": 0.17966020522483128,
+        "baseline_rps": 0.18438688744387877
+      },
+      {
+        "tournament": "WC2022",
+        "matches": 64,
+        "gbm_rps": 0.22075588019732045,
+        "baseline_rps": 0.22216532868690952
+      },
+      {
+        "tournament": "EURO2024",
+        "matches": 51,
+        "gbm_rps": 0.19462886794695364,
+        "baseline_rps": 0.19691609945106642
+      }
+    ],
+    "beats_baseline": true
+  },
+  "calibration": {
+    "temperature": 0.922,
+    "favorite_title_prob": 0.166,
+    "target": 0.165,
+    "sim_count": 10000
+  }
+}

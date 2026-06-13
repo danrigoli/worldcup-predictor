@@ -1,12 +1,5 @@
-import { netHomeAdvantage } from "@/lib/data/venues";
 import { GROUPS } from "@/lib/names";
-import type {
-  GroupLetter,
-  Match,
-  Overrides,
-  Ratings,
-  TeamId,
-} from "@/lib/types";
+import type { GroupLetter, Match, Overrides, Ratings, TeamId } from "@/lib/types";
 import {
   SIDE_AWAY,
   SIDE_HOME,
@@ -14,6 +7,7 @@ import {
   type KnockoutMatchDesc,
   type SimContext,
 } from "@/lib/sim/tournament";
+import type { MatchModel } from "@/lib/sim/match-model";
 import type { ThirdSlot } from "@/lib/sim/thirds";
 
 function winnerSideFromScore(
@@ -33,7 +27,7 @@ function winnerSideFromScore(
  */
 export function buildSimContext(
   matches: Match[],
-  ratings: Ratings,
+  matchModel: MatchModel,
   fifaRank: Ratings,
   overrides: Overrides = {}
 ): SimContext {
@@ -59,7 +53,7 @@ export function buildSimContext(
         group: m.group as GroupLetter,
         home,
         away,
-        ha: netHomeAdvantage(m, home, away),
+        hostCountry: m.hostCountry,
         locked,
       });
       continue;
@@ -99,7 +93,7 @@ export function buildSimContext(
   knockoutMatches.sort((a, b) => a.matchNumber - b.matchNumber);
 
   return {
-    baseRatings: ratings,
+    matchModel,
     fifaRank,
     groups: GROUPS as Record<GroupLetter, TeamId[]>,
     groupMatches,

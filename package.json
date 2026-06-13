@@ -16,7 +16,11 @@
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
     "setup-data": "tsx scripts/setup-data.ts",
-    "snapshot": "tsx scripts/snapshot.ts"
+    "snapshot": "tsx scripts/snapshot.ts",
+    "ml:train": "ml/.venv/bin/python -m ml.pipeline",
+    "ml:backtest": "ml/.venv/bin/python -m ml.pipeline --stage backtest",
+    "ml:calibrate": "tsx scripts/calibrate-matrix.ts",
+    "ml:all": "pnpm ml:train && pnpm ml:calibrate"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.15",

@@ -1,5 +1,6 @@
 {
-  "meanAbsDiff": 93,
+  "meanOffset": 93,
+  "offsetCorrectedMeanAbsDiff": 30,
   "teamsCompared": 48,
   "comparison": {
     "MEX": {

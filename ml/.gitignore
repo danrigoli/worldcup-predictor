@@ -1,0 +1,9 @@
+# Python virtual environment
+.venv/
+
+# auto-downloaded raw data + caches (regenerate via the pipeline)
+data/cache/
+
+# python artifacts
+__pycache__/
+*.pyc
