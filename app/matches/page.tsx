@@ -13,14 +13,11 @@ export default async function MatchesPage() {
   const { matchData, effective, fifaRank } = await getPrediction();
   const live = await getLiveMatches(matchData.matches);
 
-  // Predict every upcoming match whose teams are already known.
+  // Predict every match whose teams are known — including played ones, so the
+  // model's pre-match call can be compared against the actual result.
   const predictions: Record<number, MatchProbabilities> = {};
   for (const m of matchData.matches) {
-    if (
-      m.homeScore === null &&
-      m.home.kind === "team" &&
-      m.away.kind === "team"
-    ) {
+    if (m.home.kind === "team" && m.away.kind === "team") {
       predictions[m.matchNumber] = predictMatch(
         effective,
         m.home.team,

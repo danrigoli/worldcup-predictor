@@ -4,8 +4,8 @@ import type { LiveByMatch, LiveInfo, Match, TeamId } from "@/lib/types";
 /** Today's scoreboard refreshes ~each minute; finished days are stable. */
 const TODAY_REVALIDATE = 45;
 const PAST_REVALIDATE = 3600;
-/** Rolling window (days incl. today) to pull live status + recent stats for. */
-const WINDOW_DAYS = 4;
+/** Bound on distinct ESPN dates fetched per request (most recent kept). */
+const MAX_DATES = 24;
 
 function utcStamp(d: Date): string {
   return (
@@ -15,6 +15,14 @@ function utcStamp(d: Date): string {
   );
 }
 
+/** YYYYMMDD one UTC day before the given stamp. */
+function priorStamp(stamp: string): string {
+  const y = Number(stamp.slice(0, 4));
+  const m = Number(stamp.slice(4, 6));
+  const d = Number(stamp.slice(6, 8));
+  return utcStamp(new Date(Date.UTC(y, m - 1, d - 1)));
+}
+
 /** Unordered team-pair key for matching ESPN events to scheduled matches. */
 function pairKey(a: TeamId, b: TeamId): string {
   return [a, b].sort().join("-");
@@ -22,12 +30,14 @@ function pairKey(a: TeamId, b: TeamId): string {
 
 /**
  * Live status (in-progress flag, live score, clock, stats) per match number,
- * from the ESPN scoreboard for today + yesterday (UTC). Matched to the schedule
- * by unordered team pair. Never throws — returns {} on any failure so the page
- * always renders.
+ * from the ESPN scoreboard. Matched to the schedule by unordered team pair.
+ *
+ * We query: today + yesterday (UTC) for live/just-finished matches, PLUS the
+ * exact UTC date of every already-played match (and the day before, since ESPN
+ * buckets late-UTC kickoffs under the prior US date) so stats appear for
+ * finished matches regardless of the current date. Never throws.
  */
 export async function getLiveMatches(matches: Match[]): Promise<LiveByMatch> {
-  // Map team-pair → matchNumber for group/known matches.
   const byPair = new Map<string, number>();
   for (const m of matches) {
     if (m.home.kind === "team" && m.away.kind === "team") {
@@ -35,26 +45,41 @@ export async function getLiveMatches(matches: Match[]): Promise<LiveByMatch> {
     }
   }
 
+  // stamp -> revalidate (keep the shortest = freshest when a date appears twice)
+  const dates = new Map<string, number>();
+  const add = (stamp: string, rev: number) => {
+    const cur = dates.get(stamp);
+    if (cur === undefined || rev < cur) dates.set(stamp, rev);
+  };
+
   const now = new Date();
-  // today + previous (WINDOW_DAYS-1) UTC days; today fetched fresh, rest cached.
-  const dates = Array.from({ length: WINDOW_DAYS }, (_, i) => {
-    const d = new Date(now.getTime() - i * 24 * 3600 * 1000);
-    return { stamp: utcStamp(d), revalidate: i === 0 ? TODAY_REVALIDATE : PAST_REVALIDATE };
-  });
+  add(utcStamp(now), TODAY_REVALIDATE);
+  add(utcStamp(new Date(now.getTime() - 86_400_000)), PAST_REVALIDATE);
+
+  for (const m of matches) {
+    if (m.homeScore !== null && m.awayScore !== null) {
+      const stamp = m.dateUtc.slice(0, 10).replace(/-/g, "");
+      add(stamp, PAST_REVALIDATE);
+      add(priorStamp(stamp), PAST_REVALIDATE);
+    }
+  }
+
+  // Most-recent dates first, bounded.
+  const ordered = [...dates.entries()]
+    .sort((a, b) => (a[0] < b[0] ? 1 : -1))
+    .slice(0, MAX_DATES);
 
   const out: LiveByMatch = {};
   try {
     const days = await Promise.all(
-      dates.map((d) => fetchEspnDay(d.stamp, d.revalidate))
+      ordered.map(([stamp, rev]) => fetchEspnDay(stamp, rev))
     );
     for (const day of days) {
       for (const e of day) {
         const matchNumber = byPair.get(pairKey(e.home, e.away));
         if (matchNumber === undefined) continue;
-        // Orient ESPN scores/stats to the scheduled home/away.
         const sched = matches.find((m) => m.matchNumber === matchNumber)!;
-        const flip =
-          sched.home.kind === "team" && sched.home.team !== e.home;
+        const flip = sched.home.kind === "team" && sched.home.team !== e.home;
         const info: LiveInfo = {
           state: e.state,
           detail: e.detail,
@@ -68,9 +93,11 @@ export async function getLiveMatches(matches: Match[]): Promise<LiveByMatch> {
               }
             : null,
         };
-        // Prefer the freshest signal (in-progress over a stale "pre").
+        // Prefer in-progress / a richer entry over a stale "pre" placeholder.
         const existing = out[matchNumber];
-        if (!existing || existing.state === "pre") out[matchNumber] = info;
+        if (!existing || existing.state === "pre" || (!existing.stats && info.stats)) {
+          out[matchNumber] = info;
+        }
       }
     }
   } catch {

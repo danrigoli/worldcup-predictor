@@ -333,6 +333,23 @@ function MatchCard({
   const homeWin = hasScore && homeScore! > awayScore!;
   const awayWin = hasScore && awayScore! > homeScore!;
 
+  // Did the model's pre-match call match the actual result?
+  const actual: "home" | "draw" | "away" | null = !hasScore
+    ? null
+    : homeWin
+      ? "home"
+      : awayWin
+        ? "away"
+        : "draw";
+  const predicted: "home" | "draw" | "away" | null = pred
+    ? pred.home >= pred.draw && pred.home >= pred.away
+      ? "home"
+      : pred.away >= pred.draw
+        ? "away"
+        : "draw"
+    : null;
+  const modelCorrect = actual && predicted ? actual === predicted : null;
+
   return (
     <div
       className="rounded-lg border bg-card p-5 shadow-kit"
@@ -404,8 +421,69 @@ function MatchCard({
         </div>
       )}
 
+      {played && pred && (
+        <div className="mt-3 border-t border-line pt-3">
+          <div className="mb-1.5 flex items-center justify-between">
+            <span className="text-[10px] font-extrabold tracking-[0.8px] text-[var(--muted)]">
+              MODEL PREDICTED
+            </span>
+            {modelCorrect !== null && (
+              <span
+                className="rounded-full px-2 py-0.5 text-[10px] font-extrabold tracking-[0.5px]"
+                style={{
+                  background: modelCorrect
+                    ? "color-mix(in srgb, var(--pos) 16%, transparent)"
+                    : "color-mix(in srgb, var(--draw) 18%, transparent)",
+                  color: modelCorrect ? "var(--pos)" : "var(--draw)",
+                }}
+              >
+                {modelCorrect ? "✓ CALLED IT" : "✗ UPSET"}
+              </span>
+            )}
+          </div>
+          <div className="flex h-[9px] overflow-hidden rounded-md bg-track">
+            <div style={{ width: `${pred.home * 100}%`, background: "var(--accent)" }} />
+            <div style={{ width: `${pred.draw * 100}%`, background: "var(--muted)", opacity: 0.5 }} />
+            <div style={{ width: `${pred.away * 100}%`, background: "var(--neg)" }} />
+          </div>
+          <div className="mt-[7px] flex justify-between text-[11px] font-bold">
+            <OutcomeLabel pct={formatPct(pred.home)} suffix="W" color="var(--accent)" active={actual === "home"} />
+            <OutcomeLabel pct={formatPct(pred.draw)} suffix="D" color="var(--muted)" active={actual === "draw"} />
+            <OutcomeLabel pct={formatPct(pred.away)} suffix="W" color="var(--neg)" active={actual === "away"} />
+          </div>
+          <div className="mt-1.5 text-[10px] text-[var(--muted)]">
+            Pre-match win/draw/loss odds · result highlighted
+          </div>
+        </div>
+      )}
+
       {live?.stats && <StatsPanel stats={live.stats} open={isLive} />}
     </div>
+  );
+}
+
+function OutcomeLabel({
+  pct,
+  suffix,
+  color,
+  active,
+}: {
+  pct: string;
+  suffix: string;
+  color: string;
+  active: boolean;
+}) {
+  return (
+    <span
+      className="rounded px-1.5 py-0.5"
+      style={{
+        color,
+        background: active ? "color-mix(in srgb, currentColor 16%, transparent)" : "transparent",
+        outline: active ? "1px solid color-mix(in srgb, currentColor 45%, transparent)" : "none",
+      }}
+    >
+      {pct} {suffix}
+    </span>
   );
 }
 
