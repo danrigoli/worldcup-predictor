@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { format } from "date-fns";
 import { TEAM_BY_ID } from "@/lib/names";
 import { roundOf } from "@/lib/rounds";
@@ -16,6 +16,30 @@ import type {
 import type { GroupStandings } from "@/lib/sim/groups";
 
 const GROUPS = "ABCDEFGHIJKL".split("");
+
+/** Local-timezone calendar day key (YYYY-MM-DD) for a Date. */
+function dayKey(d: Date): string {
+  return (
+    d.getFullYear() +
+    "-" +
+    String(d.getMonth() + 1).padStart(2, "0") +
+    "-" +
+    String(d.getDate()).padStart(2, "0")
+  );
+}
+
+/**
+ * Renders a UTC timestamp in the *viewer's* local timezone. Empty on the server
+ * and first client render (so SSR markup matches), then fills in after mount —
+ * avoids a hydration mismatch while still showing the user's local time.
+ */
+function LocalTime({ iso, fmt }: { iso: string; fmt: string }) {
+  const [text, setText] = useState("");
+  useEffect(() => {
+    setText(format(new Date(iso), fmt));
+  }, [iso, fmt]);
+  return <>{text}</>;
+}
 
 function slotLabel(slot: Slot): { flag: string; name: string } {
   switch (slot.kind) {
@@ -213,13 +237,15 @@ function DayView({
   predictions: Record<number, MatchProbabilities>;
   live: LiveByMatch;
 }) {
-  // Distinct match dates (UTC calendar day), sorted.
-  const days = [...new Set(matches.map((m) => m.dateUtc.slice(0, 10)))].sort();
-  const today = new Date().toISOString().slice(0, 10);
+  // Distinct match days in the viewer's local timezone. DayView only renders
+  // after the user toggles to it (post-mount), so local-time computation here
+  // is safe — no SSR/hydration divergence.
+  const days = [...new Set(matches.map((m) => dayKey(new Date(m.dateUtc))))].sort();
+  const today = dayKey(new Date());
   const liveDays = new Set(
     matches
       .filter((m) => live[m.matchNumber]?.state === "in")
-      .map((m) => m.dateUtc.slice(0, 10))
+      .map((m) => dayKey(new Date(m.dateUtc)))
   );
   const defaultDay =
     (liveDays.size ? [...liveDays].sort()[0] : null) ??
@@ -228,7 +254,7 @@ function DayView({
   const [day, setDay] = useState(defaultDay);
 
   const dayMatches = matches
-    .filter((m) => m.dateUtc.slice(0, 10) === day)
+    .filter((m) => dayKey(new Date(m.dateUtc)) === day)
     .sort((a, b) => a.dateUtc.localeCompare(b.dateUtc) || a.matchNumber - b.matchNumber);
 
   return (
@@ -238,6 +264,7 @@ function DayView({
           const active = d === day;
           const isToday = d === today;
           const hasLive = liveDays.has(d);
+          const [yy, mm, dd] = d.split("-").map(Number);
           return (
             <button
               key={d}
@@ -252,7 +279,7 @@ function DayView({
               {hasLive && (
                 <span className="h-[6px] w-[6px] rounded-full bg-[var(--neg)]" style={{ animation: "wcpulse 1.4s ease infinite" }} />
               )}
-              {format(new Date(d + "T12:00:00Z"), "EEE d MMM")}
+              {format(new Date(yy, mm - 1, dd), "EEE d MMM")}
               {isToday && (
                 <span
                   className="rounded px-1 text-[9px] font-extrabold tracking-[0.5px]"
@@ -314,7 +341,8 @@ function MatchCard({
       <div className="mb-[11px] flex items-center justify-between text-[11px] font-semibold text-[var(--muted)]">
         <span>
           {showRound ? `${roundOf(match.matchNumber).label} · ` : ""}
-          {format(new Date(match.dateUtc), "EEE d MMM, HH:mm")} · {match.venue.replace(" Stadium", "")}
+          <LocalTime iso={match.dateUtc} fmt="EEE d MMM, HH:mm" /> ·{" "}
+          {match.venue.replace(" Stadium", "")}
         </span>
         {isLive ? (
           <span className="flex items-center gap-1.5 font-extrabold tracking-[0.5px] text-[var(--neg)]">

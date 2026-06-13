@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 
-const links = [
+export const NAV_LINKS = [
   { href: "/", label: "Dashboard" },
   { href: "/matches", label: "Matches" },
   { href: "/simulator", label: "Simulator" },
@@ -15,13 +15,8 @@ const links = [
 export function NavLinks({ className }: { className?: string }) {
   const pathname = usePathname();
   return (
-    <nav
-      className={cn(
-        "no-scrollbar flex flex-nowrap gap-[3px] overflow-x-auto",
-        className
-      )}
-    >
-      {links.map(({ href, label }) => {
+    <nav className={cn("flex flex-nowrap gap-[3px]", className)}>
+      {NAV_LINKS.map(({ href, label }) => {
         const active = pathname === href;
         return (
           <Link
