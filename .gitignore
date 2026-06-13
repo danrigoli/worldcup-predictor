@@ -1,0 +1,42 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+.env
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# raw downloaded data (regenerate with pnpm setup-data)
+/data/raw/*
+!/data/raw/.gitkeep
+
+# prediction snapshots (generated locally each matchday)
+/data/snapshots/*
+!/data/snapshots/.gitkeep
