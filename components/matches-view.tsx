@@ -461,20 +461,26 @@ function MatchCard({
           </div>
           <div className="mt-2.5 flex flex-wrap items-center gap-1.5">
             <span className="text-[10px] font-extrabold tracking-[0.8px] text-[var(--muted)]">LIKELY SCORE</span>
-            <span className="rounded-md border border-line bg-panel px-2 py-[3px] text-[11.5px] font-bold text-ink">
-              {home.flag && <span className="mr-0.5">{home.flag}</span>}
-              {pred.byOutcome.home.home}–{pred.byOutcome.home.away}{" "}
-              <span className="font-semibold text-[var(--muted)]">{formatPct(pred.byOutcome.home.p)}</span>
-            </span>
-            <span className="rounded-md border border-line bg-panel px-2 py-[3px] text-[11.5px] font-bold text-ink">
-              {pred.byOutcome.draw.home}–{pred.byOutcome.draw.away}{" "}
-              <span className="font-semibold text-[var(--muted)]">{formatPct(pred.byOutcome.draw.p)}</span>
-            </span>
-            <span className="rounded-md border border-line bg-panel px-2 py-[3px] text-[11.5px] font-bold text-ink">
-              {pred.byOutcome.away.home}–{pred.byOutcome.away.away}
-              {away.flag && <span className="ml-0.5">{away.flag}</span>}{" "}
-              <span className="font-semibold text-[var(--muted)]">{formatPct(pred.byOutcome.away.p)}</span>
-            </span>
+            {(
+              [
+                { kind: "home", s: pred.byOutcome.home },
+                { kind: "draw", s: pred.byOutcome.draw },
+                { kind: "away", s: pred.byOutcome.away },
+              ] as const
+            )
+              .slice()
+              .sort((a, b) => b.s.p - a.s.p)
+              .map(({ kind, s }) => (
+                <span
+                  key={kind}
+                  className="rounded-md border border-line bg-panel px-2 py-[3px] text-[11.5px] font-bold text-ink"
+                >
+                  {kind === "home" && home.flag && <span className="mr-0.5">{home.flag}</span>}
+                  {s.home}–{s.away}
+                  {kind === "away" && away.flag && <span className="ml-0.5">{away.flag}</span>}{" "}
+                  <span className="font-semibold text-[var(--muted)]">{formatPct(s.p)}</span>
+                </span>
+              ))}
           </div>
         </div>
       )}
