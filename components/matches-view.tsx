@@ -60,7 +60,7 @@ export function MatchesView({
   matches,
   predictions,
   standings,
-  live,
+  live: initialLive,
 }: {
   matches: Match[];
   predictions: Record<number, MatchProbabilities>;
@@ -68,6 +68,28 @@ export function MatchesView({
   live: LiveByMatch;
 }) {
   const [mode, setMode] = useState<"group" | "day">("group");
+  const [live, setLive] = useState<LiveByMatch>(initialLive);
+
+  // Poll for live status/scores/stats so an in-progress match updates without a
+  // page reload. Faster cadence while something is live, slower otherwise.
+  useEffect(() => {
+    let active = true;
+    const anyLive = Object.values(live).some((l) => l.state === "in");
+    const poll = async () => {
+      try {
+        const res = await fetch("/api/live", { cache: "no-store" });
+        if (res.ok && active) setLive(await res.json());
+      } catch {
+        /* keep last-good */
+      }
+    };
+    const id = setInterval(poll, anyLive ? 20_000 : 60_000);
+    return () => {
+      active = false;
+      clearInterval(id);
+    };
+  }, [live]);
+
   const liveCount = Object.values(live).filter((l) => l.state === "in").length;
 
   return (
@@ -411,12 +433,21 @@ function MatchCard({
             <span style={{ color: "var(--neg)" }}>{formatPct(pred.away)} W</span>
           </div>
           <div className="mt-2.5 flex flex-wrap items-center gap-1.5">
-            <span className="text-[10px] font-extrabold tracking-[0.8px] text-[var(--muted)]">LIKELY</span>
-            {pred.topScorelines.slice(0, 3).map((s, i) => (
-              <span key={i} className="rounded-md border border-line bg-panel px-2 py-[3px] text-[11.5px] font-bold text-ink">
-                {s.home}–{s.away} <span className="font-semibold text-[var(--muted)]">{formatPct(s.p)}</span>
-              </span>
-            ))}
+            <span className="text-[10px] font-extrabold tracking-[0.8px] text-[var(--muted)]">LIKELY SCORE</span>
+            <span className="rounded-md border border-line bg-panel px-2 py-[3px] text-[11.5px] font-bold text-ink">
+              {home.flag && <span className="mr-0.5">{home.flag}</span>}
+              {pred.byOutcome.home.home}–{pred.byOutcome.home.away}{" "}
+              <span className="font-semibold text-[var(--muted)]">{formatPct(pred.byOutcome.home.p)}</span>
+            </span>
+            <span className="rounded-md border border-line bg-panel px-2 py-[3px] text-[11.5px] font-bold text-ink">
+              {pred.byOutcome.draw.home}–{pred.byOutcome.draw.away}{" "}
+              <span className="font-semibold text-[var(--muted)]">{formatPct(pred.byOutcome.draw.p)}</span>
+            </span>
+            <span className="rounded-md border border-line bg-panel px-2 py-[3px] text-[11.5px] font-bold text-ink">
+              {pred.byOutcome.away.home}–{pred.byOutcome.away.away}
+              {away.flag && <span className="ml-0.5">{away.flag}</span>}{" "}
+              <span className="font-semibold text-[var(--muted)]">{formatPct(pred.byOutcome.away.p)}</span>
+            </span>
           </div>
         </div>
       )}

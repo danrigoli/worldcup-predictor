@@ -91,6 +91,12 @@ export interface MatchProbabilities {
   draw: number;
   away: number;
   topScorelines: Array<{ home: number; away: number; p: number }>;
+  /** Most likely exact score within each outcome. */
+  byOutcome: {
+    home: { home: number; away: number; p: number };
+    draw: { home: number; away: number; p: number };
+    away: { home: number; away: number; p: number };
+  };
 }
 
 /** Per-side in-match statistics (from ESPN). null when unavailable. */

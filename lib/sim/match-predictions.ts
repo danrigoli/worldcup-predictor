@@ -1,4 +1,9 @@
-import { oneXTwo, scoreGrid, topScorelines } from "@/lib/model/dixon-coles";
+import {
+  oneXTwo,
+  scoreGrid,
+  topScorelineByOutcome,
+  topScorelines,
+} from "@/lib/model/dixon-coles";
 import { defaultMatchModel } from "@/lib/sim/match-model";
 import type { Match, MatchProbabilities, Ratings, TeamId } from "@/lib/types";
 
@@ -26,5 +31,6 @@ export function predictMatch(
     draw,
     away: a,
     topScorelines: topScorelines(grid, topN),
+    byOutcome: topScorelineByOutcome(grid),
   };
 }

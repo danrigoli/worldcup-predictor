@@ -1,8 +1,8 @@
 import { fetchEspnDay } from "@/lib/data/espn";
 import type { LiveByMatch, LiveInfo, Match, TeamId } from "@/lib/types";
 
-/** Today's scoreboard refreshes ~each minute; finished days are stable. */
-const TODAY_REVALIDATE = 45;
+/** Today's scoreboard refreshes fast (live); finished days are stable. */
+const TODAY_REVALIDATE = 20;
 const PAST_REVALIDATE = 3600;
 /** Bound on distinct ESPN dates fetched per request (most recent kept). */
 const MAX_DATES = 24;
