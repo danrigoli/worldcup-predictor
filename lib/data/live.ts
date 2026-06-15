@@ -1,3 +1,4 @@
+import { TOURNAMENT_START } from "@/lib/constants";
 import { fetchEspnDay } from "@/lib/data/espn";
 import type { LiveByMatch, LiveInfo, Match, TeamId } from "@/lib/types";
 
@@ -5,7 +6,7 @@ import type { LiveByMatch, LiveInfo, Match, TeamId } from "@/lib/types";
 const TODAY_REVALIDATE = 20;
 const PAST_REVALIDATE = 3600;
 /** Bound on distinct ESPN dates fetched per request (most recent kept). */
-const MAX_DATES = 24;
+const MAX_DATES = 30;
 
 function utcStamp(d: Date): string {
   return (
@@ -13,14 +14,6 @@ function utcStamp(d: Date): string {
     String(d.getUTCMonth() + 1).padStart(2, "0") +
     String(d.getUTCDate()).padStart(2, "0")
   );
-}
-
-/** YYYYMMDD one UTC day before the given stamp. */
-function priorStamp(stamp: string): string {
-  const y = Number(stamp.slice(0, 4));
-  const m = Number(stamp.slice(4, 6));
-  const d = Number(stamp.slice(6, 8));
-  return utcStamp(new Date(Date.UTC(y, m - 1, d - 1)));
 }
 
 /** Unordered team-pair key for matching ESPN events to scheduled matches. */
@@ -32,10 +25,11 @@ function pairKey(a: TeamId, b: TeamId): string {
  * Live status (in-progress flag, live score, clock, stats) per match number,
  * from the ESPN scoreboard. Matched to the schedule by unordered team pair.
  *
- * We query: today + yesterday (UTC) for live/just-finished matches, PLUS the
- * exact UTC date of every already-played match (and the day before, since ESPN
- * buckets late-UTC kickoffs under the prior US date) so stats appear for
- * finished matches regardless of the current date. Never throws.
+ * We query a CONTIGUOUS range of UTC days from the tournament start through
+ * today (bounded to the most-recent MAX_DATES). A contiguous range is robust:
+ * it covers every played match's stats regardless of which matches the caller
+ * knows are finished, and it absorbs ESPN's US-date bucketing of late-UTC
+ * kickoffs. Today is fetched fresh; past days are cached. Never throws.
  */
 export async function getLiveMatches(matches: Match[]): Promise<LiveByMatch> {
   const byPair = new Map<string, number>();
@@ -45,29 +39,23 @@ export async function getLiveMatches(matches: Match[]): Promise<LiveByMatch> {
     }
   }
 
-  // stamp -> revalidate (keep the shortest = freshest when a date appears twice)
-  const dates = new Map<string, number>();
-  const add = (stamp: string, rev: number) => {
-    const cur = dates.get(stamp);
-    if (cur === undefined || rev < cur) dates.set(stamp, rev);
-  };
-
-  const now = new Date();
-  add(utcStamp(now), TODAY_REVALIDATE);
-  add(utcStamp(new Date(now.getTime() - 86_400_000)), PAST_REVALIDATE);
-
-  for (const m of matches) {
-    if (m.homeScore !== null && m.awayScore !== null) {
-      const stamp = m.dateUtc.slice(0, 10).replace(/-/g, "");
-      add(stamp, PAST_REVALIDATE);
-      add(priorStamp(stamp), PAST_REVALIDATE);
-    }
+  // Contiguous UTC days from one day before the tournament start through today
+  // (bounded to the most recent MAX_DATES). The day-before absorbs ESPN's
+  // US-date bucketing of late-UTC kickoffs.
+  const todayStamp = utcStamp(new Date());
+  const d = new Date(TOURNAMENT_START + "T00:00:00Z");
+  d.setUTCDate(d.getUTCDate() - 1);
+  const allDays: string[] = [];
+  for (; utcStamp(d) <= todayStamp; d.setUTCDate(d.getUTCDate() + 1)) {
+    allDays.push(utcStamp(d));
   }
-
-  // Most-recent dates first, bounded.
-  const ordered = [...dates.entries()]
-    .sort((a, b) => (a[0] < b[0] ? 1 : -1))
-    .slice(0, MAX_DATES);
+  const ordered: [string, number][] = allDays
+    .slice(-MAX_DATES)
+    .map((stamp): [string, number] => [
+      stamp,
+      stamp === todayStamp ? TODAY_REVALIDATE : PAST_REVALIDATE,
+    ])
+    .reverse();
 
   const out: LiveByMatch = {};
   try {

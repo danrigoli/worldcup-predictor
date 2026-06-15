@@ -23,6 +23,15 @@ export const LAMBDA_PER_ELO = 400;
 export const LAMBDA_MIN = 0.3;
 export const LAMBDA_MAX = 3.5;
 
+/**
+ * Global multiplier on every expected-goals (λ) lookup. WC2026 has run a touch
+ * higher-scoring than the model's prior (≈2.9 actual vs ≈2.6 expected over the
+ * opening matches), so we nudge goal rates up ~8%. Applied in
+ * lib/model/lambda-matrix.ts; the calibration temperature is re-fit with it in
+ * effect, so title odds stay in band. Set to 1 to disable.
+ */
+export const GOALS_MULTIPLIER = 1.08;
+
 /** Score grid covers 0..MAX_GOALS goals per side. */
 export const MAX_GOALS = 8;
 
@@ -52,8 +61,8 @@ export const BLEND_WEIGHTS = { elo: 0.6, fifa: 0.2, value: 0.2 } as const;
  */
 export const RATING_SHRINKAGE = 0.8;
 
-/** Live feed revalidation window (seconds). */
-export const FIXTURES_REVALIDATE = 7200;
+/** Live feed revalidation window (seconds) — short so results land fast. */
+export const FIXTURES_REVALIDATE = 15;
 
 export const FIXTURE_FEED_URL =
   "https://fixturedownload.com/feed/json/fifa-world-cup-2026";

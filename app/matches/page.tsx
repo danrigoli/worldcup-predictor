@@ -7,7 +7,7 @@ import type { MatchProbabilities } from "@/lib/types";
 
 // Short revalidate so live status/scores refresh ~each minute. The heavy sim is
 // cached separately (2h) inside getPrediction, so this stays cheap.
-export const revalidate = 60;
+export const revalidate = 15;
 
 export default async function MatchesPage() {
   const { matchData, effective, fifaRank } = await getPrediction();

@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { TrendsChart, type TrendPoint } from "@/components/trends-chart";
 import type { TeamId } from "@/lib/types";
 
-export const revalidate = 7200;
+export const revalidate = 15;
 
 export default async function TrendsPage() {
   const [{ result }, snapshots] = await Promise.all([

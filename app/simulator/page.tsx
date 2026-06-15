@@ -1,7 +1,7 @@
 import { getPrediction } from "@/lib/engine";
 import { SimulatorShell } from "@/components/what-if/simulator-shell";
 
-export const revalidate = 7200;
+export const revalidate = 15;
 
 export default async function SimulatorPage() {
   const { matchData, preRatings, fifaRank, result } = await getPrediction();

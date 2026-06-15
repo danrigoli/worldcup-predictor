@@ -23,7 +23,7 @@
       "elo": 1903.8,
       "strength": 1903.2,
       "market_value_m": null,
-      "title_prob": 0.007
+      "title_prob": 0.005
     },
     "CZE": {
       "attack": 0.898,
@@ -39,7 +39,7 @@
       "elo": 1895,
       "strength": 1889,
       "market_value_m": 172.8,
-      "title_prob": 0.004
+      "title_prob": 0.006
     },
     "BIH": {
       "attack": 0.689,
@@ -71,7 +71,7 @@
       "elo": 2061.3,
       "strength": 2061.8,
       "market_value_m": 1333,
-      "title_prob": 0.061
+      "title_prob": 0.067
     },
     "MAR": {
       "attack": 1.133,
@@ -79,7 +79,7 @@
       "elo": 1989,
       "strength": 1993.6,
       "market_value_m": 546,
-      "title_prob": 0.024
+      "title_prob": 0.023
     },
     "HAI": {
       "attack": 0.715,
@@ -103,7 +103,7 @@
       "elo": 1839.5,
       "strength": 1869,
       "market_value_m": 441.5,
-      "title_prob": 0.005
+      "title_prob": 0.006
     },
     "PAR": {
       "attack": 0.856,
@@ -127,7 +127,7 @@
       "elo": 1962.4,
       "strength": 1941.2,
       "market_value_m": 465.5,
-      "title_prob": 0.012
+      "title_prob": 0.009
     },
     "GER": {
       "attack": 1.35,
@@ -159,7 +159,7 @@
       "elo": 2020.9,
       "strength": 1993.8,
       "market_value_m": 341.6,
-      "title_prob": 0.024
+      "title_prob": 0.023
     },
     "NED": {
       "attack": 1.34,
@@ -167,7 +167,7 @@
       "elo": 2013.6,
       "strength": 2022.9,
       "market_value_m": 1099,
-      "title_prob": 0.045
+      "title_prob": 0.044
     },
     "JPN": {
       "attack": 1.119,
@@ -175,7 +175,7 @@
       "elo": 1994.6,
       "strength": 1984.2,
       "market_value_m": 319.5,
-      "title_prob": 0.017
+      "title_prob": 0.018
     },
     "SWE": {
       "attack": 0.954,
@@ -183,7 +183,7 @@
       "elo": 1767.1,
       "strength": 1781.9,
       "market_value_m": 590,
-      "title_prob": 0.001
+      "title_prob": 0
     },
     "TUN": {
       "attack": 0.726,
@@ -199,7 +199,7 @@
       "elo": 1968.4,
       "strength": 1984.4,
       "market_value_m": 674,
-      "title_prob": 0.025
+      "title_prob": 0.028
     },
     "EGY": {
       "attack": 0.838,
@@ -207,7 +207,7 @@
       "elo": 1808,
       "strength": 1812.8,
       "market_value_m": 117.5,
-      "title_prob": 0.002
+      "title_prob": 0.003
     },
     "IRN": {
       "attack": 0.954,
@@ -215,7 +215,7 @@
       "elo": 1897.5,
       "strength": 1904.5,
       "market_value_m": 37.7,
-      "title_prob": 0.003
+      "title_prob": 0.001
     },
     "NZL": {
       "attack": 0.714,
@@ -231,7 +231,7 @@
       "elo": 2206.7,
       "strength": 2199.4,
       "market_value_m": 1255,
-      "title_prob": 0.166
+      "title_prob": 0.168
     },
     "URU": {
       "attack": 1.017,
@@ -239,7 +239,7 @@
       "elo": 1968.5,
       "strength": 1970.8,
       "market_value_m": 535,
-      "title_prob": 0.014
+      "title_prob": 0.015
     },
     "KSA": {
       "attack": 0.542,
@@ -263,7 +263,7 @@
       "elo": 2119.1,
       "strength": 2129.9,
       "market_value_m": 1750,
-      "title_prob": 0.112
+      "title_prob": 0.114
     },
     "SEN": {
       "attack": 1.077,
@@ -295,7 +295,7 @@
       "elo": 2183,
       "strength": 2179.8,
       "market_value_m": 1006,
-      "title_prob": 0.148
+      "title_prob": 0.146
     },
     "ALG": {
       "attack": 0.971,
@@ -311,7 +311,7 @@
       "elo": 1895.4,
       "strength": 1898.5,
       "market_value_m": 324,
-      "title_prob": 0.008
+      "title_prob": 0.007
     },
     "JOR": {
       "attack": 0.733,
@@ -327,7 +327,7 @@
       "elo": 2028.7,
       "strength": 2040,
       "market_value_m": 1186,
-      "title_prob": 0.046
+      "title_prob": 0.048
     },
     "COL": {
       "attack": 1.294,
@@ -343,7 +343,7 @@
       "elo": 1822.8,
       "strength": 1810.5,
       "market_value_m": 59,
-      "title_prob": 0.001
+      "title_prob": 0
     },
     "COD": {
       "attack": 0.7,
@@ -367,7 +367,7 @@
       "elo": 1962.5,
       "strength": 1974.5,
       "market_value_m": 379,
-      "title_prob": 0.016
+      "title_prob": 0.014
     },
     "GHA": {
       "attack": 0.688,

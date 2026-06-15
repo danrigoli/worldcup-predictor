@@ -1,3 +1,4 @@
+import { GOALS_MULTIPLIER } from "@/lib/constants";
 import type { HostCountry, TeamId } from "@/lib/types";
 import committed from "@/public/artifacts/lambda_matrix.latest.json";
 
@@ -46,8 +47,8 @@ export function matrixLambdas(
 ): { lambdaHome: number; lambdaAway: number } | null {
   const pair = matrix.neutral[home]?.[away];
   if (!pair) return null;
-  let lh = pair[0];
-  let la = pair[1];
+  let lh = pair[0] * GOALS_MULTIPLIER;
+  let la = pair[1] * GOALS_MULTIPLIER;
   if (hostCountry) {
     const host = HOST_TEAM[hostCountry];
     if (home === host) lh = Math.exp(Math.log(lh) + matrix.host_boost);

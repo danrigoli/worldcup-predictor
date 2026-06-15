@@ -4,7 +4,7 @@ import { TEAM_BY_ID } from "@/lib/names";
 import { DashboardView, type DashTeam } from "@/components/dashboard/dashboard-view";
 import type { TeamId } from "@/lib/types";
 
-export const revalidate = 7200;
+export const revalidate = 15;
 
 const SOURCE_LABEL: Record<string, string> = {
   live: "Live feed",

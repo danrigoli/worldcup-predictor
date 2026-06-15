@@ -78,7 +78,11 @@ export function MatchesView({
     const poll = async () => {
       try {
         const res = await fetch("/api/live", { cache: "no-store" });
-        if (res.ok && active) setLive(await res.json());
+        if (res.ok && active) {
+          const fresh = (await res.json()) as LiveByMatch;
+          // Merge, don't replace: a poll must never wipe stats already shown.
+          setLive((prev) => ({ ...prev, ...fresh }));
+        }
       } catch {
         /* keep last-good */
       }
