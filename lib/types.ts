@@ -122,3 +122,18 @@ export interface LiveInfo {
 }
 
 export type LiveByMatch = Record<number, LiveInfo>;
+
+/** Lineup-derived strength penalty for one side of a match. */
+export interface TeamLineup {
+  /** 0–CAP fractional strength reduction from the fielded XI vs best XI. */
+  penalty: number;
+  /** Notable squad players absent from the confirmed XI (display names). */
+  missing: string[];
+}
+
+export interface MatchLineup {
+  home: TeamLineup;
+  away: TeamLineup;
+}
+
+export type LineupByMatch = Record<number, MatchLineup>;

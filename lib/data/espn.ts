@@ -1,4 +1,8 @@
-import { BROWSER_UA, ESPN_SCOREBOARD_URL } from "@/lib/constants";
+import {
+  BROWSER_UA,
+  ESPN_SCOREBOARD_URL,
+  ESPN_SUMMARY_URL,
+} from "@/lib/constants";
 import { resolveTeam } from "@/lib/names";
 import { espnScoreboardSchema } from "@/lib/data/schemas";
 import type { MatchStats, TeamId } from "@/lib/types";
@@ -11,6 +15,8 @@ export interface EspnResult {
 }
 
 export interface EspnDayMatch {
+  id: string | null;
+  startUtc: string;
   home: TeamId;
   away: TeamId;
   homeScore: number | null;
@@ -85,6 +91,8 @@ export async function fetchEspnDay(
       const hasStats = hasAnyStat(homeStats) || hasAnyStat(awayStats);
 
       out.push({
+        id: event.id ?? null,
+        startUtc: event.date,
         home: homeId,
         away: awayId,
         homeScore: home.score && home.score.trim() !== "" ? num(home.score) : null,
@@ -99,6 +107,42 @@ export async function fetchEspnDay(
     return out;
   } catch {
     return [];
+  }
+}
+
+/**
+ * Confirmed starting XI (display names) per team for one event, from the ESPN
+ * match summary. Keyed by canonical team id. Returns {} until lineups post
+ * (~30–60 min pre-kickoff) or on any error.
+ */
+export async function fetchEspnStarters(
+  eventId: string,
+  revalidate = 120
+): Promise<Record<TeamId, string[]>> {
+  try {
+    const res = await fetch(`${ESPN_SUMMARY_URL}?event=${eventId}`, {
+      headers: { "User-Agent": BROWSER_UA },
+      next: { revalidate },
+    });
+    if (!res.ok) return {};
+    const data = (await res.json()) as {
+      rosters?: Array<{
+        team?: { displayName?: string };
+        roster?: Array<{ starter?: boolean; athlete?: { displayName?: string } }>;
+      }>;
+    };
+    const out: Record<TeamId, string[]> = {};
+    for (const t of data.rosters ?? []) {
+      const id = t.team?.displayName ? resolveTeam(t.team.displayName) : null;
+      if (!id) continue;
+      const starters = (t.roster ?? [])
+        .filter((p) => p.starter && p.athlete?.displayName)
+        .map((p) => p.athlete!.displayName!);
+      if (starters.length) out[id] = starters;
+    }
+    return out;
+  } catch {
+    return {};
   }
 }
 

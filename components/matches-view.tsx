@@ -6,9 +6,11 @@ import { TEAM_BY_ID } from "@/lib/names";
 import { roundOf } from "@/lib/rounds";
 import { formatPct, groupColor } from "@/lib/utils";
 import type {
+  LineupByMatch,
   LiveByMatch,
   LiveInfo,
   Match,
+  MatchLineup,
   MatchProbabilities,
   MatchStats,
   Slot,
@@ -61,11 +63,13 @@ export function MatchesView({
   predictions,
   standings,
   live: initialLive,
+  lineups,
 }: {
   matches: Match[];
   predictions: Record<number, MatchProbabilities>;
   standings: GroupStandings[];
   live: LiveByMatch;
+  lineups: LineupByMatch;
 }) {
   const [mode, setMode] = useState<"group" | "day">("group");
   const [live, setLive] = useState<LiveByMatch>(initialLive);
@@ -132,9 +136,9 @@ export function MatchesView({
       </div>
 
       {mode === "group" ? (
-        <GroupView matches={matches} predictions={predictions} standings={standings} live={live} />
+        <GroupView matches={matches} predictions={predictions} standings={standings} live={live} lineups={lineups} />
       ) : (
-        <DayView matches={matches} predictions={predictions} live={live} />
+        <DayView matches={matches} predictions={predictions} live={live} lineups={lineups} />
       )}
     </div>
   );
@@ -145,11 +149,13 @@ function GroupView({
   predictions,
   standings,
   live,
+  lineups,
 }: {
   matches: Match[];
   predictions: Record<number, MatchProbabilities>;
   standings: GroupStandings[];
   live: LiveByMatch;
+  lineups: LineupByMatch;
 }) {
   const [group, setGroup] = useState("A");
   const groupMatches = matches
@@ -187,6 +193,7 @@ function GroupView({
               match={m}
               pred={predictions[m.matchNumber]}
               live={live[m.matchNumber]}
+              lineup={lineups[m.matchNumber]}
             />
           ))}
         </div>
@@ -258,10 +265,12 @@ function DayView({
   matches,
   predictions,
   live,
+  lineups,
 }: {
   matches: Match[];
   predictions: Record<number, MatchProbabilities>;
   live: LiveByMatch;
+  lineups: LineupByMatch;
 }) {
   // Distinct match days in the viewer's local timezone. DayView only renders
   // after the user toggles to it (post-mount), so local-time computation here
@@ -326,6 +335,7 @@ function DayView({
             match={m}
             pred={predictions[m.matchNumber]}
             live={live[m.matchNumber]}
+            lineup={lineups[m.matchNumber]}
             showRound
           />
         ))}
@@ -338,11 +348,13 @@ function MatchCard({
   match,
   pred,
   live,
+  lineup,
   showRound,
 }: {
   match: Match;
   pred?: MatchProbabilities;
   live?: LiveInfo;
+  lineup?: MatchLineup;
   showRound?: boolean;
 }) {
   const home = slotLabel(match.home);
@@ -424,6 +436,17 @@ function MatchCard({
         </div>
       </div>
 
+      {!played && lineup && (lineup.home.missing.length > 0 || lineup.away.missing.length > 0) && (
+        <div className="mt-2.5 flex flex-col gap-1">
+          {lineup.home.missing.length > 0 && (
+            <AbsenceNote team={home.name} missing={lineup.home.missing} penalty={lineup.home.penalty} />
+          )}
+          {lineup.away.missing.length > 0 && (
+            <AbsenceNote team={away.name} missing={lineup.away.missing} penalty={lineup.away.penalty} />
+          )}
+        </div>
+      )}
+
       {!played && !isLive && pred && (
         <div className="mt-[13px]">
           <div className="flex h-[9px] overflow-hidden rounded-md bg-track">
@@ -493,6 +516,26 @@ function MatchCard({
       )}
 
       {live?.stats && <StatsPanel stats={live.stats} open={isLive} />}
+    </div>
+  );
+}
+
+function AbsenceNote({
+  team,
+  missing,
+  penalty,
+}: {
+  team: string;
+  missing: string[];
+  penalty: number;
+}) {
+  return (
+    <div className="flex items-start gap-1.5 rounded-md bg-[color-mix(in_srgb,var(--draw)_12%,transparent)] px-2 py-1 text-[11px] font-semibold text-[var(--draw)]">
+      <span>⚠</span>
+      <span>
+        <span className="text-ink">{team}</span> without {missing.join(", ")}
+        {penalty > 0 ? ` · −${Math.round(penalty * 100)}% strength` : ""}
+      </span>
     </div>
   );
 }

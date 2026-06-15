@@ -1,0 +1,7446 @@
+{
+ "asOf": "2026-06",
+ "teams": {
+  "MEX": {
+   "xiValue": 132000000,
+   "median": 3750000,
+   "players": [
+    {
+     "name": "Santiago Gimenez",
+     "n": "santiago gimenez",
+     "s": "gimenez",
+     "v": 40000000.0
+    },
+    {
+     "name": "Edson Álvarez",
+     "n": "edson alvarez",
+     "s": "alvarez",
+     "v": 22000000.0
+    },
+    {
+     "name": "Julián Araujo",
+     "n": "julian araujo",
+     "s": "araujo",
+     "v": 10000000.0
+    },
+    {
+     "name": "Johan Vásquez",
+     "n": "johan vasquez",
+     "s": "vasquez",
+     "v": 10000000.0
+    },
+    {
+     "name": "Luis Chávez",
+     "n": "luis chavez",
+     "s": "chavez",
+     "v": 9000000.0
+    },
+    {
+     "name": "Hirving Lozano",
+     "n": "hirving lozano",
+     "s": "lozano",
+     "v": 8000000.0
+    },
+    {
+     "name": "Álvaro Fidalgo",
+     "n": "alvaro fidalgo",
+     "s": "fidalgo",
+     "v": 7000000.0
+    },
+    {
+     "name": "César Montes",
+     "n": "cesar montes",
+     "s": "montes",
+     "v": 7000000.0
+    },
+    {
+     "name": "Orbelín Pineda",
+     "n": "orbelin pineda",
+     "s": "pineda",
+     "v": 7000000.0
+    },
+    {
+     "name": "Gerardo Arteaga",
+     "n": "gerardo arteaga",
+     "s": "arteaga",
+     "v": 6000000.0
+    },
+    {
+     "name": "Érick Gutiérrez",
+     "n": "erick gutierrez",
+     "s": "gutierrez",
+     "v": 6000000.0
+    },
+    {
+     "name": "Rodrigo Huescas",
+     "n": "rodrigo huescas",
+     "s": "huescas",
+     "v": 6000000.0
+    },
+    {
+     "name": "César Huerta",
+     "n": "cesar huerta",
+     "s": "huerta",
+     "v": 5000000.0
+    },
+    {
+     "name": "Raúl Jiménez",
+     "n": "raul jimenez",
+     "s": "jimenez",
+     "v": 4000000.0
+    },
+    {
+     "name": "Uriel Antuna",
+     "n": "uriel antuna",
+     "s": "antuna",
+     "v": 4000000.0
+    },
+    {
+     "name": "Carlos Salcedo",
+     "n": "carlos salcedo",
+     "s": "salcedo",
+     "v": 4000000.0
+    },
+    {
+     "name": "Richard Ledezma",
+     "n": "richard ledezma",
+     "s": "ledezma",
+     "v": 4000000.0
+    },
+    {
+     "name": "Jesús Corona",
+     "n": "jesus corona",
+     "s": "corona",
+     "v": 3500000.0
+    },
+    {
+     "name": "Jorge Sánchez",
+     "n": "jorge sanchez",
+     "s": "sanchez",
+     "v": 3500000.0
+    },
+    {
+     "name": "Alan Pulido",
+     "n": "alan pulido",
+     "s": "pulido",
+     "v": 3000000.0
+    },
+    {
+     "name": "Rogelio Funes Mori",
+     "n": "rogelio funes mori",
+     "s": "mori",
+     "v": 3000000.0
+    },
+    {
+     "name": "José Juan Macías",
+     "n": "jose juan macias",
+     "s": "macias",
+     "v": 3000000.0
+    },
+    {
+     "name": "Diego Lainez",
+     "n": "diego lainez",
+     "s": "lainez",
+     "v": 2500000.0
+    },
+    {
+     "name": "Héctor Herrera",
+     "n": "hector herrera",
+     "s": "herrera",
+     "v": 2500000.0
+    },
+    {
+     "name": "Diego Reyes",
+     "n": "diego reyes",
+     "s": "reyes",
+     "v": 2000000.0
+    },
+    {
+     "name": "Néstor Araújo",
+     "n": "nestor araujo",
+     "s": "araujo",
+     "v": 2000000.0
+    },
+    {
+     "name": "Javier Aquino",
+     "n": "javier aquino",
+     "s": "aquino",
+     "v": 1800000.0
+    },
+    {
+     "name": "Antonio Briseño",
+     "n": "antonio briseno",
+     "s": "briseno",
+     "v": 1500000.0
+    },
+    {
+     "name": "Rodolfo Pizarro",
+     "n": "rodolfo pizarro",
+     "s": "pizarro",
+     "v": 1500000.0
+    },
+    {
+     "name": "Héctor Moreno",
+     "n": "hector moreno",
+     "s": "moreno",
+     "v": 1000000.0
+    }
+   ]
+  },
+  "RSA": {
+   "xiValue": 23350000,
+   "median": 300000,
+   "players": [
+    {
+     "name": "Lyle Foster",
+     "n": "lyle foster",
+     "s": "foster",
+     "v": 13000000.0
+    },
+    {
+     "name": "Percy Tau",
+     "n": "percy tau",
+     "s": "tau",
+     "v": 1500000.0
+    },
+    {
+     "name": "Kobamelo Kodisang",
+     "n": "kobamelo kodisang",
+     "s": "kodisang",
+     "v": 1500000.0
+    },
+    {
+     "name": "Lebo Mothiba",
+     "n": "lebo mothiba",
+     "s": "mothiba",
+     "v": 1500000.0
+    },
+    {
+     "name": "Gift Links",
+     "n": "gift links",
+     "s": "links",
+     "v": 1500000.0
+    },
+    {
+     "name": "Keagan Dolly",
+     "n": "keagan dolly",
+     "s": "dolly",
+     "v": 1400000.0
+    },
+    {
+     "name": "Shandre Campbell",
+     "n": "shandre campbell",
+     "s": "campbell",
+     "v": 1000000.0
+    },
+    {
+     "name": "Yaya Sithole",
+     "n": "yaya sithole",
+     "s": "sithole",
+     "v": 600000.0
+    },
+    {
+     "name": "Luke Le Roux",
+     "n": "luke le roux",
+     "s": "roux",
+     "v": 600000.0
+    },
+    {
+     "name": "Thabo Cele",
+     "n": "thabo cele",
+     "s": "cele",
+     "v": 400000.0
+    },
+    {
+     "name": "Cafú Phete",
+     "n": "cafu phete",
+     "s": "phete",
+     "v": 350000.0
+    },
+    {
+     "name": "Shinga",
+     "n": "shinga",
+     "s": "shinga",
+     "v": 300000.0
+    },
+    {
+     "name": "Aphelele Teto",
+     "n": "aphelele teto",
+     "s": "teto",
+     "v": 300000.0
+    },
+    {
+     "name": "Lebogang Phiri",
+     "n": "lebogang phiri",
+     "s": "phiri",
+     "v": 150000.0
+    }
+   ]
+  },
+  "KOR": {
+   "xiValue": 0,
+   "median": 0,
+   "players": []
+  },
+  "CZE": {
+   "xiValue": 130500000,
+   "median": 3500000,
+   "players": [
+    {
+     "name": "Patrik Schick",
+     "n": "patrik schick",
+     "s": "schick",
+     "v": 25000000.0
+    },
+    {
+     "name": "Ladislav Krejčí",
+     "n": "ladislav krejci",
+     "s": "krejci",
+     "v": 22000000.0
+    },
+    {
+     "name": "Adam Hlozek",
+     "n": "adam hlozek",
+     "s": "hlozek",
+     "v": 15000000.0
+    },
+    {
+     "name": "Antonín Kinský",
+     "n": "antonin kinsky",
+     "s": "kinsky",
+     "v": 13000000.0
+    },
+    {
+     "name": "Tomáš Souček",
+     "n": "tomas soucek",
+     "s": "soucek",
+     "v": 12000000.0
+    },
+    {
+     "name": "Lukas Hornicek",
+     "n": "lukas hornicek",
+     "s": "hornicek",
+     "v": 10000000.0
+    },
+    {
+     "name": "Michal Sadílek",
+     "n": "michal sadilek",
+     "s": "sadilek",
+     "v": 7500000.0
+    },
+    {
+     "name": "Robin Hranac",
+     "n": "robin hranac",
+     "s": "hranac",
+     "v": 7000000.0
+    },
+    {
+     "name": "Matej Kovar",
+     "n": "matej kovar",
+     "s": "kovar",
+     "v": 7000000.0
+    },
+    {
+     "name": "Vaclav Cerny",
+     "n": "vaclav cerny",
+     "s": "cerny",
+     "v": 7000000.0
+    },
+    {
+     "name": "Alex Král",
+     "n": "alex kral",
+     "s": "kral",
+     "v": 5000000.0
+    },
+    {
+     "name": "Vitezslav Jaros",
+     "n": "vitezslav jaros",
+     "s": "jaros",
+     "v": 5000000.0
+    },
+    {
+     "name": "David Jurásek",
+     "n": "david jurasek",
+     "s": "jurasek",
+     "v": 4500000.0
+    },
+    {
+     "name": "Antonín Barák",
+     "n": "antonin barak",
+     "s": "barak",
+     "v": 4500000.0
+    },
+    {
+     "name": "David Zima",
+     "n": "david zima",
+     "s": "zima",
+     "v": 4000000.0
+    },
+    {
+     "name": "Jan Kuchta",
+     "n": "jan kuchta",
+     "s": "kuchta",
+     "v": 4000000.0
+    },
+    {
+     "name": "Jindrich Stanek",
+     "n": "jindrich stanek",
+     "s": "stanek",
+     "v": 3500000.0
+    },
+    {
+     "name": "Ondrej Lingr",
+     "n": "ondrej lingr",
+     "s": "lingr",
+     "v": 3500000.0
+    },
+    {
+     "name": "Vladimír Coufal",
+     "n": "vladimir coufal",
+     "s": "coufal",
+     "v": 2700000.0
+    },
+    {
+     "name": "Tomas Cvancara",
+     "n": "tomas cvancara",
+     "s": "cvancara",
+     "v": 2500000.0
+    },
+    {
+     "name": "Daniel Fila",
+     "n": "daniel fila",
+     "s": "fila",
+     "v": 2300000.0
+    },
+    {
+     "name": "Jiri Letacek",
+     "n": "jiri letacek",
+     "s": "letacek",
+     "v": 2000000.0
+    },
+    {
+     "name": "Tomas Ostrák",
+     "n": "tomas ostrak",
+     "s": "ostrak",
+     "v": 1800000.0
+    },
+    {
+     "name": "Tomas Chory",
+     "n": "tomas chory",
+     "s": "chory",
+     "v": 1800000.0
+    },
+    {
+     "name": "Pavel Kaderabek",
+     "n": "pavel kaderabek",
+     "s": "kaderabek",
+     "v": 1500000.0
+    },
+    {
+     "name": "Matej Vydra",
+     "n": "matej vydra",
+     "s": "vydra",
+     "v": 1300000.0
+    },
+    {
+     "name": "Roman Kvet",
+     "n": "roman kvet",
+     "s": "kvet",
+     "v": 1200000.0
+    },
+    {
+     "name": "Vaclav Jemelka",
+     "n": "vaclav jemelka",
+     "s": "jemelka",
+     "v": 1200000.0
+    },
+    {
+     "name": "Daniel Samek",
+     "n": "daniel samek",
+     "s": "samek",
+     "v": 1200000.0
+    },
+    {
+     "name": "Vaclav Jurecka",
+     "n": "vaclav jurecka",
+     "s": "jurecka",
+     "v": 1000000.0
+    }
+   ]
+  },
+  "CAN": {
+   "xiValue": 158500000,
+   "median": 900000,
+   "players": [
+    {
+     "name": "Alphonso Davies",
+     "n": "alphonso davies",
+     "s": "davies",
+     "v": 50000000.0
+    },
+    {
+     "name": "Jonathan David",
+     "n": "jonathan david",
+     "s": "david",
+     "v": 35000000.0
+    },
+    {
+     "name": "Ismaël Koné",
+     "n": "ismael kone",
+     "s": "kone",
+     "v": 14000000.0
+    },
+    {
+     "name": "Promise David",
+     "n": "promise david",
+     "s": "david",
+     "v": 13000000.0
+    },
+    {
+     "name": "Stephen Eustaquio",
+     "n": "stephen eustaquio",
+     "s": "eustaquio",
+     "v": 11000000.0
+    },
+    {
+     "name": "Tajon Buchanan",
+     "n": "tajon buchanan",
+     "s": "buchanan",
+     "v": 8000000.0
+    },
+    {
+     "name": "Alistair Johnston",
+     "n": "alistair johnston",
+     "s": "johnston",
+     "v": 8000000.0
+    },
+    {
+     "name": "Moïse Bombito",
+     "n": "moise bombito",
+     "s": "bombito",
+     "v": 8000000.0
+    },
+    {
+     "name": "Derek Cornelius",
+     "n": "derek cornelius",
+     "s": "cornelius",
+     "v": 4000000.0
+    },
+    {
+     "name": "Daniel Jebbison",
+     "n": "daniel jebbison",
+     "s": "jebbison",
+     "v": 4000000.0
+    },
+    {
+     "name": "Cyle Larin",
+     "n": "cyle larin",
+     "s": "larin",
+     "v": 3500000.0
+    },
+    {
+     "name": "Alfie Jones",
+     "n": "alfie jones",
+     "s": "jones",
+     "v": 2500000.0
+    },
+    {
+     "name": "Sam Adekugbe",
+     "n": "sam adekugbe",
+     "s": "adekugbe",
+     "v": 1800000.0
+    },
+    {
+     "name": "Theo Bair",
+     "n": "theo bair",
+     "s": "bair",
+     "v": 1800000.0
+    },
+    {
+     "name": "Theo Corbeanu",
+     "n": "theo corbeanu",
+     "s": "corbeanu",
+     "v": 1500000.0
+    },
+    {
+     "name": "Milan Borjan",
+     "n": "milan borjan",
+     "s": "borjan",
+     "v": 1000000.0
+    },
+    {
+     "name": "Zachary Brault-Guillard",
+     "n": "zachary brault guillard",
+     "s": "brault guillard",
+     "v": 1000000.0
+    },
+    {
+     "name": "Marcelo Flores",
+     "n": "marcelo flores",
+     "s": "flores",
+     "v": 800000.0
+    },
+    {
+     "name": "Victor Loturi",
+     "n": "victor loturi",
+     "s": "loturi",
+     "v": 800000.0
+    },
+    {
+     "name": "Sébastian Breza",
+     "n": "sebastian breza",
+     "s": "breza",
+     "v": 600000.0
+    },
+    {
+     "name": "Charles-Andreas Brym",
+     "n": "charles andreas brym",
+     "s": "brym",
+     "v": 550000.0
+    },
+    {
+     "name": "Tom McGill",
+     "n": "tom mcgill",
+     "s": "mcgill",
+     "v": 500000.0
+    },
+    {
+     "name": "Scott Arfield",
+     "n": "scott arfield",
+     "s": "arfield",
+     "v": 500000.0
+    },
+    {
+     "name": "Marcus Godinho",
+     "n": "marcus godinho",
+     "s": "godinho",
+     "v": 400000.0
+    },
+    {
+     "name": "Harry Paton",
+     "n": "harry paton",
+     "s": "paton",
+     "v": 300000.0
+    },
+    {
+     "name": "Dieu-Merci Michel",
+     "n": "dieu merci michel",
+     "s": "michel",
+     "v": 300000.0
+    },
+    {
+     "name": "Luc De Fougerolles",
+     "n": "luc de fougerolles",
+     "s": "fougerolles",
+     "v": 300000.0
+    },
+    {
+     "name": "Zorhan Bassong",
+     "n": "zorhan bassong",
+     "s": "bassong",
+     "v": 250000.0
+    },
+    {
+     "name": "Manjrekar James",
+     "n": "manjrekar james",
+     "s": "james",
+     "v": 250000.0
+    },
+    {
+     "name": "Owen Goodman",
+     "n": "owen goodman",
+     "s": "goodman",
+     "v": 150000.0
+    }
+   ]
+  },
+  "BIH": {
+   "xiValue": 89200000,
+   "median": 2000000,
+   "players": [
+    {
+     "name": "Ermedin Demirovic",
+     "n": "ermedin demirovic",
+     "s": "demirovic",
+     "v": 22000000.0
+    },
+    {
+     "name": "Anel Ahmedhodzic",
+     "n": "anel ahmedhodzic",
+     "s": "ahmedhodzic",
+     "v": 18000000.0
+    },
+    {
+     "name": "Sead Kolasinac",
+     "n": "sead kolasinac",
+     "s": "kolasinac",
+     "v": 10000000.0
+    },
+    {
+     "name": "Kerim Alajbegovic",
+     "n": "kerim alajbegovic",
+     "s": "alajbegovic",
+     "v": 8000000.0
+    },
+    {
+     "name": "Rade Krunic",
+     "n": "rade krunic",
+     "s": "krunic",
+     "v": 6000000.0
+    },
+    {
+     "name": "Esmir Bajraktarevic",
+     "n": "esmir bajraktarevic",
+     "s": "bajraktarevic",
+     "v": 5000000.0
+    },
+    {
+     "name": "Benjamin Tahirović",
+     "n": "benjamin tahirovic",
+     "s": "tahirovic",
+     "v": 4500000.0
+    },
+    {
+     "name": "Nikola Vasilj",
+     "n": "nikola vasilj",
+     "s": "vasilj",
+     "v": 4500000.0
+    },
+    {
+     "name": "Amir Hadziahmetovic",
+     "n": "amir hadziahmetovic",
+     "s": "hadziahmetovic",
+     "v": 4200000.0
+    },
+    {
+     "name": "Denis Huseinbasic",
+     "n": "denis huseinbasic",
+     "s": "huseinbasic",
+     "v": 4000000.0
+    },
+    {
+     "name": "Haris Tabakovic",
+     "n": "haris tabakovic",
+     "s": "tabakovic",
+     "v": 3000000.0
+    },
+    {
+     "name": "Dennis Hadzikadunic",
+     "n": "dennis hadzikadunic",
+     "s": "hadzikadunic",
+     "v": 3000000.0
+    },
+    {
+     "name": "Edin Dzeko",
+     "n": "edin dzeko",
+     "s": "dzeko",
+     "v": 2700000.0
+    },
+    {
+     "name": "Vladan Kovacevic",
+     "n": "vladan kovacevic",
+     "s": "kovacevic",
+     "v": 2500000.0
+    },
+    {
+     "name": "Amar Rahmanovic",
+     "n": "amar rahmanovic",
+     "s": "rahmanovic",
+     "v": 2500000.0
+    },
+    {
+     "name": "Ifet Djakovac",
+     "n": "ifet djakovac",
+     "s": "djakovac",
+     "v": 2500000.0
+    },
+    {
+     "name": "Armin Gigovic",
+     "n": "armin gigovic",
+     "s": "gigovic",
+     "v": 2000000.0
+    },
+    {
+     "name": "Dal Varesanovic",
+     "n": "dal varesanovic",
+     "s": "varesanovic",
+     "v": 2000000.0
+    },
+    {
+     "name": "Nihad Mujakic",
+     "n": "nihad mujakic",
+     "s": "mujakic",
+     "v": 2000000.0
+    },
+    {
+     "name": "Dario Saric",
+     "n": "dario saric",
+     "s": "saric",
+     "v": 1800000.0
+    },
+    {
+     "name": "Haris Hajradinovic",
+     "n": "haris hajradinovic",
+     "s": "hajradinovic",
+     "v": 1800000.0
+    },
+    {
+     "name": "Muhamed Buljubasic",
+     "n": "muhamed buljubasic",
+     "s": "buljubasic",
+     "v": 1800000.0
+    },
+    {
+     "name": "Miralem Pjanić",
+     "n": "miralem pjanic",
+     "s": "pjanic",
+     "v": 1500000.0
+    },
+    {
+     "name": "Darko Todorovic",
+     "n": "darko todorovic",
+     "s": "todorovic",
+     "v": 1500000.0
+    },
+    {
+     "name": "Muhamed Besic",
+     "n": "muhamed besic",
+     "s": "besic",
+     "v": 1500000.0
+    },
+    {
+     "name": "Miroslav Stevanovic",
+     "n": "miroslav stevanovic",
+     "s": "stevanovic",
+     "v": 1500000.0
+    },
+    {
+     "name": "Ivan Sunjic",
+     "n": "ivan sunjic",
+     "s": "sunjic",
+     "v": 1500000.0
+    },
+    {
+     "name": "Dino Hotic",
+     "n": "dino hotic",
+     "s": "hotic",
+     "v": 1500000.0
+    },
+    {
+     "name": "Gojko Cimirot",
+     "n": "gojko cimirot",
+     "s": "cimirot",
+     "v": 1500000.0
+    },
+    {
+     "name": "Nikola Katic",
+     "n": "nikola katic",
+     "s": "katic",
+     "v": 1200000.0
+    }
+   ]
+  },
+  "QAT": {
+   "xiValue": 0,
+   "median": 0,
+   "players": []
+  },
+  "SUI": {
+   "xiValue": 248000000,
+   "median": 5500000,
+   "players": [
+    {
+     "name": "Dan Ndoye",
+     "n": "dan ndoye",
+     "s": "ndoye",
+     "v": 40000000.0
+    },
+    {
+     "name": "Gregor Kobel",
+     "n": "gregor kobel",
+     "s": "kobel",
+     "v": 40000000.0
+    },
+    {
+     "name": "Ardon Jashari",
+     "n": "ardon jashari",
+     "s": "jashari",
+     "v": 32000000.0
+    },
+    {
+     "name": "Johan Manzambi",
+     "n": "johan manzambi",
+     "s": "manzambi",
+     "v": 30000000.0
+    },
+    {
+     "name": "Denis Zakaria",
+     "n": "denis zakaria",
+     "s": "zakaria",
+     "v": 25000000.0
+    },
+    {
+     "name": "Manuel Akanji",
+     "n": "manuel akanji",
+     "s": "akanji",
+     "v": 22000000.0
+    },
+    {
+     "name": "Noah Okafor",
+     "n": "noah okafor",
+     "s": "okafor",
+     "v": 18000000.0
+    },
+    {
+     "name": "Breel Embolo",
+     "n": "breel embolo",
+     "s": "embolo",
+     "v": 12000000.0
+    },
+    {
+     "name": "Luca Jaquez",
+     "n": "luca jaquez",
+     "s": "jaquez",
+     "v": 10000000.0
+    },
+    {
+     "name": "Granit Xhaka",
+     "n": "granit xhaka",
+     "s": "xhaka",
+     "v": 10000000.0
+    },
+    {
+     "name": "Zeki Amdouni",
+     "n": "zeki amdouni",
+     "s": "amdouni",
+     "v": 9000000.0
+    },
+    {
+     "name": "Rubén Vargas",
+     "n": "ruben vargas",
+     "s": "vargas",
+     "v": 9000000.0
+    },
+    {
+     "name": "Djibril Sow",
+     "n": "djibril sow",
+     "s": "sow",
+     "v": 9000000.0
+    },
+    {
+     "name": "Nico Elvedi",
+     "n": "nico elvedi",
+     "s": "elvedi",
+     "v": 8000000.0
+    },
+    {
+     "name": "Fabian Rieder",
+     "n": "fabian rieder",
+     "s": "rieder",
+     "v": 8000000.0
+    },
+    {
+     "name": "Aurèle Amenda",
+     "n": "aurele amenda",
+     "s": "amenda",
+     "v": 6000000.0
+    },
+    {
+     "name": "Fabian Schär",
+     "n": "fabian schar",
+     "s": "schar",
+     "v": 6000000.0
+    },
+    {
+     "name": "Jordan Lotomba",
+     "n": "jordan lotomba",
+     "s": "lotomba",
+     "v": 5000000.0
+    },
+    {
+     "name": "Cédric Zesiger",
+     "n": "cedric zesiger",
+     "s": "zesiger",
+     "v": 5000000.0
+    },
+    {
+     "name": "Cedric Itten",
+     "n": "cedric itten",
+     "s": "itten",
+     "v": 4500000.0
+    },
+    {
+     "name": "Michel Aebischer",
+     "n": "michel aebischer",
+     "s": "aebischer",
+     "v": 4500000.0
+    },
+    {
+     "name": "Darian Males",
+     "n": "darian males",
+     "s": "males",
+     "v": 4200000.0
+    },
+    {
+     "name": "Vincent Sierro",
+     "n": "vincent sierro",
+     "s": "sierro",
+     "v": 4000000.0
+    },
+    {
+     "name": "Filip Ugrinic",
+     "n": "filip ugrinic",
+     "s": "ugrinic",
+     "v": 4000000.0
+    },
+    {
+     "name": "Becir Omeragic",
+     "n": "becir omeragic",
+     "s": "omeragic",
+     "v": 4000000.0
+    },
+    {
+     "name": "Philipp Köhn",
+     "n": "philipp kohn",
+     "s": "kohn",
+     "v": 4000000.0
+    },
+    {
+     "name": "Remo Freuler",
+     "n": "remo freuler",
+     "s": "freuler",
+     "v": 4000000.0
+    },
+    {
+     "name": "Leonidas Stergiou",
+     "n": "leonidas stergiou",
+     "s": "stergiou",
+     "v": 3500000.0
+    },
+    {
+     "name": "Andi Zeqiri",
+     "n": "andi zeqiri",
+     "s": "zeqiri",
+     "v": 3500000.0
+    },
+    {
+     "name": "Ricardo Rodríguez",
+     "n": "ricardo rodriguez",
+     "s": "rodriguez",
+     "v": 3500000.0
+    }
+   ]
+  },
+  "BRA": {
+   "xiValue": 810000000,
+   "median": 35000000,
+   "players": [
+    {
+     "name": "Vinicius Junior",
+     "n": "vinicius junior",
+     "s": "junior",
+     "v": 180000000.0
+    },
+    {
+     "name": "Rodrygo",
+     "n": "rodrygo",
+     "s": "rodrygo",
+     "v": 110000000.0
+    },
+    {
+     "name": "Gabriel",
+     "n": "gabriel",
+     "s": "gabriel",
+     "v": 75000000.0
+    },
+    {
+     "name": "Bruno Guimarães",
+     "n": "bruno guimaraes",
+     "s": "guimaraes",
+     "v": 75000000.0
+    },
+    {
+     "name": "João Pedro",
+     "n": "joao pedro",
+     "s": "pedro",
+     "v": 65000000.0
+    },
+    {
+     "name": "Éder Militão",
+     "n": "eder militao",
+     "s": "militao",
+     "v": 60000000.0
+    },
+    {
+     "name": "Murillo",
+     "n": "murillo",
+     "s": "murillo",
+     "v": 55000000.0
+    },
+    {
+     "name": "Raphinha",
+     "n": "raphinha",
+     "s": "raphinha",
+     "v": 50000000.0
+    },
+    {
+     "name": "Neymar",
+     "n": "neymar",
+     "s": "neymar",
+     "v": 50000000.0
+    },
+    {
+     "name": "Savinho",
+     "n": "savinho",
+     "s": "savinho",
+     "v": 45000000.0
+    },
+    {
+     "name": "Gabriel Martinelli",
+     "n": "gabriel martinelli",
+     "s": "martinelli",
+     "v": 45000000.0
+    },
+    {
+     "name": "Matheus Cunha",
+     "n": "matheus cunha",
+     "s": "cunha",
+     "v": 45000000.0
+    },
+    {
+     "name": "Evanilson",
+     "n": "evanilson",
+     "s": "evanilson",
+     "v": 40000000.0
+    },
+    {
+     "name": "Éderson",
+     "n": "ederson",
+     "s": "ederson",
+     "v": 40000000.0
+    },
+    {
+     "name": "Andrey Santos",
+     "n": "andrey santos",
+     "s": "santos",
+     "v": 40000000.0
+    },
+    {
+     "name": "Fabinho",
+     "n": "fabinho",
+     "s": "fabinho",
+     "v": 38000000.0
+    },
+    {
+     "name": "Vitor Roque",
+     "n": "vitor roque",
+     "s": "roque",
+     "v": 35000000.0
+    },
+    {
+     "name": "João Gomes",
+     "n": "joao gomes",
+     "s": "gomes",
+     "v": 35000000.0
+    },
+    {
+     "name": "Bremer",
+     "n": "bremer",
+     "s": "bremer",
+     "v": 35000000.0
+    },
+    {
+     "name": "Lucas Paquetá",
+     "n": "lucas paqueta",
+     "s": "paqueta",
+     "v": 35000000.0
+    },
+    {
+     "name": "Pepê",
+     "n": "pepe",
+     "s": "pepe",
+     "v": 30000000.0
+    },
+    {
+     "name": "Joelinton",
+     "n": "joelinton",
+     "s": "joelinton",
+     "v": 30000000.0
+    },
+    {
+     "name": "Antony",
+     "n": "antony",
+     "s": "antony",
+     "v": 30000000.0
+    },
+    {
+     "name": "Marquinhos",
+     "n": "marquinhos",
+     "s": "marquinhos",
+     "v": 30000000.0
+    },
+    {
+     "name": "Vitor Reis",
+     "n": "vitor reis",
+     "s": "reis",
+     "v": 30000000.0
+    },
+    {
+     "name": "Kevin",
+     "n": "kevin",
+     "s": "kevin",
+     "v": 30000000.0
+    },
+    {
+     "name": "Roger Ibañez",
+     "n": "roger ibanez",
+     "s": "ibanez",
+     "v": 28000000.0
+    },
+    {
+     "name": "Malcom",
+     "n": "malcom",
+     "s": "malcom",
+     "v": 28000000.0
+    },
+    {
+     "name": "André",
+     "n": "andre",
+     "s": "andre",
+     "v": 28000000.0
+    },
+    {
+     "name": "Richarlison",
+     "n": "richarlison",
+     "s": "richarlison",
+     "v": 28000000.0
+    }
+   ]
+  },
+  "MAR": {
+   "xiValue": 354000000,
+   "median": 13500000,
+   "players": [
+    {
+     "name": "Achraf Hakimi",
+     "n": "achraf hakimi",
+     "s": "hakimi",
+     "v": 80000000.0
+    },
+    {
+     "name": "Brahim Díaz",
+     "n": "brahim diaz",
+     "s": "diaz",
+     "v": 40000000.0
+    },
+    {
+     "name": "Ayyoub Bouaddi",
+     "n": "ayyoub bouaddi",
+     "s": "bouaddi",
+     "v": 40000000.0
+    },
+    {
+     "name": "Ismael Saibari",
+     "n": "ismael saibari",
+     "s": "saibari",
+     "v": 32000000.0
+    },
+    {
+     "name": "Bilal El Khannouss",
+     "n": "bilal el khannouss",
+     "s": "khannouss",
+     "v": 30000000.0
+    },
+    {
+     "name": "Eliesse Ben Seghir",
+     "n": "eliesse ben seghir",
+     "s": "seghir",
+     "v": 24000000.0
+    },
+    {
+     "name": "Sofyan Amrabat",
+     "n": "sofyan amrabat",
+     "s": "amrabat",
+     "v": 22000000.0
+    },
+    {
+     "name": "Nayef Aguerd",
+     "n": "nayef aguerd",
+     "s": "aguerd",
+     "v": 22000000.0
+    },
+    {
+     "name": "Chemsdine Talbi",
+     "n": "chemsdine talbi",
+     "s": "talbi",
+     "v": 22000000.0
+    },
+    {
+     "name": "Noussair Mazraoui",
+     "n": "noussair mazraoui",
+     "s": "mazraoui",
+     "v": 22000000.0
+    },
+    {
+     "name": "Abde Ezzalzouli",
+     "n": "abde ezzalzouli",
+     "s": "ezzalzouli",
+     "v": 20000000.0
+    },
+    {
+     "name": "Youssef En-Nesyri",
+     "n": "youssef en nesyri",
+     "s": "en nesyri",
+     "v": 20000000.0
+    },
+    {
+     "name": "Amine Adli",
+     "n": "amine adli",
+     "s": "adli",
+     "v": 20000000.0
+    },
+    {
+     "name": "Souffian El Karouani",
+     "n": "souffian el karouani",
+     "s": "karouani",
+     "v": 15000000.0
+    },
+    {
+     "name": "Omar El Hilali",
+     "n": "omar el hilali",
+     "s": "hilali",
+     "v": 15000000.0
+    },
+    {
+     "name": "Ilias Akhomach",
+     "n": "ilias akhomach",
+     "s": "akhomach",
+     "v": 15000000.0
+    },
+    {
+     "name": "Amine Harit",
+     "n": "amine harit",
+     "s": "harit",
+     "v": 15000000.0
+    },
+    {
+     "name": "Anass Salah-Eddine",
+     "n": "anass salah eddine",
+     "s": "salah eddine",
+     "v": 12000000.0
+    },
+    {
+     "name": "Chadi Riad",
+     "n": "chadi riad",
+     "s": "riad",
+     "v": 12000000.0
+    },
+    {
+     "name": "Azzedine Ounahi",
+     "n": "azzedine ounahi",
+     "s": "ounahi",
+     "v": 10000000.0
+    },
+    {
+     "name": "Osame Sahraoui",
+     "n": "osame sahraoui",
+     "s": "sahraoui",
+     "v": 10000000.0
+    },
+    {
+     "name": "Abdelhamid Ait Boudlal",
+     "n": "abdelhamid ait boudlal",
+     "s": "boudlal",
+     "v": 10000000.0
+    },
+    {
+     "name": "Issa Diop",
+     "n": "issa diop",
+     "s": "diop",
+     "v": 10000000.0
+    },
+    {
+     "name": "Sofiane Diop",
+     "n": "sofiane diop",
+     "s": "diop",
+     "v": 10000000.0
+    },
+    {
+     "name": "Yassine Bounou",
+     "n": "yassine bounou",
+     "s": "bounou",
+     "v": 9000000.0
+    },
+    {
+     "name": "Zakaria Aboukhlal",
+     "n": "zakaria aboukhlal",
+     "s": "aboukhlal",
+     "v": 9000000.0
+    },
+    {
+     "name": "Bilal Nadir",
+     "n": "bilal nadir",
+     "s": "nadir",
+     "v": 9000000.0
+    },
+    {
+     "name": "Reda Belahyane",
+     "n": "reda belahyane",
+     "s": "belahyane",
+     "v": 8500000.0
+    },
+    {
+     "name": "Oussama Targhalline",
+     "n": "oussama targhalline",
+     "s": "targhalline",
+     "v": 8000000.0
+    },
+    {
+     "name": "Samir El Mourabet",
+     "n": "samir el mourabet",
+     "s": "mourabet",
+     "v": 8000000.0
+    }
+   ]
+  },
+  "HAI": {
+   "xiValue": 52800000,
+   "median": 100000,
+   "players": [
+    {
+     "name": "Wilson Isidor",
+     "n": "wilson isidor",
+     "s": "isidor",
+     "v": 18000000.0
+    },
+    {
+     "name": "Jean-Ricner Bellegarde",
+     "n": "jean ricner bellegarde",
+     "s": "bellegarde",
+     "v": 15000000.0
+    },
+    {
+     "name": "Hannes Delcroix",
+     "n": "hannes delcroix",
+     "s": "delcroix",
+     "v": 4000000.0
+    },
+    {
+     "name": "Jean-Kévin Duverne",
+     "n": "jean kevin duverne",
+     "s": "duverne",
+     "v": 3500000.0
+    },
+    {
+     "name": "Josué Casimir",
+     "n": "josue casimir",
+     "s": "casimir",
+     "v": 3500000.0
+    },
+    {
+     "name": "Frantzdy Pierrot",
+     "n": "frantzdy pierrot",
+     "s": "pierrot",
+     "v": 3000000.0
+    },
+    {
+     "name": "Danley Jean Jacques",
+     "n": "danley jean jacques",
+     "s": "jacques",
+     "v": 2000000.0
+    },
+    {
+     "name": "Duckens Nazon",
+     "n": "duckens nazon",
+     "s": "nazon",
+     "v": 1600000.0
+    },
+    {
+     "name": "Louicius Deedson",
+     "n": "louicius deedson",
+     "s": "deedson",
+     "v": 1200000.0
+    },
+    {
+     "name": "Carlens Arcus",
+     "n": "carlens arcus",
+     "s": "arcus",
+     "v": 700000.0
+    },
+    {
+     "name": "Ruben Providence",
+     "n": "ruben providence",
+     "s": "providence",
+     "v": 300000.0
+    },
+    {
+     "name": "Jeppe Simonsen",
+     "n": "jeppe simonsen",
+     "s": "simonsen",
+     "v": 150000.0
+    },
+    {
+     "name": "Garissone Innocent",
+     "n": "garissone innocent",
+     "s": "innocent",
+     "v": 100000.0
+    },
+    {
+     "name": "Alexandre Pierre",
+     "n": "alexandre pierre",
+     "s": "pierre",
+     "v": 100000.0
+    }
+   ]
+  },
+  "SCO": {
+   "xiValue": 214000000,
+   "median": 5000000,
+   "players": [
+    {
+     "name": "Scott McTominay",
+     "n": "scott mctominay",
+     "s": "mctominay",
+     "v": 45000000.0
+    },
+    {
+     "name": "Andrew Robertson",
+     "n": "andrew robertson",
+     "s": "robertson",
+     "v": 30000000.0
+    },
+    {
+     "name": "Aaron Hickey",
+     "n": "aaron hickey",
+     "s": "hickey",
+     "v": 28000000.0
+    },
+    {
+     "name": "Billy Gilmour",
+     "n": "billy gilmour",
+     "s": "gilmour",
+     "v": 20000000.0
+    },
+    {
+     "name": "Lewis Ferguson",
+     "n": "lewis ferguson",
+     "s": "ferguson",
+     "v": 20000000.0
+    },
+    {
+     "name": "Ché Adams",
+     "n": "che adams",
+     "s": "adams",
+     "v": 18000000.0
+    },
+    {
+     "name": "John McGinn",
+     "n": "john mcginn",
+     "s": "mcginn",
+     "v": 15000000.0
+    },
+    {
+     "name": "Ben Gannon-Doak",
+     "n": "ben gannon doak",
+     "s": "gannon doak",
+     "v": 10000000.0
+    },
+    {
+     "name": "Nathan Patterson",
+     "n": "nathan patterson",
+     "s": "patterson",
+     "v": 10000000.0
+    },
+    {
+     "name": "Scott McKenna",
+     "n": "scott mckenna",
+     "s": "mckenna",
+     "v": 9000000.0
+    },
+    {
+     "name": "Ryan Christie",
+     "n": "ryan christie",
+     "s": "christie",
+     "v": 9000000.0
+    },
+    {
+     "name": "George Hirst",
+     "n": "george hirst",
+     "s": "hirst",
+     "v": 8000000.0
+    },
+    {
+     "name": "Kieran Tierney",
+     "n": "kieran tierney",
+     "s": "tierney",
+     "v": 8000000.0
+    },
+    {
+     "name": "Lennon Miller",
+     "n": "lennon miller",
+     "s": "miller",
+     "v": 8000000.0
+    },
+    {
+     "name": "Ryan Gauld",
+     "n": "ryan gauld",
+     "s": "gauld",
+     "v": 7000000.0
+    },
+    {
+     "name": "Josh Doig",
+     "n": "josh doig",
+     "s": "doig",
+     "v": 6000000.0
+    },
+    {
+     "name": "Andrew Irving",
+     "n": "andrew irving",
+     "s": "irving",
+     "v": 5000000.0
+    },
+    {
+     "name": "Greg Taylor",
+     "n": "greg taylor",
+     "s": "taylor",
+     "v": 5000000.0
+    },
+    {
+     "name": "Callum McGregor",
+     "n": "callum mcgregor",
+     "s": "mcgregor",
+     "v": 4500000.0
+    },
+    {
+     "name": "Oliver Burke",
+     "n": "oliver burke",
+     "s": "burke",
+     "v": 4000000.0
+    },
+    {
+     "name": "Lewis Morgan",
+     "n": "lewis morgan",
+     "s": "morgan",
+     "v": 4000000.0
+    },
+    {
+     "name": "Calvin Ramsay",
+     "n": "calvin ramsay",
+     "s": "ramsay",
+     "v": 4000000.0
+    },
+    {
+     "name": "Jacob Brown",
+     "n": "jacob brown",
+     "s": "brown",
+     "v": 4000000.0
+    },
+    {
+     "name": "David Turnbull",
+     "n": "david turnbull",
+     "s": "turnbull",
+     "v": 3800000.0
+    },
+    {
+     "name": "Jordan Holsgrove",
+     "n": "jordan holsgrove",
+     "s": "holsgrove",
+     "v": 3500000.0
+    },
+    {
+     "name": "John Souttar",
+     "n": "john souttar",
+     "s": "souttar",
+     "v": 3500000.0
+    },
+    {
+     "name": "Stuart Armstrong",
+     "n": "stuart armstrong",
+     "s": "armstrong",
+     "v": 3000000.0
+    },
+    {
+     "name": "Jack Hendry",
+     "n": "jack hendry",
+     "s": "hendry",
+     "v": 3000000.0
+    },
+    {
+     "name": "Ross Stewart",
+     "n": "ross stewart",
+     "s": "stewart",
+     "v": 2800000.0
+    },
+    {
+     "name": "Kieron Bowie",
+     "n": "kieron bowie",
+     "s": "bowie",
+     "v": 2700000.0
+    }
+   ]
+  },
+  "USA": {
+   "xiValue": 304000000,
+   "median": 10000000,
+   "players": [
+    {
+     "name": "Christian Pulisic",
+     "n": "christian pulisic",
+     "s": "pulisic",
+     "v": 60000000.0
+    },
+    {
+     "name": "Malik Tillman",
+     "n": "malik tillman",
+     "s": "tillman",
+     "v": 35000000.0
+    },
+    {
+     "name": "Antonee Robinson",
+     "n": "antonee robinson",
+     "s": "robinson",
+     "v": 30000000.0
+    },
+    {
+     "name": "Chris Richards",
+     "n": "chris richards",
+     "s": "richards",
+     "v": 25000000.0
+    },
+    {
+     "name": "Johnny Cardoso",
+     "n": "johnny cardoso",
+     "s": "cardoso",
+     "v": 25000000.0
+    },
+    {
+     "name": "Tyler Adams",
+     "n": "tyler adams",
+     "s": "adams",
+     "v": 25000000.0
+    },
+    {
+     "name": "Yunus Musah",
+     "n": "yunus musah",
+     "s": "musah",
+     "v": 22000000.0
+    },
+    {
+     "name": "Folarin Balogun",
+     "n": "folarin balogun",
+     "s": "balogun",
+     "v": 22000000.0
+    },
+    {
+     "name": "Weston McKennie",
+     "n": "weston mckennie",
+     "s": "mckennie",
+     "v": 22000000.0
+    },
+    {
+     "name": "Timothy Weah",
+     "n": "timothy weah",
+     "s": "weah",
+     "v": 20000000.0
+    },
+    {
+     "name": "Sergiño Dest",
+     "n": "sergino dest",
+     "s": "dest",
+     "v": 18000000.0
+    },
+    {
+     "name": "Ricardo Pepi",
+     "n": "ricardo pepi",
+     "s": "pepi",
+     "v": 15000000.0
+    },
+    {
+     "name": "Noahkai Banks",
+     "n": "noahkai banks",
+     "s": "banks",
+     "v": 15000000.0
+    },
+    {
+     "name": "Cameron Carter-Vickers",
+     "n": "cameron carter vickers",
+     "s": "carter vickers",
+     "v": 13000000.0
+    },
+    {
+     "name": "Tanner Tessmann",
+     "n": "tanner tessmann",
+     "s": "tessmann",
+     "v": 12000000.0
+    },
+    {
+     "name": "Brenden Aaronson",
+     "n": "brenden aaronson",
+     "s": "aaronson",
+     "v": 12000000.0
+    },
+    {
+     "name": "Josh Sargent",
+     "n": "josh sargent",
+     "s": "sargent",
+     "v": 12000000.0
+    },
+    {
+     "name": "Caleb Wiley",
+     "n": "caleb wiley",
+     "s": "wiley",
+     "v": 8000000.0
+    },
+    {
+     "name": "Haji Wright",
+     "n": "haji wright",
+     "s": "wright",
+     "v": 7000000.0
+    },
+    {
+     "name": "Joe Scally",
+     "n": "joe scally",
+     "s": "scally",
+     "v": 7000000.0
+    },
+    {
+     "name": "Matt Turner",
+     "n": "matt turner",
+     "s": "turner",
+     "v": 7000000.0
+    },
+    {
+     "name": "Paxten Aaronson",
+     "n": "paxten aaronson",
+     "s": "aaronson",
+     "v": 7000000.0
+    },
+    {
+     "name": "Giovanni Reyna",
+     "n": "giovanni reyna",
+     "s": "reyna",
+     "v": 6000000.0
+    },
+    {
+     "name": "Mark McKenzie",
+     "n": "mark mckenzie",
+     "s": "mckenzie",
+     "v": 6000000.0
+    },
+    {
+     "name": "Gianluca Busio",
+     "n": "gianluca busio",
+     "s": "busio",
+     "v": 5500000.0
+    },
+    {
+     "name": "Cole Campbell",
+     "n": "cole campbell",
+     "s": "campbell",
+     "v": 5000000.0
+    },
+    {
+     "name": "Auston Trusty",
+     "n": "auston trusty",
+     "s": "trusty",
+     "v": 5000000.0
+    },
+    {
+     "name": "Kevin Paredes",
+     "n": "kevin paredes",
+     "s": "paredes",
+     "v": 5000000.0
+    },
+    {
+     "name": "Keaton Parks",
+     "n": "keaton parks",
+     "s": "parks",
+     "v": 4000000.0
+    },
+    {
+     "name": "Bryan Reynolds",
+     "n": "bryan reynolds",
+     "s": "reynolds",
+     "v": 3500000.0
+    }
+   ]
+  },
+  "PAR": {
+   "xiValue": 114000000,
+   "median": 2000000,
+   "players": [
+    {
+     "name": "Diego Gómez",
+     "n": "diego gomez",
+     "s": "gomez",
+     "v": 25000000.0
+    },
+    {
+     "name": "Julio Enciso",
+     "n": "julio enciso",
+     "s": "enciso",
+     "v": 20000000.0
+    },
+    {
+     "name": "Omar Alderete",
+     "n": "omar alderete",
+     "s": "alderete",
+     "v": 12000000.0
+    },
+    {
+     "name": "Ramón Sosa",
+     "n": "ramon sosa",
+     "s": "sosa",
+     "v": 11000000.0
+    },
+    {
+     "name": "Miguel Almirón",
+     "n": "miguel almiron",
+     "s": "almiron",
+     "v": 9000000.0
+    },
+    {
+     "name": "Gustavo Gómez",
+     "n": "gustavo gomez",
+     "s": "gomez",
+     "v": 8500000.0
+    },
+    {
+     "name": "Júnior Alonso",
+     "n": "junior alonso",
+     "s": "alonso",
+     "v": 8000000.0
+    },
+    {
+     "name": "Antonio Sanabria",
+     "n": "antonio sanabria",
+     "s": "sanabria",
+     "v": 7000000.0
+    },
+    {
+     "name": "Adam Bareiro",
+     "n": "adam bareiro",
+     "s": "bareiro",
+     "v": 5000000.0
+    },
+    {
+     "name": "Andrés Cubas",
+     "n": "andres cubas",
+     "s": "cubas",
+     "v": 4500000.0
+    },
+    {
+     "name": "Juan José Cáceres",
+     "n": "juan jose caceres",
+     "s": "caceres",
+     "v": 4000000.0
+    },
+    {
+     "name": "Enso González",
+     "n": "enso gonzalez",
+     "s": "gonzalez",
+     "v": 4000000.0
+    },
+    {
+     "name": "Roberto Fernández",
+     "n": "roberto fernandez",
+     "s": "fernandez",
+     "v": 3500000.0
+    },
+    {
+     "name": "Fernando Cardozo",
+     "n": "fernando cardozo",
+     "s": "cardozo",
+     "v": 3500000.0
+    },
+    {
+     "name": "Matías Segovia",
+     "n": "matias segovia",
+     "s": "segovia",
+     "v": 3000000.0
+    },
+    {
+     "name": "Jesús Medina",
+     "n": "jesus medina",
+     "s": "medina",
+     "v": 2500000.0
+    },
+    {
+     "name": "Óscar Romero",
+     "n": "oscar romero",
+     "s": "romero",
+     "v": 2000000.0
+    },
+    {
+     "name": "Alexis Duarte",
+     "n": "alexis duarte",
+     "s": "duarte",
+     "v": 2000000.0
+    },
+    {
+     "name": "Fabián Balbuena",
+     "n": "fabian balbuena",
+     "s": "balbuena",
+     "v": 1500000.0
+    },
+    {
+     "name": "Santiago Arzamendia",
+     "n": "santiago arzamendia",
+     "s": "arzamendia",
+     "v": 1200000.0
+    },
+    {
+     "name": "Blas Riveros",
+     "n": "blas riveros",
+     "s": "riveros",
+     "v": 1000000.0
+    },
+    {
+     "name": "Braian Samudio",
+     "n": "braian samudio",
+     "s": "samudio",
+     "v": 1000000.0
+    },
+    {
+     "name": "Diego González",
+     "n": "diego gonzalez",
+     "s": "gonzalez",
+     "v": 1000000.0
+    },
+    {
+     "name": "Sergio Díaz",
+     "n": "sergio diaz",
+     "s": "diaz",
+     "v": 250000.0
+    },
+    {
+     "name": "Danilo Ortiz",
+     "n": "danilo ortiz",
+     "s": "ortiz",
+     "v": 125000.0
+    }
+   ]
+  },
+  "AUS": {
+   "xiValue": 35100000,
+   "median": 825000,
+   "players": [
+    {
+     "name": "Nestory Irankunda",
+     "n": "nestory irankunda",
+     "s": "irankunda",
+     "v": 6000000.0
+    },
+    {
+     "name": "Harry Souttar",
+     "n": "harry souttar",
+     "s": "souttar",
+     "v": 6000000.0
+    },
+    {
+     "name": "Jordan Bos",
+     "n": "jordan bos",
+     "s": "bos",
+     "v": 5000000.0
+    },
+    {
+     "name": "Cristian Volpato",
+     "n": "cristian volpato",
+     "s": "volpato",
+     "v": 4500000.0
+    },
+    {
+     "name": "Riley McGree",
+     "n": "riley mcgree",
+     "s": "mcgree",
+     "v": 4000000.0
+    },
+    {
+     "name": "Mathew Ryan",
+     "n": "mathew ryan",
+     "s": "ryan",
+     "v": 2000000.0
+    },
+    {
+     "name": "Mohamed Touré",
+     "n": "mohamed toure",
+     "s": "toure",
+     "v": 1700000.0
+    },
+    {
+     "name": "Aiden O'Neill",
+     "n": "aiden o'neill",
+     "s": "o'neill",
+     "v": 1500000.0
+    },
+    {
+     "name": "Craig Goodwin",
+     "n": "craig goodwin",
+     "s": "goodwin",
+     "v": 1500000.0
+    },
+    {
+     "name": "Jackson Irvine",
+     "n": "jackson irvine",
+     "s": "irvine",
+     "v": 1500000.0
+    },
+    {
+     "name": "Joe Gauci",
+     "n": "joe gauci",
+     "s": "gauci",
+     "v": 1400000.0
+    },
+    {
+     "name": "Kye Rowles",
+     "n": "kye rowles",
+     "s": "rowles",
+     "v": 1200000.0
+    },
+    {
+     "name": "Cammy Devlin",
+     "n": "cammy devlin",
+     "s": "devlin",
+     "v": 1200000.0
+    },
+    {
+     "name": "Marco Tilio",
+     "n": "marco tilio",
+     "s": "tilio",
+     "v": 1200000.0
+    },
+    {
+     "name": "Lewis Miller",
+     "n": "lewis miller",
+     "s": "miller",
+     "v": 1000000.0
+    },
+    {
+     "name": "Keanu Baccus",
+     "n": "keanu baccus",
+     "s": "baccus",
+     "v": 900000.0
+    },
+    {
+     "name": "Brad Smith",
+     "n": "brad smith",
+     "s": "smith",
+     "v": 850000.0
+    },
+    {
+     "name": "Calem Nieuwenhof",
+     "n": "calem nieuwenhof",
+     "s": "nieuwenhof",
+     "v": 800000.0
+    },
+    {
+     "name": "Callum Elder",
+     "n": "callum elder",
+     "s": "elder",
+     "v": 800000.0
+    },
+    {
+     "name": "Nathaniel Atkinson",
+     "n": "nathaniel atkinson",
+     "s": "atkinson",
+     "v": 800000.0
+    },
+    {
+     "name": "Denis Genreau",
+     "n": "denis genreau",
+     "s": "genreau",
+     "v": 750000.0
+    },
+    {
+     "name": "Brandon Borrello",
+     "n": "brandon borrello",
+     "s": "borrello",
+     "v": 700000.0
+    },
+    {
+     "name": "Mathew Leckie",
+     "n": "mathew leckie",
+     "s": "leckie",
+     "v": 700000.0
+    },
+    {
+     "name": "Adam Taggart",
+     "n": "adam taggart",
+     "s": "taggart",
+     "v": 700000.0
+    },
+    {
+     "name": "Joshua Nisbet",
+     "n": "joshua nisbet",
+     "s": "nisbet",
+     "v": 650000.0
+    },
+    {
+     "name": "Trent Sainsbury",
+     "n": "trent sainsbury",
+     "s": "sainsbury",
+     "v": 650000.0
+    },
+    {
+     "name": "Stefan Mauk",
+     "n": "stefan mauk",
+     "s": "mauk",
+     "v": 600000.0
+    },
+    {
+     "name": "Anthony Cáceres",
+     "n": "anthony caceres",
+     "s": "caceres",
+     "v": 600000.0
+    },
+    {
+     "name": "Tyrese Francois",
+     "n": "tyrese francois",
+     "s": "francois",
+     "v": 600000.0
+    },
+    {
+     "name": "Paul Izzo",
+     "n": "paul izzo",
+     "s": "izzo",
+     "v": 600000.0
+    }
+   ]
+  },
+  "TUR": {
+   "xiValue": 333000000,
+   "median": 10000000,
+   "players": [
+    {
+     "name": "Kenan Yıldız",
+     "n": "kenan yıldız",
+     "s": "yıldız",
+     "v": 75000000.0
+    },
+    {
+     "name": "Can Uzun",
+     "n": "can uzun",
+     "s": "uzun",
+     "v": 45000000.0
+    },
+    {
+     "name": "Arda Güler",
+     "n": "arda guler",
+     "s": "guler",
+     "v": 45000000.0
+    },
+    {
+     "name": "Ferdi Kadıoğlu",
+     "n": "ferdi kadıoglu",
+     "s": "kadıoglu",
+     "v": 28000000.0
+    },
+    {
+     "name": "Orkun Kökçü",
+     "n": "orkun kokcu",
+     "s": "kokcu",
+     "v": 25000000.0
+    },
+    {
+     "name": "Hakan Çalhanoğlu",
+     "n": "hakan calhanoglu",
+     "s": "calhanoglu",
+     "v": 22000000.0
+    },
+    {
+     "name": "Kerem Aktürkoğlu",
+     "n": "kerem akturkoglu",
+     "s": "akturkoglu",
+     "v": 22000000.0
+    },
+    {
+     "name": "Barış Alper Yılmaz",
+     "n": "barıs alper yılmaz",
+     "s": "yılmaz",
+     "v": 20000000.0
+    },
+    {
+     "name": "Merih Demiral",
+     "n": "merih demiral",
+     "s": "demiral",
+     "v": 20000000.0
+    },
+    {
+     "name": "Yusuf Akçiçek",
+     "n": "yusuf akcicek",
+     "s": "akcicek",
+     "v": 16000000.0
+    },
+    {
+     "name": "Uğurcan Çakır",
+     "n": "ugurcan cakır",
+     "s": "cakır",
+     "v": 15000000.0
+    },
+    {
+     "name": "Cengiz Ünder",
+     "n": "cengiz under",
+     "s": "under",
+     "v": 14000000.0
+    },
+    {
+     "name": "Zeki Çelik",
+     "n": "zeki celik",
+     "s": "celik",
+     "v": 12000000.0
+    },
+    {
+     "name": "İsmail Yüksek",
+     "n": "ismail yuksek",
+     "s": "yuksek",
+     "v": 12000000.0
+    },
+    {
+     "name": "Semih Kılıçsoy",
+     "n": "semih kılıcsoy",
+     "s": "kılıcsoy",
+     "v": 10000000.0
+    },
+    {
+     "name": "Berke Özer",
+     "n": "berke ozer",
+     "s": "ozer",
+     "v": 10000000.0
+    },
+    {
+     "name": "Oğuz Aydın",
+     "n": "oguz aydın",
+     "s": "aydın",
+     "v": 10000000.0
+    },
+    {
+     "name": "Yusuf Yazıcı",
+     "n": "yusuf yazıcı",
+     "s": "yazıcı",
+     "v": 10000000.0
+    },
+    {
+     "name": "Atakan Karazor",
+     "n": "atakan karazor",
+     "s": "karazor",
+     "v": 9000000.0
+    },
+    {
+     "name": "Enes Ünal",
+     "n": "enes unal",
+     "s": "unal",
+     "v": 8000000.0
+    },
+    {
+     "name": "Altay Bayındır",
+     "n": "altay bayındır",
+     "s": "bayındır",
+     "v": 7000000.0
+    },
+    {
+     "name": "Abdülkerim Bardakcı",
+     "n": "abdulkerim bardakcı",
+     "s": "bardakcı",
+     "v": 6500000.0
+    },
+    {
+     "name": "Demir Ege Tıknaz",
+     "n": "demir ege tıknaz",
+     "s": "tıknaz",
+     "v": 6000000.0
+    },
+    {
+     "name": "Eren Dinkçi",
+     "n": "eren dinkci",
+     "s": "dinkci",
+     "v": 6000000.0
+    },
+    {
+     "name": "Çağlar Söyüncü",
+     "n": "caglar soyuncu",
+     "s": "soyuncu",
+     "v": 6000000.0
+    },
+    {
+     "name": "Aral Şimşir",
+     "n": "aral simsir",
+     "s": "simsir",
+     "v": 6000000.0
+    },
+    {
+     "name": "Yusuf Sarı",
+     "n": "yusuf sarı",
+     "s": "sarı",
+     "v": 5500000.0
+    },
+    {
+     "name": "Ozan Kabak",
+     "n": "ozan kabak",
+     "s": "kabak",
+     "v": 5000000.0
+    },
+    {
+     "name": "Emirhan Topçu",
+     "n": "emirhan topcu",
+     "s": "topcu",
+     "v": 5000000.0
+    },
+    {
+     "name": "Doğucan Haspolat",
+     "n": "dogucan haspolat",
+     "s": "haspolat",
+     "v": 5000000.0
+    }
+   ]
+  },
+  "GER": {
+   "xiValue": 735000000,
+   "median": 29000000,
+   "players": [
+    {
+     "name": "Jamal Musiala",
+     "n": "jamal musiala",
+     "s": "musiala",
+     "v": 130000000.0
+    },
+    {
+     "name": "Florian Wirtz",
+     "n": "florian wirtz",
+     "s": "wirtz",
+     "v": 110000000.0
+    },
+    {
+     "name": "Nick Woltemade",
+     "n": "nick woltemade",
+     "s": "woltemade",
+     "v": 70000000.0
+    },
+    {
+     "name": "Aleksandar Pavlovic",
+     "n": "aleksandar pavlovic",
+     "s": "pavlovic",
+     "v": 65000000.0
+    },
+    {
+     "name": "Karim Adeyemi",
+     "n": "karim adeyemi",
+     "s": "adeyemi",
+     "v": 60000000.0
+    },
+    {
+     "name": "Lennart Karl",
+     "n": "lennart karl",
+     "s": "karl",
+     "v": 60000000.0
+    },
+    {
+     "name": "Kai Havertz",
+     "n": "kai havertz",
+     "s": "havertz",
+     "v": 55000000.0
+    },
+    {
+     "name": "Nico Schlotterbeck",
+     "n": "nico schlotterbeck",
+     "s": "schlotterbeck",
+     "v": 55000000.0
+    },
+    {
+     "name": "Felix Nmecha",
+     "n": "felix nmecha",
+     "s": "nmecha",
+     "v": 45000000.0
+    },
+    {
+     "name": "Angelo Stiller",
+     "n": "angelo stiller",
+     "s": "stiller",
+     "v": 45000000.0
+    },
+    {
+     "name": "Joshua Kimmich",
+     "n": "joshua kimmich",
+     "s": "kimmich",
+     "v": 40000000.0
+    },
+    {
+     "name": "Tom Bischof",
+     "n": "tom bischof",
+     "s": "bischof",
+     "v": 40000000.0
+    },
+    {
+     "name": "Jonathan Burkardt",
+     "n": "jonathan burkardt",
+     "s": "burkardt",
+     "v": 35000000.0
+    },
+    {
+     "name": "Yann Bisseck",
+     "n": "yann bisseck",
+     "s": "bisseck",
+     "v": 35000000.0
+    },
+    {
+     "name": "Nathaniel Brown",
+     "n": "nathaniel brown",
+     "s": "brown",
+     "v": 35000000.0
+    },
+    {
+     "name": "Maximilian Beier",
+     "n": "maximilian beier",
+     "s": "beier",
+     "v": 30000000.0
+    },
+    {
+     "name": "Jonathan Tah",
+     "n": "jonathan tah",
+     "s": "tah",
+     "v": 30000000.0
+    },
+    {
+     "name": "Brajan Gruda",
+     "n": "brajan gruda",
+     "s": "gruda",
+     "v": 28000000.0
+    },
+    {
+     "name": "Marc-André ter Stegen",
+     "n": "marc andre ter stegen",
+     "s": "stegen",
+     "v": 28000000.0
+    },
+    {
+     "name": "Jamie Leweling",
+     "n": "jamie leweling",
+     "s": "leweling",
+     "v": 25000000.0
+    },
+    {
+     "name": "Antonio Rüdiger",
+     "n": "antonio rudiger",
+     "s": "rudiger",
+     "v": 25000000.0
+    },
+    {
+     "name": "Malick Thiaw",
+     "n": "malick thiaw",
+     "s": "thiaw",
+     "v": 25000000.0
+    },
+    {
+     "name": "Deniz Undav",
+     "n": "deniz undav",
+     "s": "undav",
+     "v": 25000000.0
+    },
+    {
+     "name": "Finn Jeltsch",
+     "n": "finn jeltsch",
+     "s": "jeltsch",
+     "v": 25000000.0
+    },
+    {
+     "name": "Leroy Sané",
+     "n": "leroy sane",
+     "s": "sane",
+     "v": 23000000.0
+    },
+    {
+     "name": "Kevin Schade",
+     "n": "kevin schade",
+     "s": "schade",
+     "v": 22000000.0
+    },
+    {
+     "name": "Youssoufa Moukoko",
+     "n": "youssoufa moukoko",
+     "s": "moukoko",
+     "v": 22000000.0
+    },
+    {
+     "name": "David Raum",
+     "n": "david raum",
+     "s": "raum",
+     "v": 20000000.0
+    },
+    {
+     "name": "Karim Coulibaly",
+     "n": "karim coulibaly",
+     "s": "coulibaly",
+     "v": 20000000.0
+    },
+    {
+     "name": "Noah Atubolu",
+     "n": "noah atubolu",
+     "s": "atubolu",
+     "v": 20000000.0
+    }
+   ]
+  },
+  "CUW": {
+   "xiValue": 23900000,
+   "median": 425000,
+   "players": [
+    {
+     "name": "Juninho Bacuna",
+     "n": "juninho bacuna",
+     "s": "bacuna",
+     "v": 4500000.0
+    },
+    {
+     "name": "Joshua Brenet",
+     "n": "joshua brenet",
+     "s": "brenet",
+     "v": 3500000.0
+    },
+    {
+     "name": "Armando Obispo",
+     "n": "armando obispo",
+     "s": "obispo",
+     "v": 3000000.0
+    },
+    {
+     "name": "Sontje Hansen",
+     "n": "sontje hansen",
+     "s": "hansen",
+     "v": 3000000.0
+    },
+    {
+     "name": "Riechedly Bazoer",
+     "n": "riechedly bazoer",
+     "s": "bazoer",
+     "v": 2800000.0
+    },
+    {
+     "name": "Shurandy Sambo",
+     "n": "shurandy sambo",
+     "s": "sambo",
+     "v": 2000000.0
+    },
+    {
+     "name": "Tommy St. Jago",
+     "n": "tommy st jago",
+     "s": "jago",
+     "v": 1200000.0
+    },
+    {
+     "name": "Ar'jany Martha",
+     "n": "ar'jany martha",
+     "s": "martha",
+     "v": 1200000.0
+    },
+    {
+     "name": "Nigel Robertha",
+     "n": "nigel robertha",
+     "s": "robertha",
+     "v": 1000000.0
+    },
+    {
+     "name": "Leandro Bacuna",
+     "n": "leandro bacuna",
+     "s": "bacuna",
+     "v": 900000.0
+    },
+    {
+     "name": "Jeremy Antonisse",
+     "n": "jeremy antonisse",
+     "s": "antonisse",
+     "v": 800000.0
+    },
+    {
+     "name": "Sherel Floranus",
+     "n": "sherel floranus",
+     "s": "floranus",
+     "v": 800000.0
+    },
+    {
+     "name": "Livano Comenencia",
+     "n": "livano comenencia",
+     "s": "comenencia",
+     "v": 800000.0
+    },
+    {
+     "name": "Xander Severina",
+     "n": "xander severina",
+     "s": "severina",
+     "v": 500000.0
+    },
+    {
+     "name": "Jordi Paulina",
+     "n": "jordi paulina",
+     "s": "paulina",
+     "v": 500000.0
+    },
+    {
+     "name": "Juriën Gaari",
+     "n": "jurien gaari",
+     "s": "gaari",
+     "v": 450000.0
+    },
+    {
+     "name": "Brandley Kuwas",
+     "n": "brandley kuwas",
+     "s": "kuwas",
+     "v": 450000.0
+    },
+    {
+     "name": "Godfried Roemeratoe",
+     "n": "godfried roemeratoe",
+     "s": "roemeratoe",
+     "v": 400000.0
+    },
+    {
+     "name": "Daijiro Chirino",
+     "n": "daijiro chirino",
+     "s": "chirino",
+     "v": 400000.0
+    },
+    {
+     "name": "Nazjir Held",
+     "n": "nazjir held",
+     "s": "held",
+     "v": 400000.0
+    },
+    {
+     "name": "Roshon van Eijma",
+     "n": "roshon van eijma",
+     "s": "eijma",
+     "v": 375000.0
+    },
+    {
+     "name": "Kevin Felida",
+     "n": "kevin felida",
+     "s": "felida",
+     "v": 350000.0
+    },
+    {
+     "name": "Nigel Thomas",
+     "n": "nigel thomas",
+     "s": "thomas",
+     "v": 300000.0
+    },
+    {
+     "name": "Rigino Cicilia",
+     "n": "rigino cicilia",
+     "s": "cicilia",
+     "v": 300000.0
+    },
+    {
+     "name": "Nathan Markelo",
+     "n": "nathan markelo",
+     "s": "markelo",
+     "v": 250000.0
+    },
+    {
+     "name": "Eloy Room",
+     "n": "eloy room",
+     "s": "room",
+     "v": 200000.0
+    },
+    {
+     "name": "Isaiah Ahmed",
+     "n": "isaiah ahmed",
+     "s": "ahmed",
+     "v": 125000.0
+    },
+    {
+     "name": "Rayvien Rosario",
+     "n": "rayvien rosario",
+     "s": "rosario",
+     "v": 75000.0
+    },
+    {
+     "name": "Giandro Sambo",
+     "n": "giandro sambo",
+     "s": "sambo",
+     "v": 50000.0
+    },
+    {
+     "name": "Joshua Zimmerman",
+     "n": "joshua zimmerman",
+     "s": "zimmerman",
+     "v": 25000.0
+    }
+   ]
+  },
+  "CIV": {
+   "xiValue": 337000000,
+   "median": 9000000,
+   "players": [
+    {
+     "name": "Amad Diallo",
+     "n": "amad diallo",
+     "s": "diallo",
+     "v": 50000000.0
+    },
+    {
+     "name": "Yan Diomande",
+     "n": "yan diomande",
+     "s": "diomande",
+     "v": 45000000.0
+    },
+    {
+     "name": "Ousmane Diomande",
+     "n": "ousmane diomande",
+     "s": "diomande",
+     "v": 45000000.0
+    },
+    {
+     "name": "Evan Ndicka",
+     "n": "evan ndicka",
+     "s": "ndicka",
+     "v": 30000000.0
+    },
+    {
+     "name": "Evann Guessand",
+     "n": "evann guessand",
+     "s": "guessand",
+     "v": 28000000.0
+    },
+    {
+     "name": "Wilfried Singo",
+     "n": "wilfried singo",
+     "s": "singo",
+     "v": 28000000.0
+    },
+    {
+     "name": "Bazoumana Touré",
+     "n": "bazoumana toure",
+     "s": "toure",
+     "v": 25000000.0
+    },
+    {
+     "name": "Ibrahim Sangaré",
+     "n": "ibrahim sangare",
+     "s": "sangare",
+     "v": 22000000.0
+    },
+    {
+     "name": "Odilon Kossounou",
+     "n": "odilon kossounou",
+     "s": "kossounou",
+     "v": 22000000.0
+    },
+    {
+     "name": "Simon Adingra",
+     "n": "simon adingra",
+     "s": "adingra",
+     "v": 22000000.0
+    },
+    {
+     "name": "Franck Kessié",
+     "n": "franck kessie",
+     "s": "kessie",
+     "v": 20000000.0
+    },
+    {
+     "name": "Guéla Doué",
+     "n": "guela doue",
+     "s": "doue",
+     "v": 18000000.0
+    },
+    {
+     "name": "Hamed Traoré",
+     "n": "hamed traore",
+     "s": "traore",
+     "v": 17000000.0
+    },
+    {
+     "name": "Malick Yalcouyé",
+     "n": "malick yalcouye",
+     "s": "yalcouye",
+     "v": 14000000.0
+    },
+    {
+     "name": "Elye Wahi",
+     "n": "elye wahi",
+     "s": "wahi",
+     "v": 12000000.0
+    },
+    {
+     "name": "Kader Meïté",
+     "n": "kader meite",
+     "s": "meite",
+     "v": 10000000.0
+    },
+    {
+     "name": "Abdoul Ouattara",
+     "n": "abdoul ouattara",
+     "s": "ouattara",
+     "v": 9000000.0
+    },
+    {
+     "name": "Emmanuel Agbadou",
+     "n": "emmanuel agbadou",
+     "s": "agbadou",
+     "v": 9000000.0
+    },
+    {
+     "name": "Jonathan Bamba",
+     "n": "jonathan bamba",
+     "s": "bamba",
+     "v": 9000000.0
+    },
+    {
+     "name": "Nicolas Pépé",
+     "n": "nicolas pepe",
+     "s": "pepe",
+     "v": 8500000.0
+    },
+    {
+     "name": "Seko Fofana",
+     "n": "seko fofana",
+     "s": "fofana",
+     "v": 8000000.0
+    },
+    {
+     "name": "Jérémie Boga",
+     "n": "jeremie boga",
+     "s": "boga",
+     "v": 8000000.0
+    },
+    {
+     "name": "Clément Akpa",
+     "n": "clement akpa",
+     "s": "akpa",
+     "v": 8000000.0
+    },
+    {
+     "name": "Martial Godo",
+     "n": "martial godo",
+     "s": "godo",
+     "v": 7000000.0
+    },
+    {
+     "name": "Ghislain Konan",
+     "n": "ghislain konan",
+     "s": "konan",
+     "v": 6500000.0
+    },
+    {
+     "name": "Mohamed Bamba",
+     "n": "mohamed bamba",
+     "s": "bamba",
+     "v": 6000000.0
+    },
+    {
+     "name": "Jean-Philippe Krasso",
+     "n": "jean philippe krasso",
+     "s": "krasso",
+     "v": 6000000.0
+    },
+    {
+     "name": "Maxwel Cornet",
+     "n": "maxwel cornet",
+     "s": "cornet",
+     "v": 5000000.0
+    },
+    {
+     "name": "David Datro Fofana",
+     "n": "david datro fofana",
+     "s": "fofana",
+     "v": 5000000.0
+    },
+    {
+     "name": "Oumar Diakité",
+     "n": "oumar diakite",
+     "s": "diakite",
+     "v": 5000000.0
+    }
+   ]
+  },
+  "ECU": {
+   "xiValue": 286500000,
+   "median": 4000000,
+   "players": [
+    {
+     "name": "Moisés Caicedo",
+     "n": "moises caicedo",
+     "s": "caicedo",
+     "v": 110000000.0
+    },
+    {
+     "name": "Willian Pacho",
+     "n": "willian pacho",
+     "s": "pacho",
+     "v": 70000000.0
+    },
+    {
+     "name": "Piero Hincapié",
+     "n": "piero hincapie",
+     "s": "hincapie",
+     "v": 50000000.0
+    },
+    {
+     "name": "Pervis Estupiñán",
+     "n": "pervis estupinan",
+     "s": "estupinan",
+     "v": 14000000.0
+    },
+    {
+     "name": "Keny Arroyo",
+     "n": "keny arroyo",
+     "s": "arroyo",
+     "v": 9000000.0
+    },
+    {
+     "name": "Nilson Angulo",
+     "n": "nilson angulo",
+     "s": "angulo",
+     "v": 7000000.0
+    },
+    {
+     "name": "Joel Ordóñez",
+     "n": "joel ordonez",
+     "s": "ordonez",
+     "v": 6000000.0
+    },
+    {
+     "name": "Denil Castillo",
+     "n": "denil castillo",
+     "s": "castillo",
+     "v": 5500000.0
+    },
+    {
+     "name": "Kevin Rodríguez",
+     "n": "kevin rodriguez",
+     "s": "rodriguez",
+     "v": 5000000.0
+    },
+    {
+     "name": "Gonzalo Plata",
+     "n": "gonzalo plata",
+     "s": "plata",
+     "v": 5000000.0
+    },
+    {
+     "name": "Jeremy Sarmiento",
+     "n": "jeremy sarmiento",
+     "s": "sarmiento",
+     "v": 5000000.0
+    },
+    {
+     "name": "Angelo Preciado",
+     "n": "angelo preciado",
+     "s": "preciado",
+     "v": 5000000.0
+    },
+    {
+     "name": "Cristian Ramírez",
+     "n": "cristian ramirez",
+     "s": "ramirez",
+     "v": 5000000.0
+    },
+    {
+     "name": "José Cifuentes",
+     "n": "jose cifuentes",
+     "s": "cifuentes",
+     "v": 4500000.0
+    },
+    {
+     "name": "Diego Palacios",
+     "n": "diego palacios",
+     "s": "palacios",
+     "v": 4000000.0
+    },
+    {
+     "name": "Yaimar Medina",
+     "n": "yaimar medina",
+     "s": "medina",
+     "v": 4000000.0
+    },
+    {
+     "name": "John Mercado",
+     "n": "john mercado",
+     "s": "mercado",
+     "v": 4000000.0
+    },
+    {
+     "name": "Léo Realpe",
+     "n": "leo realpe",
+     "s": "realpe",
+     "v": 4000000.0
+    },
+    {
+     "name": "Enner Valencia",
+     "n": "enner valencia",
+     "s": "valencia",
+     "v": 3800000.0
+    },
+    {
+     "name": "Jordy Caicedo",
+     "n": "jordy caicedo",
+     "s": "caicedo",
+     "v": 3500000.0
+    },
+    {
+     "name": "Leonardo Campana",
+     "n": "leonardo campana",
+     "s": "campana",
+     "v": 3500000.0
+    },
+    {
+     "name": "Jackson Porozo",
+     "n": "jackson porozo",
+     "s": "porozo",
+     "v": 3300000.0
+    },
+    {
+     "name": "Jhoanner Chávez",
+     "n": "jhoanner chavez",
+     "s": "chavez",
+     "v": 3000000.0
+    },
+    {
+     "name": "Alan Minda",
+     "n": "alan minda",
+     "s": "minda",
+     "v": 3000000.0
+    },
+    {
+     "name": "Carlos Gruezo",
+     "n": "carlos gruezo",
+     "s": "gruezo",
+     "v": 3000000.0
+    },
+    {
+     "name": "Luis Segovia",
+     "n": "luis segovia",
+     "s": "segovia",
+     "v": 1500000.0
+    },
+    {
+     "name": "John Yeboah",
+     "n": "john yeboah",
+     "s": "yeboah",
+     "v": 1500000.0
+    },
+    {
+     "name": "Anthony Valencia",
+     "n": "anthony valencia",
+     "s": "valencia",
+     "v": 1000000.0
+    },
+    {
+     "name": "Jhon Espinoza",
+     "n": "jhon espinoza",
+     "s": "espinoza",
+     "v": 600000.0
+    },
+    {
+     "name": "Kike Saverio",
+     "n": "kike saverio",
+     "s": "saverio",
+     "v": 500000.0
+    }
+   ]
+  },
+  "NED": {
+   "xiValue": 673000000,
+   "median": 28000000,
+   "players": [
+    {
+     "name": "Ryan Gravenberch",
+     "n": "ryan gravenberch",
+     "s": "gravenberch",
+     "v": 90000000.0
+    },
+    {
+     "name": "Xavi Simons",
+     "n": "xavi simons",
+     "s": "simons",
+     "v": 80000000.0
+    },
+    {
+     "name": "Jurriën Timber",
+     "n": "jurrien timber",
+     "s": "timber",
+     "v": 70000000.0
+    },
+    {
+     "name": "Cody Gakpo",
+     "n": "cody gakpo",
+     "s": "gakpo",
+     "v": 70000000.0
+    },
+    {
+     "name": "Frenkie de Jong",
+     "n": "frenkie de jong",
+     "s": "jong",
+     "v": 70000000.0
+    },
+    {
+     "name": "Matthijs de Ligt",
+     "n": "matthijs de ligt",
+     "s": "ligt",
+     "v": 65000000.0
+    },
+    {
+     "name": "Tijjani Reijnders",
+     "n": "tijjani reijnders",
+     "s": "reijnders",
+     "v": 65000000.0
+    },
+    {
+     "name": "Micky van de Ven",
+     "n": "micky van de ven",
+     "s": "ven",
+     "v": 55000000.0
+    },
+    {
+     "name": "Jeremie Frimpong",
+     "n": "jeremie frimpong",
+     "s": "frimpong",
+     "v": 38000000.0
+    },
+    {
+     "name": "Sven Botman",
+     "n": "sven botman",
+     "s": "botman",
+     "v": 35000000.0
+    },
+    {
+     "name": "Bart Verbruggen",
+     "n": "bart verbruggen",
+     "s": "verbruggen",
+     "v": 35000000.0
+    },
+    {
+     "name": "Jorrel Hato",
+     "n": "jorrel hato",
+     "s": "hato",
+     "v": 35000000.0
+    },
+    {
+     "name": "Jan Paul van Hecke",
+     "n": "jan paul van hecke",
+     "s": "hecke",
+     "v": 35000000.0
+    },
+    {
+     "name": "Lutsharel Geertruida",
+     "n": "lutsharel geertruida",
+     "s": "geertruida",
+     "v": 32000000.0
+    },
+    {
+     "name": "Justin Kluivert",
+     "n": "justin kluivert",
+     "s": "kluivert",
+     "v": 32000000.0
+    },
+    {
+     "name": "Sam Beukema",
+     "n": "sam beukema",
+     "s": "beukema",
+     "v": 28000000.0
+    },
+    {
+     "name": "Quinten Timber",
+     "n": "quinten timber",
+     "s": "timber",
+     "v": 28000000.0
+    },
+    {
+     "name": "Sepp van den Berg",
+     "n": "sepp van den berg",
+     "s": "berg",
+     "v": 28000000.0
+    },
+    {
+     "name": "Emmanuel Emegha",
+     "n": "emmanuel emegha",
+     "s": "emegha",
+     "v": 28000000.0
+    },
+    {
+     "name": "Teun Koopmeiners",
+     "n": "teun koopmeiners",
+     "s": "koopmeiners",
+     "v": 28000000.0
+    },
+    {
+     "name": "Joey Veerman",
+     "n": "joey veerman",
+     "s": "veerman",
+     "v": 27000000.0
+    },
+    {
+     "name": "Perr Schuurs",
+     "n": "perr schuurs",
+     "s": "schuurs",
+     "v": 25000000.0
+    },
+    {
+     "name": "Mats Wieffer",
+     "n": "mats wieffer",
+     "s": "wieffer",
+     "v": 25000000.0
+    },
+    {
+     "name": "Denzel Dumfries",
+     "n": "denzel dumfries",
+     "s": "dumfries",
+     "v": 25000000.0
+    },
+    {
+     "name": "Donyell Malen",
+     "n": "donyell malen",
+     "s": "malen",
+     "v": 25000000.0
+    },
+    {
+     "name": "Joshua Zirkzee",
+     "n": "joshua zirkzee",
+     "s": "zirkzee",
+     "v": 25000000.0
+    },
+    {
+     "name": "Ian Maatsen",
+     "n": "ian maatsen",
+     "s": "maatsen",
+     "v": 25000000.0
+    },
+    {
+     "name": "Givairo Read",
+     "n": "givairo read",
+     "s": "read",
+     "v": 25000000.0
+    },
+    {
+     "name": "Noa Lang",
+     "n": "noa lang",
+     "s": "lang",
+     "v": 25000000.0
+    },
+    {
+     "name": "Quilindschy Hartman",
+     "n": "quilindschy hartman",
+     "s": "hartman",
+     "v": 23000000.0
+    }
+   ]
+  },
+  "JPN": {
+   "xiValue": 206000000,
+   "median": 8000000,
+   "players": [
+    {
+     "name": "Takefusa Kubo",
+     "n": "takefusa kubo",
+     "s": "kubo",
+     "v": 30000000.0
+    },
+    {
+     "name": "Kaoru Mitoma",
+     "n": "kaoru mitoma",
+     "s": "mitoma",
+     "v": 30000000.0
+    },
+    {
+     "name": "Kaishu Sano",
+     "n": "kaishu sano",
+     "s": "sano",
+     "v": 25000000.0
+    },
+    {
+     "name": "Zion Suzuki",
+     "n": "zion suzuki",
+     "s": "suzuki",
+     "v": 20000000.0
+    },
+    {
+     "name": "Ritsu Doan",
+     "n": "ritsu doan",
+     "s": "doan",
+     "v": 18000000.0
+    },
+    {
+     "name": "Hiroki Ito",
+     "n": "hiroki ito",
+     "s": "ito",
+     "v": 18000000.0
+    },
+    {
+     "name": "Yuito Suzuki",
+     "n": "yuito suzuki",
+     "s": "suzuki",
+     "v": 15000000.0
+    },
+    {
+     "name": "Daizen Maeda",
+     "n": "daizen maeda",
+     "s": "maeda",
+     "v": 14000000.0
+    },
+    {
+     "name": "Takehiro Tomiyasu",
+     "n": "takehiro tomiyasu",
+     "s": "tomiyasu",
+     "v": 12000000.0
+    },
+    {
+     "name": "Daichi Kamada",
+     "n": "daichi kamada",
+     "s": "kamada",
+     "v": 12000000.0
+    },
+    {
+     "name": "Reo Hatate",
+     "n": "reo hatate",
+     "s": "hatate",
+     "v": 12000000.0
+    },
+    {
+     "name": "Takumi Minamino",
+     "n": "takumi minamino",
+     "s": "minamino",
+     "v": 12000000.0
+    },
+    {
+     "name": "Ko Itakura",
+     "n": "ko itakura",
+     "s": "itakura",
+     "v": 10000000.0
+    },
+    {
+     "name": "Tsuyoshi Watanabe",
+     "n": "tsuyoshi watanabe",
+     "s": "watanabe",
+     "v": 10000000.0
+    },
+    {
+     "name": "Hidemasa Morita",
+     "n": "hidemasa morita",
+     "s": "morita",
+     "v": 9000000.0
+    },
+    {
+     "name": "Keito Nakamura",
+     "n": "keito nakamura",
+     "s": "nakamura",
+     "v": 8000000.0
+    },
+    {
+     "name": "Joel Chima Fujita",
+     "n": "joel chima fujita",
+     "s": "fujita",
+     "v": 8000000.0
+    },
+    {
+     "name": "Ayase Ueda",
+     "n": "ayase ueda",
+     "s": "ueda",
+     "v": 8000000.0
+    },
+    {
+     "name": "Yukinari Sugawara",
+     "n": "yukinari sugawara",
+     "s": "sugawara",
+     "v": 7500000.0
+    },
+    {
+     "name": "Koki Machida",
+     "n": "koki machida",
+     "s": "machida",
+     "v": 7000000.0
+    },
+    {
+     "name": "Shuto Machino",
+     "n": "shuto machino",
+     "s": "machino",
+     "v": 7000000.0
+    },
+    {
+     "name": "Kyogo Furuhashi",
+     "n": "kyogo furuhashi",
+     "s": "furuhashi",
+     "v": 6000000.0
+    },
+    {
+     "name": "Kodai Sano",
+     "n": "kodai sano",
+     "s": "sano",
+     "v": 6000000.0
+    },
+    {
+     "name": "Hayao Kawabe",
+     "n": "hayao kawabe",
+     "s": "kawabe",
+     "v": 5000000.0
+    },
+    {
+     "name": "Wataru Endo",
+     "n": "wataru endo",
+     "s": "endo",
+     "v": 5000000.0
+    },
+    {
+     "name": "Ryotaro Ito",
+     "n": "ryotaro ito",
+     "s": "ito",
+     "v": 5000000.0
+    },
+    {
+     "name": "Kanya Fujimoto",
+     "n": "kanya fujimoto",
+     "s": "fujimoto",
+     "v": 4000000.0
+    },
+    {
+     "name": "Koki Saito",
+     "n": "koki saito",
+     "s": "saito",
+     "v": 4000000.0
+    },
+    {
+     "name": "Leo Kokubo",
+     "n": "leo kokubo",
+     "s": "kokubo",
+     "v": 4000000.0
+    },
+    {
+     "name": "Junya Ito",
+     "n": "junya ito",
+     "s": "ito",
+     "v": 3500000.0
+    }
+   ]
+  },
+  "SWE": {
+   "xiValue": 472000000,
+   "median": 8000000,
+   "players": [
+    {
+     "name": "Alexander Isak",
+     "n": "alexander isak",
+     "s": "isak",
+     "v": 120000000.0
+    },
+    {
+     "name": "Viktor Gyökeres",
+     "n": "viktor gyokeres",
+     "s": "gyokeres",
+     "v": 70000000.0
+    },
+    {
+     "name": "Anthony Elanga",
+     "n": "anthony elanga",
+     "s": "elanga",
+     "v": 50000000.0
+    },
+    {
+     "name": "Dejan Kulusevski",
+     "n": "dejan kulusevski",
+     "s": "kulusevski",
+     "v": 45000000.0
+    },
+    {
+     "name": "Lucas Bergvall",
+     "n": "lucas bergvall",
+     "s": "bergvall",
+     "v": 40000000.0
+    },
+    {
+     "name": "Hugo Larsson",
+     "n": "hugo larsson",
+     "s": "larsson",
+     "v": 40000000.0
+    },
+    {
+     "name": "Yasin Ayari",
+     "n": "yasin ayari",
+     "s": "ayari",
+     "v": 30000000.0
+    },
+    {
+     "name": "Isak Hien",
+     "n": "isak hien",
+     "s": "hien",
+     "v": 25000000.0
+    },
+    {
+     "name": "Daniel Svensson",
+     "n": "daniel svensson",
+     "s": "svensson",
+     "v": 22000000.0
+    },
+    {
+     "name": "Sebastian Nanasi",
+     "n": "sebastian nanasi",
+     "s": "nanasi",
+     "v": 15000000.0
+    },
+    {
+     "name": "Victor Lindelöf",
+     "n": "victor lindelof",
+     "s": "lindelof",
+     "v": 15000000.0
+    },
+    {
+     "name": "Gabriel Gudmundsson",
+     "n": "gabriel gudmundsson",
+     "s": "gudmundsson",
+     "v": 15000000.0
+    },
+    {
+     "name": "Emil Holm",
+     "n": "emil holm",
+     "s": "holm",
+     "v": 13000000.0
+    },
+    {
+     "name": "Mattias Svanberg",
+     "n": "mattias svanberg",
+     "s": "svanberg",
+     "v": 12000000.0
+    },
+    {
+     "name": "Roony Bardghji",
+     "n": "roony bardghji",
+     "s": "bardghji",
+     "v": 10000000.0
+    },
+    {
+     "name": "Samuel Dahl",
+     "n": "samuel dahl",
+     "s": "dahl",
+     "v": 9000000.0
+    },
+    {
+     "name": "Jacob Ondrejka",
+     "n": "jacob ondrejka",
+     "s": "ondrejka",
+     "v": 8000000.0
+    },
+    {
+     "name": "Jens Cajuste",
+     "n": "jens cajuste",
+     "s": "cajuste",
+     "v": 8000000.0
+    },
+    {
+     "name": "Benjamin Nygren",
+     "n": "benjamin nygren",
+     "s": "nygren",
+     "v": 6500000.0
+    },
+    {
+     "name": "Carl Starfelt",
+     "n": "carl starfelt",
+     "s": "starfelt",
+     "v": 6000000.0
+    },
+    {
+     "name": "Hjalmar Ekdal",
+     "n": "hjalmar ekdal",
+     "s": "ekdal",
+     "v": 6000000.0
+    },
+    {
+     "name": "Emil Forsberg",
+     "n": "emil forsberg",
+     "s": "forsberg",
+     "v": 5000000.0
+    },
+    {
+     "name": "Williot Swedberg",
+     "n": "williot swedberg",
+     "s": "swedberg",
+     "v": 5000000.0
+    },
+    {
+     "name": "Gustaf Lagerbielke",
+     "n": "gustaf lagerbielke",
+     "s": "lagerbielke",
+     "v": 5000000.0
+    },
+    {
+     "name": "Eric Smith",
+     "n": "eric smith",
+     "s": "smith",
+     "v": 5000000.0
+    },
+    {
+     "name": "Jeremy Agbonifo",
+     "n": "jeremy agbonifo",
+     "s": "agbonifo",
+     "v": 4500000.0
+    },
+    {
+     "name": "Amin Sarr",
+     "n": "amin sarr",
+     "s": "sarr",
+     "v": 4000000.0
+    },
+    {
+     "name": "Jonah Kusi-Asare",
+     "n": "jonah kusi asare",
+     "s": "kusi asare",
+     "v": 4000000.0
+    },
+    {
+     "name": "Jesper Karlström",
+     "n": "jesper karlstrom",
+     "s": "karlstrom",
+     "v": 4000000.0
+    },
+    {
+     "name": "Jesper Karlsson",
+     "n": "jesper karlsson",
+     "s": "karlsson",
+     "v": 4000000.0
+    }
+   ]
+  },
+  "TUN": {
+   "xiValue": 49500000,
+   "median": 1100000,
+   "players": [
+    {
+     "name": "Hannibal",
+     "n": "hannibal",
+     "s": "hannibal",
+     "v": 9000000.0
+    },
+    {
+     "name": "Montassar Talbi",
+     "n": "montassar talbi",
+     "s": "talbi",
+     "v": 7000000.0
+    },
+    {
+     "name": "Ismaël Gharbi",
+     "n": "ismael gharbi",
+     "s": "gharbi",
+     "v": 7000000.0
+    },
+    {
+     "name": "Ellyes Skhiri",
+     "n": "ellyes skhiri",
+     "s": "skhiri",
+     "v": 6000000.0
+    },
+    {
+     "name": "Aïssa Laïdouni",
+     "n": "aissa laidouni",
+     "s": "laidouni",
+     "v": 6000000.0
+    },
+    {
+     "name": "Elias Achouri",
+     "n": "elias achouri",
+     "s": "achouri",
+     "v": 3500000.0
+    },
+    {
+     "name": "Ali Abdi",
+     "n": "ali abdi",
+     "s": "abdi",
+     "v": 2500000.0
+    },
+    {
+     "name": "Anis Slimane",
+     "n": "anis slimane",
+     "s": "slimane",
+     "v": 2500000.0
+    },
+    {
+     "name": "Saîf-Eddine Khaoui",
+     "n": "saif eddine khaoui",
+     "s": "khaoui",
+     "v": 2000000.0
+    },
+    {
+     "name": "Yassine Meriah",
+     "n": "yassine meriah",
+     "s": "meriah",
+     "v": 2000000.0
+    },
+    {
+     "name": "Yan Valery",
+     "n": "yan valery",
+     "s": "valery",
+     "v": 2000000.0
+    },
+    {
+     "name": "Rani Khedira",
+     "n": "rani khedira",
+     "s": "khedira",
+     "v": 2000000.0
+    },
+    {
+     "name": "Hamza Rafia",
+     "n": "hamza rafia",
+     "s": "rafia",
+     "v": 1700000.0
+    },
+    {
+     "name": "Mortadha Ben Ouanes",
+     "n": "mortadha ben ouanes",
+     "s": "ouanes",
+     "v": 1500000.0
+    },
+    {
+     "name": "Alaa Ghram",
+     "n": "alaa ghram",
+     "s": "ghram",
+     "v": 1500000.0
+    },
+    {
+     "name": "Sayfallah Ltaief",
+     "n": "sayfallah ltaief",
+     "s": "ltaief",
+     "v": 1300000.0
+    },
+    {
+     "name": "Dylan Bronn",
+     "n": "dylan bronn",
+     "s": "bronn",
+     "v": 1300000.0
+    },
+    {
+     "name": "Nader Ghandri",
+     "n": "nader ghandri",
+     "s": "ghandri",
+     "v": 900000.0
+    },
+    {
+     "name": "Anas Haj Mohamed",
+     "n": "anas haj mohamed",
+     "s": "mohamed",
+     "v": 800000.0
+    },
+    {
+     "name": "Wajdi Kechrida",
+     "n": "wajdi kechrida",
+     "s": "kechrida",
+     "v": 700000.0
+    },
+    {
+     "name": "Mohamed Dräger",
+     "n": "mohamed drager",
+     "s": "drager",
+     "v": 700000.0
+    },
+    {
+     "name": "Wahbi Khazri",
+     "n": "wahbi khazri",
+     "s": "khazri",
+     "v": 600000.0
+    },
+    {
+     "name": "Chiheb Labidi",
+     "n": "chiheb labidi",
+     "s": "labidi",
+     "v": 500000.0
+    },
+    {
+     "name": "Issam Jebali",
+     "n": "issam jebali",
+     "s": "jebali",
+     "v": 500000.0
+    },
+    {
+     "name": "Rami Kaib",
+     "n": "rami kaib",
+     "s": "kaib",
+     "v": 400000.0
+    },
+    {
+     "name": "Sebastian Tounekti",
+     "n": "sebastian tounekti",
+     "s": "tounekti",
+     "v": 300000.0
+    },
+    {
+     "name": "Chaïm El Djebali",
+     "n": "chaim el djebali",
+     "s": "djebali",
+     "v": 300000.0
+    },
+    {
+     "name": "Samy Chouchane",
+     "n": "samy chouchane",
+     "s": "chouchane",
+     "v": 250000.0
+    },
+    {
+     "name": "Adel Bettaieb",
+     "n": "adel bettaieb",
+     "s": "bettaieb",
+     "v": 175000.0
+    },
+    {
+     "name": "Wajdi Sahli",
+     "n": "wajdi sahli",
+     "s": "sahli",
+     "v": 175000.0
+    }
+   ]
+  },
+  "BEL": {
+   "xiValue": 407000000,
+   "median": 19000000,
+   "players": [
+    {
+     "name": "Jérémy Doku",
+     "n": "jeremy doku",
+     "s": "doku",
+     "v": 65000000.0
+    },
+    {
+     "name": "Loïs Openda",
+     "n": "lois openda",
+     "s": "openda",
+     "v": 60000000.0
+    },
+    {
+     "name": "Amadou Onana",
+     "n": "amadou onana",
+     "s": "onana",
+     "v": 42000000.0
+    },
+    {
+     "name": "Youri Tielemans",
+     "n": "youri tielemans",
+     "s": "tielemans",
+     "v": 35000000.0
+    },
+    {
+     "name": "Charles De Ketelaere",
+     "n": "charles de ketelaere",
+     "s": "ketelaere",
+     "v": 34000000.0
+    },
+    {
+     "name": "Malick Fofana",
+     "n": "malick fofana",
+     "s": "fofana",
+     "v": 30000000.0
+    },
+    {
+     "name": "Zeno Debast",
+     "n": "zeno debast",
+     "s": "debast",
+     "v": 30000000.0
+    },
+    {
+     "name": "Roméo Lavia",
+     "n": "romeo lavia",
+     "s": "lavia",
+     "v": 30000000.0
+    },
+    {
+     "name": "Arthur Vermeeren",
+     "n": "arthur vermeeren",
+     "s": "vermeeren",
+     "v": 28000000.0
+    },
+    {
+     "name": "Thibaut Courtois",
+     "n": "thibaut courtois",
+     "s": "courtois",
+     "v": 28000000.0
+    },
+    {
+     "name": "Senne Lammens",
+     "n": "senne lammens",
+     "s": "lammens",
+     "v": 25000000.0
+    },
+    {
+     "name": "Johan Bakayoko",
+     "n": "johan bakayoko",
+     "s": "bakayoko",
+     "v": 25000000.0
+    },
+    {
+     "name": "Arthur Theate",
+     "n": "arthur theate",
+     "s": "theate",
+     "v": 24000000.0
+    },
+    {
+     "name": "Maxim De Cuyper",
+     "n": "maxim de cuyper",
+     "s": "cuyper",
+     "v": 22000000.0
+    },
+    {
+     "name": "Leandro Trossard",
+     "n": "leandro trossard",
+     "s": "trossard",
+     "v": 20000000.0
+    },
+    {
+     "name": "Dodi Lukébakio",
+     "n": "dodi lukebakio",
+     "s": "lukebakio",
+     "v": 20000000.0
+    },
+    {
+     "name": "Orel Mangala",
+     "n": "orel mangala",
+     "s": "mangala",
+     "v": 20000000.0
+    },
+    {
+     "name": "Diego Moreira",
+     "n": "diego moreira",
+     "s": "moreira",
+     "v": 18000000.0
+    },
+    {
+     "name": "Nathan De Cat",
+     "n": "nathan de cat",
+     "s": "cat",
+     "v": 17000000.0
+    },
+    {
+     "name": "Lucas Stassin",
+     "n": "lucas stassin",
+     "s": "stassin",
+     "v": 15000000.0
+    },
+    {
+     "name": "Romelu Lukaku",
+     "n": "romelu lukaku",
+     "s": "lukaku",
+     "v": 15000000.0
+    },
+    {
+     "name": "Albert Sambi Lokonga",
+     "n": "albert sambi lokonga",
+     "s": "lokonga",
+     "v": 15000000.0
+    },
+    {
+     "name": "Mika Godts",
+     "n": "mika godts",
+     "s": "godts",
+     "v": 15000000.0
+    },
+    {
+     "name": "Kevin De Bruyne",
+     "n": "kevin de bruyne",
+     "s": "bruyne",
+     "v": 15000000.0
+    },
+    {
+     "name": "Yannick Carrasco",
+     "n": "yannick carrasco",
+     "s": "carrasco",
+     "v": 14000000.0
+    },
+    {
+     "name": "Koni De Winter",
+     "n": "koni de winter",
+     "s": "winter",
+     "v": 12000000.0
+    },
+    {
+     "name": "Mandela Keita",
+     "n": "mandela keita",
+     "s": "keita",
+     "v": 12000000.0
+    },
+    {
+     "name": "Wout Faes",
+     "n": "wout faes",
+     "s": "faes",
+     "v": 12000000.0
+    },
+    {
+     "name": "Alexis Saelemaekers",
+     "n": "alexis saelemaekers",
+     "s": "saelemaekers",
+     "v": 12000000.0
+    },
+    {
+     "name": "Mike Tresor",
+     "n": "mike tresor",
+     "s": "tresor",
+     "v": 12000000.0
+    }
+   ]
+  },
+  "EGY": {
+   "xiValue": 116400000,
+   "median": 250000,
+   "players": [
+    {
+     "name": "Omar Marmoush",
+     "n": "omar marmoush",
+     "s": "marmoush",
+     "v": 65000000.0
+    },
+    {
+     "name": "Mohamed Salah",
+     "n": "mohamed salah",
+     "s": "salah",
+     "v": 30000000.0
+    },
+    {
+     "name": "Trezeguet",
+     "n": "trezeguet",
+     "s": "trezeguet",
+     "v": 4500000.0
+    },
+    {
+     "name": "Mostafa Mohamed",
+     "n": "mostafa mohamed",
+     "s": "mohamed",
+     "v": 4000000.0
+    },
+    {
+     "name": "Mohamed Elneny",
+     "n": "mohamed elneny",
+     "s": "elneny",
+     "v": 3500000.0
+    },
+    {
+     "name": "Mohamed Abdelmonem",
+     "n": "mohamed abdelmonem",
+     "s": "abdelmonem",
+     "v": 3000000.0
+    },
+    {
+     "name": "Ahmed Hegazy",
+     "n": "ahmed hegazy",
+     "s": "hegazy",
+     "v": 2500000.0
+    },
+    {
+     "name": "Haissem Hassan",
+     "n": "haissem hassan",
+     "s": "hassan",
+     "v": 1500000.0
+    },
+    {
+     "name": "Ahmed Hassan",
+     "n": "ahmed hassan",
+     "s": "hassan",
+     "v": 1200000.0
+    },
+    {
+     "name": "Amr Warda",
+     "n": "amr warda",
+     "s": "warda",
+     "v": 700000.0
+    },
+    {
+     "name": "Eyad El Askalany",
+     "n": "eyad el askalany",
+     "s": "askalany",
+     "v": 500000.0
+    },
+    {
+     "name": "Sam Morsy",
+     "n": "sam morsy",
+     "s": "morsy",
+     "v": 400000.0
+    },
+    {
+     "name": "Ramy Rabia",
+     "n": "ramy rabia",
+     "s": "rabia",
+     "v": 400000.0
+    },
+    {
+     "name": "Bilal Mazhar",
+     "n": "bilal mazhar",
+     "s": "mazhar",
+     "v": 250000.0
+    },
+    {
+     "name": "Alexander Jakobsen",
+     "n": "alexander jakobsen",
+     "s": "jakobsen",
+     "v": 50000.0
+    },
+    {
+     "name": "Karim Hamed",
+     "n": "karim hamed",
+     "s": "hamed",
+     "v": 50000.0
+    }
+   ]
+  },
+  "IRN": {
+   "xiValue": 29700000,
+   "median": 700000,
+   "players": [
+    {
+     "name": "Sardar Azmoun",
+     "n": "sardar azmoun",
+     "s": "azmoun",
+     "v": 8000000.0
+    },
+    {
+     "name": "Mohammad Mohebi",
+     "n": "mohammad mohebi",
+     "s": "mohebi",
+     "v": 3500000.0
+    },
+    {
+     "name": "Alireza Jahanbakhsh",
+     "n": "alireza jahanbakhsh",
+     "s": "jahanbakhsh",
+     "v": 3000000.0
+    },
+    {
+     "name": "Allahyar Sayyadmanesh",
+     "n": "allahyar sayyadmanesh",
+     "s": "sayyadmanesh",
+     "v": 2500000.0
+    },
+    {
+     "name": "Mehdi Taremi",
+     "n": "mehdi taremi",
+     "s": "taremi",
+     "v": 2500000.0
+    },
+    {
+     "name": "Majid Hosseini",
+     "n": "majid hosseini",
+     "s": "hosseini",
+     "v": 2200000.0
+    },
+    {
+     "name": "Dennis Eckert Ayensa",
+     "n": "dennis eckert ayensa",
+     "s": "ayensa",
+     "v": 2000000.0
+    },
+    {
+     "name": "Saman Ghoddos",
+     "n": "saman ghoddos",
+     "s": "ghoddos",
+     "v": 2000000.0
+    },
+    {
+     "name": "Ali Gholizadeh",
+     "n": "ali gholizadeh",
+     "s": "gholizadeh",
+     "v": 1500000.0
+    },
+    {
+     "name": "Milad Mohammadi",
+     "n": "milad mohammadi",
+     "s": "mohammadi",
+     "v": 1300000.0
+    },
+    {
+     "name": "Mohammadjavad Hosseinnejad",
+     "n": "mohammadjavad hosseinnejad",
+     "s": "hosseinnejad",
+     "v": 1200000.0
+    },
+    {
+     "name": "Ali Alipour",
+     "n": "ali alipour",
+     "s": "alipour",
+     "v": 1000000.0
+    },
+    {
+     "name": "Mohammadmehdi Zare",
+     "n": "mohammadmehdi zare",
+     "s": "zare",
+     "v": 900000.0
+    },
+    {
+     "name": "Saeid Ezatolahi",
+     "n": "saeid ezatolahi",
+     "s": "ezatolahi",
+     "v": 900000.0
+    },
+    {
+     "name": "Ali Karimi",
+     "n": "ali karimi",
+     "s": "karimi",
+     "v": 800000.0
+    },
+    {
+     "name": "Mohammad Ghorbani",
+     "n": "mohammad ghorbani",
+     "s": "ghorbani",
+     "v": 800000.0
+    },
+    {
+     "name": "Shahab Zahedi",
+     "n": "shahab zahedi",
+     "s": "zahedi",
+     "v": 700000.0
+    },
+    {
+     "name": "Amirhossein Hosseinzadeh",
+     "n": "amirhossein hosseinzadeh",
+     "s": "hosseinzadeh",
+     "v": 700000.0
+    },
+    {
+     "name": "Kasra Taheri",
+     "n": "kasra taheri",
+     "s": "taheri",
+     "v": 500000.0
+    },
+    {
+     "name": "Ramin Rezaeian",
+     "n": "ramin rezaeian",
+     "s": "rezaeian",
+     "v": 450000.0
+    },
+    {
+     "name": "Karim Ansarifard",
+     "n": "karim ansarifard",
+     "s": "ansarifard",
+     "v": 450000.0
+    },
+    {
+     "name": "Mohammad Naderi",
+     "n": "mohammad naderi",
+     "s": "naderi",
+     "v": 350000.0
+    },
+    {
+     "name": "Ehsan Hajsafi",
+     "n": "ehsan hajsafi",
+     "s": "hajsafi",
+     "v": 275000.0
+    },
+    {
+     "name": "Amirhossein Reyvandi",
+     "n": "amirhossein reyvandi",
+     "s": "reyvandi",
+     "v": 100000.0
+    },
+    {
+     "name": "Agil Etemadi",
+     "n": "agil etemadi",
+     "s": "etemadi",
+     "v": 75000.0
+    }
+   ]
+  },
+  "NZL": {
+   "xiValue": 23800000,
+   "median": 350000,
+   "players": [
+    {
+     "name": "Chris Wood",
+     "n": "chris wood",
+     "s": "wood",
+     "v": 8000000.0
+    },
+    {
+     "name": "Liberato Cacace",
+     "n": "liberato cacace",
+     "s": "cacace",
+     "v": 3000000.0
+    },
+    {
+     "name": "Marko Stamenić",
+     "n": "marko stamenic",
+     "s": "stamenic",
+     "v": 3000000.0
+    },
+    {
+     "name": "Bill Tuiloma",
+     "n": "bill tuiloma",
+     "s": "tuiloma",
+     "v": 2500000.0
+    },
+    {
+     "name": "Callum McCowatt",
+     "n": "callum mccowatt",
+     "s": "mccowatt",
+     "v": 2000000.0
+    },
+    {
+     "name": "Tyler Bindon",
+     "n": "tyler bindon",
+     "s": "bindon",
+     "v": 1500000.0
+    },
+    {
+     "name": "Joe Bell",
+     "n": "joe bell",
+     "s": "bell",
+     "v": 1200000.0
+    },
+    {
+     "name": "Ryan Thomas",
+     "n": "ryan thomas",
+     "s": "thomas",
+     "v": 900000.0
+    },
+    {
+     "name": "Sarpreet Singh",
+     "n": "sarpreet singh",
+     "s": "singh",
+     "v": 600000.0
+    },
+    {
+     "name": "Ben Old",
+     "n": "ben old",
+     "s": "old",
+     "v": 600000.0
+    },
+    {
+     "name": "Marco Rojas",
+     "n": "marco rojas",
+     "s": "rojas",
+     "v": 500000.0
+    },
+    {
+     "name": "Matthew Garbett",
+     "n": "matthew garbett",
+     "s": "garbett",
+     "v": 500000.0
+    },
+    {
+     "name": "Matt Dibley-Dias",
+     "n": "matt dibley dias",
+     "s": "dibley dias",
+     "v": 500000.0
+    },
+    {
+     "name": "Kosta Barbarouses",
+     "n": "kosta barbarouses",
+     "s": "barbarouses",
+     "v": 500000.0
+    },
+    {
+     "name": "James McGarry",
+     "n": "james mcgarry",
+     "s": "mcgarry",
+     "v": 400000.0
+    },
+    {
+     "name": "Elijah Just",
+     "n": "elijah just",
+     "s": "just",
+     "v": 350000.0
+    },
+    {
+     "name": "Alex Greive",
+     "n": "alex greive",
+     "s": "greive",
+     "v": 350000.0
+    },
+    {
+     "name": "Callan Elliot",
+     "n": "callan elliot",
+     "s": "elliot",
+     "v": 300000.0
+    },
+    {
+     "name": "Michael Woud",
+     "n": "michael woud",
+     "s": "woud",
+     "v": 250000.0
+    },
+    {
+     "name": "Nando Pijnaker",
+     "n": "nando pijnaker",
+     "s": "pijnaker",
+     "v": 175000.0
+    },
+    {
+     "name": "Dalton Wilkins",
+     "n": "dalton wilkins",
+     "s": "wilkins",
+     "v": 150000.0
+    },
+    {
+     "name": "George Stanger",
+     "n": "george stanger",
+     "s": "stanger",
+     "v": 75000.0
+    }
+   ]
+  },
+  "ESP": {
+   "xiValue": 720000000,
+   "median": 40000000,
+   "players": [
+    {
+     "name": "Lamine Yamal",
+     "n": "lamine yamal",
+     "s": "yamal",
+     "v": 120000000.0
+    },
+    {
+     "name": "Pedri",
+     "n": "pedri",
+     "s": "pedri",
+     "v": 80000000.0
+    },
+    {
+     "name": "Rodri",
+     "n": "rodri",
+     "s": "rodri",
+     "v": 75000000.0
+    },
+    {
+     "name": "Alejandro Balde",
+     "n": "alejandro balde",
+     "s": "balde",
+     "v": 60000000.0
+    },
+    {
+     "name": "Pablo Barrios",
+     "n": "pablo barrios",
+     "s": "barrios",
+     "v": 60000000.0
+    },
+    {
+     "name": "Álvaro Carreras",
+     "n": "alvaro carreras",
+     "s": "carreras",
+     "v": 60000000.0
+    },
+    {
+     "name": "Nico Williams",
+     "n": "nico williams",
+     "s": "williams",
+     "v": 60000000.0
+    },
+    {
+     "name": "Dani Olmo",
+     "n": "dani olmo",
+     "s": "olmo",
+     "v": 60000000.0
+    },
+    {
+     "name": "Marc Cucurella",
+     "n": "marc cucurella",
+     "s": "cucurella",
+     "v": 50000000.0
+    },
+    {
+     "name": "Martín Zubimendi",
+     "n": "martin zubimendi",
+     "s": "zubimendi",
+     "v": 50000000.0
+    },
+    {
+     "name": "Nico González",
+     "n": "nico gonzalez",
+     "s": "gonzalez",
+     "v": 45000000.0
+    },
+    {
+     "name": "Brais Méndez",
+     "n": "brais mendez",
+     "s": "mendez",
+     "v": 40000000.0
+    },
+    {
+     "name": "Gavi",
+     "n": "gavi",
+     "s": "gavi",
+     "v": 40000000.0
+    },
+    {
+     "name": "Oihan Sancet",
+     "n": "oihan sancet",
+     "s": "sancet",
+     "v": 40000000.0
+    },
+    {
+     "name": "Pedro Porro",
+     "n": "pedro porro",
+     "s": "porro",
+     "v": 40000000.0
+    },
+    {
+     "name": "Álex Baena",
+     "n": "alex baena",
+     "s": "baena",
+     "v": 40000000.0
+    },
+    {
+     "name": "Robin Le Normand",
+     "n": "robin le normand",
+     "s": "normand",
+     "v": 40000000.0
+    },
+    {
+     "name": "Fabián Ruiz",
+     "n": "fabian ruiz",
+     "s": "ruiz",
+     "v": 40000000.0
+    },
+    {
+     "name": "Samu Aghehowa",
+     "n": "samu aghehowa",
+     "s": "aghehowa",
+     "v": 35000000.0
+    },
+    {
+     "name": "Cristhian Mosquera",
+     "n": "cristhian mosquera",
+     "s": "mosquera",
+     "v": 35000000.0
+    },
+    {
+     "name": "David Raya",
+     "n": "david raya",
+     "s": "raya",
+     "v": 35000000.0
+    },
+    {
+     "name": "Joan García",
+     "n": "joan garcia",
+     "s": "garcia",
+     "v": 30000000.0
+    },
+    {
+     "name": "Pau Cubarsí",
+     "n": "pau cubarsi",
+     "s": "cubarsi",
+     "v": 30000000.0
+    },
+    {
+     "name": "Yéremy Pino",
+     "n": "yeremy pino",
+     "s": "pino",
+     "v": 30000000.0
+    },
+    {
+     "name": "Mikel Merino",
+     "n": "mikel merino",
+     "s": "merino",
+     "v": 30000000.0
+    },
+    {
+     "name": "Unai Simón",
+     "n": "unai simon",
+     "s": "simon",
+     "v": 30000000.0
+    },
+    {
+     "name": "Fermín López",
+     "n": "fermin lopez",
+     "s": "lopez",
+     "v": 30000000.0
+    },
+    {
+     "name": "Ferran Torres",
+     "n": "ferran torres",
+     "s": "torres",
+     "v": 30000000.0
+    },
+    {
+     "name": "Jesús Rodríguez",
+     "n": "jesus rodriguez",
+     "s": "rodriguez",
+     "v": 30000000.0
+    },
+    {
+     "name": "Mario Gila",
+     "n": "mario gila",
+     "s": "gila",
+     "v": 30000000.0
+    }
+   ]
+  },
+  "URU": {
+   "xiValue": 429000000,
+   "median": 7000000,
+   "players": [
+    {
+     "name": "Federico Valverde",
+     "n": "federico valverde",
+     "s": "valverde",
+     "v": 120000000.0
+    },
+    {
+     "name": "Darwin Núñez",
+     "n": "darwin nunez",
+     "s": "nunez",
+     "v": 70000000.0
+    },
+    {
+     "name": "Ronald Araujo",
+     "n": "ronald araujo",
+     "s": "araujo",
+     "v": 70000000.0
+    },
+    {
+     "name": "Manuel Ugarte",
+     "n": "manuel ugarte",
+     "s": "ugarte",
+     "v": 30000000.0
+    },
+    {
+     "name": "Rodrigo Bentancur",
+     "n": "rodrigo bentancur",
+     "s": "bentancur",
+     "v": 27000000.0
+    },
+    {
+     "name": "José María Giménez",
+     "n": "jose maria gimenez",
+     "s": "gimenez",
+     "v": 22000000.0
+    },
+    {
+     "name": "Maxi Araújo",
+     "n": "maxi araujo",
+     "s": "araujo",
+     "v": 22000000.0
+    },
+    {
+     "name": "Rodrigo Zalazar",
+     "n": "rodrigo zalazar",
+     "s": "zalazar",
+     "v": 20000000.0
+    },
+    {
+     "name": "Mathías Olivera",
+     "n": "mathias olivera",
+     "s": "olivera",
+     "v": 18000000.0
+    },
+    {
+     "name": "Gastón Álvarez",
+     "n": "gaston alvarez",
+     "s": "alvarez",
+     "v": 15000000.0
+    },
+    {
+     "name": "Lucas Torreira",
+     "n": "lucas torreira",
+     "s": "torreira",
+     "v": 15000000.0
+    },
+    {
+     "name": "Mauro Arambarri",
+     "n": "mauro arambarri",
+     "s": "arambarri",
+     "v": 10000000.0
+    },
+    {
+     "name": "Matías Viña",
+     "n": "matias vina",
+     "s": "vina",
+     "v": 10000000.0
+    },
+    {
+     "name": "Santiago Mouriño",
+     "n": "santiago mourino",
+     "s": "mourino",
+     "v": 10000000.0
+    },
+    {
+     "name": "Santiago Bueno",
+     "n": "santiago bueno",
+     "s": "bueno",
+     "v": 10000000.0
+    },
+    {
+     "name": "Emiliano Martínez",
+     "n": "emiliano martinez",
+     "s": "martinez",
+     "v": 9000000.0
+    },
+    {
+     "name": "Diego Rossi",
+     "n": "diego rossi",
+     "s": "rossi",
+     "v": 7000000.0
+    },
+    {
+     "name": "Matías Arezo",
+     "n": "matias arezo",
+     "s": "arezo",
+     "v": 7000000.0
+    },
+    {
+     "name": "Facundo Pellistri",
+     "n": "facundo pellistri",
+     "s": "pellistri",
+     "v": 7000000.0
+    },
+    {
+     "name": "Juan Manuel Sanabria",
+     "n": "juan manuel sanabria",
+     "s": "sanabria",
+     "v": 7000000.0
+    },
+    {
+     "name": "Martín Satriano",
+     "n": "martin satriano",
+     "s": "satriano",
+     "v": 6000000.0
+    },
+    {
+     "name": "Bruno Méndez",
+     "n": "bruno mendez",
+     "s": "mendez",
+     "v": 5000000.0
+    },
+    {
+     "name": "Nahitan Nández",
+     "n": "nahitan nandez",
+     "s": "nandez",
+     "v": 5000000.0
+    },
+    {
+     "name": "Agustín Álvarez",
+     "n": "agustin alvarez",
+     "s": "alvarez",
+     "v": 4500000.0
+    },
+    {
+     "name": "Rodrigo Aguirre",
+     "n": "rodrigo aguirre",
+     "s": "aguirre",
+     "v": 4500000.0
+    },
+    {
+     "name": "Alan Matturro",
+     "n": "alan matturro",
+     "s": "matturro",
+     "v": 4000000.0
+    },
+    {
+     "name": "Álvaro Rodríguez",
+     "n": "alvaro rodriguez",
+     "s": "rodriguez",
+     "v": 4000000.0
+    },
+    {
+     "name": "Jonathan Rodríguez",
+     "n": "jonathan rodriguez",
+     "s": "rodriguez",
+     "v": 4000000.0
+    },
+    {
+     "name": "Luis Suárez",
+     "n": "luis suarez",
+     "s": "suarez",
+     "v": 4000000.0
+    },
+    {
+     "name": "Lucas Olaza",
+     "n": "lucas olaza",
+     "s": "olaza",
+     "v": 4000000.0
+    }
+   ]
+  },
+  "KSA": {
+   "xiValue": 8000000,
+   "median": 50000,
+   "players": [
+    {
+     "name": "Saud Abdulhamid",
+     "n": "saud abdulhamid",
+     "s": "abdulhamid",
+     "v": 3000000.0
+    },
+    {
+     "name": "Salem Al-Dawsari",
+     "n": "salem al dawsari",
+     "s": "al dawsari",
+     "v": 2000000.0
+    },
+    {
+     "name": "Marwan Al-Sahafi",
+     "n": "marwan al sahafi",
+     "s": "al sahafi",
+     "v": 1000000.0
+    },
+    {
+     "name": "Saleh Al-Shehri",
+     "n": "saleh al shehri",
+     "s": "al shehri",
+     "v": 650000.0
+    },
+    {
+     "name": "Fahad Al-Muwallad",
+     "n": "fahad al muwallad",
+     "s": "al muwallad",
+     "v": 350000.0
+    },
+    {
+     "name": "Mukhtar Ali",
+     "n": "mukhtar ali",
+     "s": "ali",
+     "v": 325000.0
+    },
+    {
+     "name": "Abdullah Al-Jawaey",
+     "n": "abdullah al jawaey",
+     "s": "al jawaey",
+     "v": 200000.0
+    },
+    {
+     "name": "Abdullah Al-Hafith",
+     "n": "abdullah al hafith",
+     "s": "al hafith",
+     "v": 200000.0
+    },
+    {
+     "name": "Hamad Al-Yami",
+     "n": "hamad al yami",
+     "s": "al yami",
+     "v": 150000.0
+    },
+    {
+     "name": "Yahya Al-Shehri",
+     "n": "yahya al shehri",
+     "s": "al shehri",
+     "v": 75000.0
+    },
+    {
+     "name": "Mohammed Al-Rashidi",
+     "n": "mohammed al rashidi",
+     "s": "al rashidi",
+     "v": 50000.0
+    }
+   ]
+  },
+  "CPV": {
+   "xiValue": 48700000,
+   "median": 725000,
+   "players": [
+    {
+     "name": "Logan Costa",
+     "n": "logan costa",
+     "s": "costa",
+     "v": 18000000.0
+    },
+    {
+     "name": "Wagner Pina",
+     "n": "wagner pina",
+     "s": "pina",
+     "v": 7000000.0
+    },
+    {
+     "name": "Kevin Lenini",
+     "n": "kevin lenini",
+     "s": "lenini",
+     "v": 4500000.0
+    },
+    {
+     "name": "Djaniny",
+     "n": "djaniny",
+     "s": "djaniny",
+     "v": 4000000.0
+    },
+    {
+     "name": "Telmo Arcanjo",
+     "n": "telmo arcanjo",
+     "s": "arcanjo",
+     "v": 3000000.0
+    },
+    {
+     "name": "Serginho",
+     "n": "serginho",
+     "s": "serginho",
+     "v": 3000000.0
+    },
+    {
+     "name": "Duk",
+     "n": "duk",
+     "s": "duk",
+     "v": 2500000.0
+    },
+    {
+     "name": "Bruno Varela",
+     "n": "bruno varela",
+     "s": "varela",
+     "v": 2000000.0
+    },
+    {
+     "name": "Sidnei Tavares",
+     "n": "sidnei tavares",
+     "s": "tavares",
+     "v": 2000000.0
+    },
+    {
+     "name": "Steven Moreira",
+     "n": "steven moreira",
+     "s": "moreira",
+     "v": 1500000.0
+    },
+    {
+     "name": "Hélio Varela",
+     "n": "helio varela",
+     "s": "varela",
+     "v": 1200000.0
+    },
+    {
+     "name": "Deroy Duarte",
+     "n": "deroy duarte",
+     "s": "duarte",
+     "v": 1000000.0
+    },
+    {
+     "name": "Laros Duarte",
+     "n": "laros duarte",
+     "s": "duarte",
+     "v": 1000000.0
+    },
+    {
+     "name": "Jovane Cabral",
+     "n": "jovane cabral",
+     "s": "cabral",
+     "v": 800000.0
+    },
+    {
+     "name": "Nuno Da Costa",
+     "n": "nuno da costa",
+     "s": "costa",
+     "v": 800000.0
+    },
+    {
+     "name": "David Moreira",
+     "n": "david moreira",
+     "s": "moreira",
+     "v": 800000.0
+    },
+    {
+     "name": "Jamiro Monteiro",
+     "n": "jamiro monteiro",
+     "s": "monteiro",
+     "v": 750000.0
+    },
+    {
+     "name": "Ryan Mendes",
+     "n": "ryan mendes",
+     "s": "mendes",
+     "v": 700000.0
+    },
+    {
+     "name": "Benchimol",
+     "n": "benchimol",
+     "s": "benchimol",
+     "v": 650000.0
+    },
+    {
+     "name": "Bebé",
+     "n": "bebe",
+     "s": "bebe",
+     "v": 600000.0
+    },
+    {
+     "name": "Vágner Dias",
+     "n": "vagner dias",
+     "s": "dias",
+     "v": 600000.0
+    },
+    {
+     "name": "João Correia",
+     "n": "joao correia",
+     "s": "correia",
+     "v": 600000.0
+    },
+    {
+     "name": "Vasco Lopes",
+     "n": "vasco lopes",
+     "s": "lopes",
+     "v": 500000.0
+    },
+    {
+     "name": "Gustavo Varela",
+     "n": "gustavo varela",
+     "s": "varela",
+     "v": 500000.0
+    },
+    {
+     "name": "Berto",
+     "n": "berto",
+     "s": "berto",
+     "v": 450000.0
+    },
+    {
+     "name": "Alessio Da Cruz",
+     "n": "alessio da cruz",
+     "s": "cruz",
+     "v": 450000.0
+    },
+    {
+     "name": "Edi Semedo",
+     "n": "edi semedo",
+     "s": "semedo",
+     "v": 400000.0
+    },
+    {
+     "name": "Fabrício Garcia",
+     "n": "fabricio garcia",
+     "s": "garcia",
+     "v": 400000.0
+    },
+    {
+     "name": "Eynel Soares",
+     "n": "eynel soares",
+     "s": "soares",
+     "v": 400000.0
+    },
+    {
+     "name": "Diogo Mendes",
+     "n": "diogo mendes",
+     "s": "mendes",
+     "v": 400000.0
+    }
+   ]
+  },
+  "FRA": {
+   "xiValue": 1040000000,
+   "median": 50000000,
+   "players": [
+    {
+     "name": "Kylian Mbappé",
+     "n": "kylian mbappe",
+     "s": "mbappe",
+     "v": 180000000.0
+    },
+    {
+     "name": "Michael Olise",
+     "n": "michael olise",
+     "s": "olise",
+     "v": 130000000.0
+    },
+    {
+     "name": "Ousmane Dembélé",
+     "n": "ousmane dembele",
+     "s": "dembele",
+     "v": 100000000.0
+    },
+    {
+     "name": "Aurélien Tchouaméni",
+     "n": "aurelien tchouameni",
+     "s": "tchouameni",
+     "v": 100000000.0
+    },
+    {
+     "name": "William Saliba",
+     "n": "william saliba",
+     "s": "saliba",
+     "v": 90000000.0
+    },
+    {
+     "name": "Désiré Doué",
+     "n": "desire doue",
+     "s": "doue",
+     "v": 90000000.0
+    },
+    {
+     "name": "Hugo Ekitiké",
+     "n": "hugo ekitike",
+     "s": "ekitike",
+     "v": 85000000.0
+    },
+    {
+     "name": "Bradley Barcola",
+     "n": "bradley barcola",
+     "s": "barcola",
+     "v": 70000000.0
+    },
+    {
+     "name": "Dayot Upamecano",
+     "n": "dayot upamecano",
+     "s": "upamecano",
+     "v": 70000000.0
+    },
+    {
+     "name": "Christopher Nkunku",
+     "n": "christopher nkunku",
+     "s": "nkunku",
+     "v": 65000000.0
+    },
+    {
+     "name": "Marcus Thuram",
+     "n": "marcus thuram",
+     "s": "thuram",
+     "v": 60000000.0
+    },
+    {
+     "name": "Theo Hernández",
+     "n": "theo hernandez",
+     "s": "hernandez",
+     "v": 60000000.0
+    },
+    {
+     "name": "Moussa Diaby",
+     "n": "moussa diaby",
+     "s": "diaby",
+     "v": 55000000.0
+    },
+    {
+     "name": "Leny Yoro",
+     "n": "leny yoro",
+     "s": "yoro",
+     "v": 55000000.0
+    },
+    {
+     "name": "Warren Zaïre-Emery",
+     "n": "warren zaire emery",
+     "s": "zaire emery",
+     "v": 50000000.0
+    },
+    {
+     "name": "Rayan Cherki",
+     "n": "rayan cherki",
+     "s": "cherki",
+     "v": 50000000.0
+    },
+    {
+     "name": "Eduardo Camavinga",
+     "n": "eduardo camavinga",
+     "s": "camavinga",
+     "v": 50000000.0
+    },
+    {
+     "name": "Manu Koné",
+     "n": "manu kone",
+     "s": "kone",
+     "v": 50000000.0
+    },
+    {
+     "name": "Ibrahima Konaté",
+     "n": "ibrahima konate",
+     "s": "konate",
+     "v": 45000000.0
+    },
+    {
+     "name": "Castello Lukeba",
+     "n": "castello lukeba",
+     "s": "lukeba",
+     "v": 45000000.0
+    },
+    {
+     "name": "Maghnes Akliouche",
+     "n": "maghnes akliouche",
+     "s": "akliouche",
+     "v": 45000000.0
+    },
+    {
+     "name": "Jules Koundé",
+     "n": "jules kounde",
+     "s": "kounde",
+     "v": 45000000.0
+    },
+    {
+     "name": "Boubacar Kamara",
+     "n": "boubacar kamara",
+     "s": "kamara",
+     "v": 40000000.0
+    },
+    {
+     "name": "Senny Mayulu",
+     "n": "senny mayulu",
+     "s": "mayulu",
+     "v": 40000000.0
+    },
+    {
+     "name": "Khéphren Thuram",
+     "n": "khephren thuram",
+     "s": "thuram",
+     "v": 40000000.0
+    },
+    {
+     "name": "Jean-Philippe Mateta",
+     "n": "jean philippe mateta",
+     "s": "mateta",
+     "v": 40000000.0
+    },
+    {
+     "name": "Mike Maignan",
+     "n": "mike maignan",
+     "s": "maignan",
+     "v": 38000000.0
+    },
+    {
+     "name": "Bafodé Diakité",
+     "n": "bafode diakite",
+     "s": "diakite",
+     "v": 35000000.0
+    },
+    {
+     "name": "Malo Gusto",
+     "n": "malo gusto",
+     "s": "gusto",
+     "v": 35000000.0
+    },
+    {
+     "name": "Maxence Lacroix",
+     "n": "maxence lacroix",
+     "s": "lacroix",
+     "v": 35000000.0
+    }
+   ]
+  },
+  "SEN": {
+   "xiValue": 327000000,
+   "median": 9000000,
+   "players": [
+    {
+     "name": "Nicolas Jackson",
+     "n": "nicolas jackson",
+     "s": "jackson",
+     "v": 45000000.0
+    },
+    {
+     "name": "Iliman Ndiaye",
+     "n": "iliman ndiaye",
+     "s": "ndiaye",
+     "v": 45000000.0
+    },
+    {
+     "name": "Pape Matar Sarr",
+     "n": "pape matar sarr",
+     "s": "sarr",
+     "v": 35000000.0
+    },
+    {
+     "name": "Ismaïla Sarr",
+     "n": "ismaila sarr",
+     "s": "sarr",
+     "v": 35000000.0
+    },
+    {
+     "name": "Habib Diarra",
+     "n": "habib diarra",
+     "s": "diarra",
+     "v": 32000000.0
+    },
+    {
+     "name": "Lamine Camara",
+     "n": "lamine camara",
+     "s": "camara",
+     "v": 30000000.0
+    },
+    {
+     "name": "Mamadou Sarr",
+     "n": "mamadou sarr",
+     "s": "sarr",
+     "v": 25000000.0
+    },
+    {
+     "name": "Ibrahim Mbaye",
+     "n": "ibrahim mbaye",
+     "s": "mbaye",
+     "v": 25000000.0
+    },
+    {
+     "name": "Sadio Mané",
+     "n": "sadio mane",
+     "s": "mane",
+     "v": 25000000.0
+    },
+    {
+     "name": "Moussa Niakhaté",
+     "n": "moussa niakhate",
+     "s": "niakhate",
+     "v": 16000000.0
+    },
+    {
+     "name": "Habib Diallo",
+     "n": "habib diallo",
+     "s": "diallo",
+     "v": 14000000.0
+    },
+    {
+     "name": "Kalidou Koulibaly",
+     "n": "kalidou koulibaly",
+     "s": "koulibaly",
+     "v": 12000000.0
+    },
+    {
+     "name": "Assane Diao",
+     "n": "assane diao",
+     "s": "diao",
+     "v": 12000000.0
+    },
+    {
+     "name": "Arouna Sangante",
+     "n": "arouna sangante",
+     "s": "sangante",
+     "v": 10000000.0
+    },
+    {
+     "name": "Dion Lopy",
+     "n": "dion lopy",
+     "s": "lopy",
+     "v": 10000000.0
+    },
+    {
+     "name": "Edouard Mendy",
+     "n": "edouard mendy",
+     "s": "mendy",
+     "v": 10000000.0
+    },
+    {
+     "name": "Boulaye Dia",
+     "n": "boulaye dia",
+     "s": "dia",
+     "v": 10000000.0
+    },
+    {
+     "name": "Ousmane Diao",
+     "n": "ousmane diao",
+     "s": "diao",
+     "v": 8000000.0
+    },
+    {
+     "name": "Yehvann Diouf",
+     "n": "yehvann diouf",
+     "s": "diouf",
+     "v": 8000000.0
+    },
+    {
+     "name": "Ousseynou Niang",
+     "n": "ousseynou niang",
+     "s": "niang",
+     "v": 7500000.0
+    },
+    {
+     "name": "Pape Gueye",
+     "n": "pape gueye",
+     "s": "gueye",
+     "v": 6000000.0
+    },
+    {
+     "name": "Mikayil Faye",
+     "n": "mikayil faye",
+     "s": "faye",
+     "v": 6000000.0
+    },
+    {
+     "name": "Krépin Diatta",
+     "n": "krepin diatta",
+     "s": "diatta",
+     "v": 6000000.0
+    },
+    {
+     "name": "Ismail Jakobs",
+     "n": "ismail jakobs",
+     "s": "jakobs",
+     "v": 6000000.0
+    },
+    {
+     "name": "Mamadou Diakhon",
+     "n": "mamadou diakhon",
+     "s": "diakhon",
+     "v": 5000000.0
+    },
+    {
+     "name": "Issa Soumaré",
+     "n": "issa soumare",
+     "s": "soumare",
+     "v": 5000000.0
+    },
+    {
+     "name": "Rassoul Ndiaye",
+     "n": "rassoul ndiaye",
+     "s": "ndiaye",
+     "v": 5000000.0
+    },
+    {
+     "name": "Formose Mendy",
+     "n": "formose mendy",
+     "s": "mendy",
+     "v": 4500000.0
+    },
+    {
+     "name": "Antoine Mendy",
+     "n": "antoine mendy",
+     "s": "mendy",
+     "v": 4000000.0
+    },
+    {
+     "name": "Bamba Dieng",
+     "n": "bamba dieng",
+     "s": "dieng",
+     "v": 4000000.0
+    }
+   ]
+  },
+  "NOR": {
+   "xiValue": 484000000,
+   "median": 5000000,
+   "players": [
+    {
+     "name": "Erling Haaland",
+     "n": "erling haaland",
+     "s": "haaland",
+     "v": 200000000.0
+    },
+    {
+     "name": "Martin Ødegaard",
+     "n": "martin ødegaard",
+     "s": "ødegaard",
+     "v": 75000000.0
+    },
+    {
+     "name": "Jørgen Strand Larsen",
+     "n": "jørgen strand larsen",
+     "s": "larsen",
+     "v": 40000000.0
+    },
+    {
+     "name": "Antonio Nusa",
+     "n": "antonio nusa",
+     "s": "nusa",
+     "v": 32000000.0
+    },
+    {
+     "name": "Sander Berge",
+     "n": "sander berge",
+     "s": "berge",
+     "v": 25000000.0
+    },
+    {
+     "name": "Oscar Bobb",
+     "n": "oscar bobb",
+     "s": "bobb",
+     "v": 25000000.0
+    },
+    {
+     "name": "Alexander Sørloth",
+     "n": "alexander sørloth",
+     "s": "sørloth",
+     "v": 20000000.0
+    },
+    {
+     "name": "Julian Ryerson",
+     "n": "julian ryerson",
+     "s": "ryerson",
+     "v": 20000000.0
+    },
+    {
+     "name": "Fredrik Aursnes",
+     "n": "fredrik aursnes",
+     "s": "aursnes",
+     "v": 17000000.0
+    },
+    {
+     "name": "Kristoffer Ajer",
+     "n": "kristoffer ajer",
+     "s": "ajer",
+     "v": 16000000.0
+    },
+    {
+     "name": "Andreas Schjelderup",
+     "n": "andreas schjelderup",
+     "s": "schjelderup",
+     "v": 14000000.0
+    },
+    {
+     "name": "Leo Østigård",
+     "n": "leo østigard",
+     "s": "østigard",
+     "v": 10000000.0
+    },
+    {
+     "name": "Kristian Thorstvedt",
+     "n": "kristian thorstvedt",
+     "s": "thorstvedt",
+     "v": 8000000.0
+    },
+    {
+     "name": "Sebastian Sebulonsen",
+     "n": "sebastian sebulonsen",
+     "s": "sebulonsen",
+     "v": 5500000.0
+    },
+    {
+     "name": "Andreas Hanche-Olsen",
+     "n": "andreas hanche olsen",
+     "s": "hanche olsen",
+     "v": 5000000.0
+    },
+    {
+     "name": "Tobias Lauritsen",
+     "n": "tobias lauritsen",
+     "s": "lauritsen",
+     "v": 5000000.0
+    },
+    {
+     "name": "Kristian Arnstad",
+     "n": "kristian arnstad",
+     "s": "arnstad",
+     "v": 5000000.0
+    },
+    {
+     "name": "Mathias Kjølø",
+     "n": "mathias kjølø",
+     "s": "kjølø",
+     "v": 5000000.0
+    },
+    {
+     "name": "Oliver Braude",
+     "n": "oliver braude",
+     "s": "braude",
+     "v": 4500000.0
+    },
+    {
+     "name": "Kristoffer Velde",
+     "n": "kristoffer velde",
+     "s": "velde",
+     "v": 4500000.0
+    },
+    {
+     "name": "David Møller Wolfe",
+     "n": "david møller wolfe",
+     "s": "wolfe",
+     "v": 4500000.0
+    },
+    {
+     "name": "Patrick Berg",
+     "n": "patrick berg",
+     "s": "berg",
+     "v": 4500000.0
+    },
+    {
+     "name": "Mohamed Elyounoussi",
+     "n": "mohamed elyounoussi",
+     "s": "elyounoussi",
+     "v": 4500000.0
+    },
+    {
+     "name": "Oliver Edvardsen",
+     "n": "oliver edvardsen",
+     "s": "edvardsen",
+     "v": 4000000.0
+    },
+    {
+     "name": "Sivert Mannsverk",
+     "n": "sivert mannsverk",
+     "s": "mannsverk",
+     "v": 4000000.0
+    },
+    {
+     "name": "Marcus Pedersen",
+     "n": "marcus pedersen",
+     "s": "pedersen",
+     "v": 3500000.0
+    },
+    {
+     "name": "Joel Mvuka",
+     "n": "joel mvuka",
+     "s": "mvuka",
+     "v": 3500000.0
+    },
+    {
+     "name": "Aron Dønnum",
+     "n": "aron dønnum",
+     "s": "dønnum",
+     "v": 3500000.0
+    },
+    {
+     "name": "Erik Botheim",
+     "n": "erik botheim",
+     "s": "botheim",
+     "v": 3500000.0
+    },
+    {
+     "name": "Morten Thorsby",
+     "n": "morten thorsby",
+     "s": "thorsby",
+     "v": 3000000.0
+    }
+   ]
+  },
+  "IRQ": {
+   "xiValue": 0,
+   "median": 0,
+   "players": []
+  },
+  "ARG": {
+   "xiValue": 685000000,
+   "median": 21000000,
+   "players": [
+    {
+     "name": "Julián Alvarez",
+     "n": "julian alvarez",
+     "s": "alvarez",
+     "v": 100000000.0
+    },
+    {
+     "name": "Enzo Fernández",
+     "n": "enzo fernandez",
+     "s": "fernandez",
+     "v": 85000000.0
+    },
+    {
+     "name": "Lautaro Martínez",
+     "n": "lautaro martinez",
+     "s": "martinez",
+     "v": 85000000.0
+    },
+    {
+     "name": "Alexis Mac Allister",
+     "n": "alexis mac allister",
+     "s": "allister",
+     "v": 85000000.0
+    },
+    {
+     "name": "Nico Paz",
+     "n": "nico paz",
+     "s": "paz",
+     "v": 65000000.0
+    },
+    {
+     "name": "Cristian Romero",
+     "n": "cristian romero",
+     "s": "romero",
+     "v": 60000000.0
+    },
+    {
+     "name": "Lisandro Martínez",
+     "n": "lisandro martinez",
+     "s": "martinez",
+     "v": 50000000.0
+    },
+    {
+     "name": "Alejandro Garnacho",
+     "n": "alejandro garnacho",
+     "s": "garnacho",
+     "v": 45000000.0
+    },
+    {
+     "name": "Giuliano Simeone",
+     "n": "giuliano simeone",
+     "s": "simeone",
+     "v": 40000000.0
+    },
+    {
+     "name": "Alan Varela",
+     "n": "alan varela",
+     "s": "varela",
+     "v": 35000000.0
+    },
+    {
+     "name": "Lionel Messi",
+     "n": "lionel messi",
+     "s": "messi",
+     "v": 35000000.0
+    },
+    {
+     "name": "Nico González",
+     "n": "nico gonzalez",
+     "s": "gonzalez",
+     "v": 35000000.0
+    },
+    {
+     "name": "Exequiel Palacios",
+     "n": "exequiel palacios",
+     "s": "palacios",
+     "v": 30000000.0
+    },
+    {
+     "name": "Taty Castellanos",
+     "n": "taty castellanos",
+     "s": "castellanos",
+     "v": 25000000.0
+    },
+    {
+     "name": "Matías Soulé",
+     "n": "matias soule",
+     "s": "soule",
+     "v": 25000000.0
+    },
+    {
+     "name": "Máximo Perrone",
+     "n": "maximo perrone",
+     "s": "perrone",
+     "v": 25000000.0
+    },
+    {
+     "name": "Marcos Senesi",
+     "n": "marcos senesi",
+     "s": "senesi",
+     "v": 22000000.0
+    },
+    {
+     "name": "Facundo Medina",
+     "n": "facundo medina",
+     "s": "medina",
+     "v": 20000000.0
+    },
+    {
+     "name": "Leonardo Balerdi",
+     "n": "leonardo balerdi",
+     "s": "balerdi",
+     "v": 20000000.0
+    },
+    {
+     "name": "Thiago Almada",
+     "n": "thiago almada",
+     "s": "almada",
+     "v": 20000000.0
+    },
+    {
+     "name": "Emiliano Buendía",
+     "n": "emiliano buendia",
+     "s": "buendia",
+     "v": 18000000.0
+    },
+    {
+     "name": "Facundo Buonanotte",
+     "n": "facundo buonanotte",
+     "s": "buonanotte",
+     "v": 18000000.0
+    },
+    {
+     "name": "Giovani Lo Celso",
+     "n": "giovani lo celso",
+     "s": "celso",
+     "v": 16000000.0
+    },
+    {
+     "name": "Lucas Beltrán",
+     "n": "lucas beltran",
+     "s": "beltran",
+     "v": 16000000.0
+    },
+    {
+     "name": "Nicolás Domínguez",
+     "n": "nicolas dominguez",
+     "s": "dominguez",
+     "v": 16000000.0
+    },
+    {
+     "name": "Juan Foyth",
+     "n": "juan foyth",
+     "s": "foyth",
+     "v": 15000000.0
+    },
+    {
+     "name": "Nahuel Molina",
+     "n": "nahuel molina",
+     "s": "molina",
+     "v": 15000000.0
+    },
+    {
+     "name": "Emiliano Martínez",
+     "n": "emiliano martinez",
+     "s": "martinez",
+     "v": 15000000.0
+    },
+    {
+     "name": "Enzo Barrenechea",
+     "n": "enzo barrenechea",
+     "s": "barrenechea",
+     "v": 15000000.0
+    },
+    {
+     "name": "Carlos Alcaraz",
+     "n": "carlos alcaraz",
+     "s": "alcaraz",
+     "v": 15000000.0
+    }
+   ]
+  },
+  "ALG": {
+   "xiValue": 194000000,
+   "median": 4650000,
+   "players": [
+    {
+     "name": "Rayan Aït-Nouri",
+     "n": "rayan ait nouri",
+     "s": "ait nouri",
+     "v": 40000000.0
+    },
+    {
+     "name": "Mohamed Amoura",
+     "n": "mohamed amoura",
+     "s": "amoura",
+     "v": 32000000.0
+    },
+    {
+     "name": "Amine Gouiri",
+     "n": "amine gouiri",
+     "s": "gouiri",
+     "v": 28000000.0
+    },
+    {
+     "name": "Riyad Mahrez",
+     "n": "riyad mahrez",
+     "s": "mahrez",
+     "v": 18000000.0
+    },
+    {
+     "name": "Farès Chaïbi",
+     "n": "fares chaibi",
+     "s": "chaibi",
+     "v": 15000000.0
+    },
+    {
+     "name": "Badredine Bouanani",
+     "n": "badredine bouanani",
+     "s": "bouanani",
+     "v": 12000000.0
+    },
+    {
+     "name": "Hicham Boudaoui",
+     "n": "hicham boudaoui",
+     "s": "boudaoui",
+     "v": 12000000.0
+    },
+    {
+     "name": "Houssem Aouar",
+     "n": "houssem aouar",
+     "s": "aouar",
+     "v": 10000000.0
+    },
+    {
+     "name": "Saïd Benrahma",
+     "n": "said benrahma",
+     "s": "benrahma",
+     "v": 9000000.0
+    },
+    {
+     "name": "Yacine Adli",
+     "n": "yacine adli",
+     "s": "adli",
+     "v": 9000000.0
+    },
+    {
+     "name": "Ramiz Zerrouki",
+     "n": "ramiz zerrouki",
+     "s": "zerrouki",
+     "v": 9000000.0
+    },
+    {
+     "name": "Ismaël Bennacer",
+     "n": "ismael bennacer",
+     "s": "bennacer",
+     "v": 9000000.0
+    },
+    {
+     "name": "Rafik Belghali",
+     "n": "rafik belghali",
+     "s": "belghali",
+     "v": 7000000.0
+    },
+    {
+     "name": "Ramy Bensebaini",
+     "n": "ramy bensebaini",
+     "s": "bensebaini",
+     "v": 7000000.0
+    },
+    {
+     "name": "Yassine Titraoui",
+     "n": "yassine titraoui",
+     "s": "titraoui",
+     "v": 5000000.0
+    },
+    {
+     "name": "Nabil Bentaleb",
+     "n": "nabil bentaleb",
+     "s": "bentaleb",
+     "v": 5000000.0
+    },
+    {
+     "name": "Adem Zorgane",
+     "n": "adem zorgane",
+     "s": "zorgane",
+     "v": 5000000.0
+    },
+    {
+     "name": "Youcef Atal",
+     "n": "youcef atal",
+     "s": "atal",
+     "v": 4300000.0
+    },
+    {
+     "name": "Adam Ounas",
+     "n": "adam ounas",
+     "s": "ounas",
+     "v": 4000000.0
+    },
+    {
+     "name": "Mohamed Belloumi",
+     "n": "mohamed belloumi",
+     "s": "belloumi",
+     "v": 4000000.0
+    },
+    {
+     "name": "Rafik Guitane",
+     "n": "rafik guitane",
+     "s": "guitane",
+     "v": 3500000.0
+    },
+    {
+     "name": "Kevin Van Den Kerkhof",
+     "n": "kevin van den kerkhof",
+     "s": "kerkhof",
+     "v": 3000000.0
+    },
+    {
+     "name": "Himad Abdelli",
+     "n": "himad abdelli",
+     "s": "abdelli",
+     "v": 3000000.0
+    },
+    {
+     "name": "Amin Chiakha",
+     "n": "amin chiakha",
+     "s": "chiakha",
+     "v": 3000000.0
+    },
+    {
+     "name": "Yasser Larouci",
+     "n": "yasser larouci",
+     "s": "larouci",
+     "v": 3000000.0
+    },
+    {
+     "name": "Mehdi Léris",
+     "n": "mehdi leris",
+     "s": "leris",
+     "v": 2500000.0
+    },
+    {
+     "name": "Abdelkahar Kadri",
+     "n": "abdelkahar kadri",
+     "s": "kadri",
+     "v": 2500000.0
+    },
+    {
+     "name": "Haris Belkebla",
+     "n": "haris belkebla",
+     "s": "belkebla",
+     "v": 2500000.0
+    },
+    {
+     "name": "Zinedine Ferhat",
+     "n": "zinedine ferhat",
+     "s": "ferhat",
+     "v": 2300000.0
+    },
+    {
+     "name": "Jaouen Hadjam",
+     "n": "jaouen hadjam",
+     "s": "hadjam",
+     "v": 2000000.0
+    }
+   ]
+  },
+  "AUT": {
+   "xiValue": 225000000,
+   "median": 5500000,
+   "players": [
+    {
+     "name": "Konrad Laimer",
+     "n": "konrad laimer",
+     "s": "laimer",
+     "v": 32000000.0
+    },
+    {
+     "name": "Xaver Schlager",
+     "n": "xaver schlager",
+     "s": "schlager",
+     "v": 28000000.0
+    },
+    {
+     "name": "Carney Chukwuemeka",
+     "n": "carney chukwuemeka",
+     "s": "chukwuemeka",
+     "v": 25000000.0
+    },
+    {
+     "name": "Kevin Danso",
+     "n": "kevin danso",
+     "s": "danso",
+     "v": 22000000.0
+    },
+    {
+     "name": "David Alaba",
+     "n": "david alaba",
+     "s": "alaba",
+     "v": 20000000.0
+    },
+    {
+     "name": "Christoph Baumgartner",
+     "n": "christoph baumgartner",
+     "s": "baumgartner",
+     "v": 18000000.0
+    },
+    {
+     "name": "Leopold Querfeld",
+     "n": "leopold querfeld",
+     "s": "querfeld",
+     "v": 18000000.0
+    },
+    {
+     "name": "Romano Schmid",
+     "n": "romano schmid",
+     "s": "schmid",
+     "v": 17000000.0
+    },
+    {
+     "name": "Nicolas Seiwald",
+     "n": "nicolas seiwald",
+     "s": "seiwald",
+     "v": 16000000.0
+    },
+    {
+     "name": "Patrick Wimmer",
+     "n": "patrick wimmer",
+     "s": "wimmer",
+     "v": 15000000.0
+    },
+    {
+     "name": "Paul Wanner",
+     "n": "paul wanner",
+     "s": "wanner",
+     "v": 14000000.0
+    },
+    {
+     "name": "Stefan Posch",
+     "n": "stefan posch",
+     "s": "posch",
+     "v": 14000000.0
+    },
+    {
+     "name": "Marco Friedl",
+     "n": "marco friedl",
+     "s": "friedl",
+     "v": 12000000.0
+    },
+    {
+     "name": "Philipp Lienhart",
+     "n": "philipp lienhart",
+     "s": "lienhart",
+     "v": 12000000.0
+    },
+    {
+     "name": "Maximilian Wöber",
+     "n": "maximilian wober",
+     "s": "wober",
+     "v": 10000000.0
+    },
+    {
+     "name": "Marcel Sabitzer",
+     "n": "marcel sabitzer",
+     "s": "sabitzer",
+     "v": 7000000.0
+    },
+    {
+     "name": "Marco Grüll",
+     "n": "marco grull",
+     "s": "grull",
+     "v": 6000000.0
+    },
+    {
+     "name": "Muhammed Cham",
+     "n": "muhammed cham",
+     "s": "cham",
+     "v": 5000000.0
+    },
+    {
+     "name": "Dejan Ljubicic",
+     "n": "dejan ljubicic",
+     "s": "ljubicic",
+     "v": 5000000.0
+    },
+    {
+     "name": "Junior Adamu",
+     "n": "junior adamu",
+     "s": "adamu",
+     "v": 5000000.0
+    },
+    {
+     "name": "Alexander Prass",
+     "n": "alexander prass",
+     "s": "prass",
+     "v": 5000000.0
+    },
+    {
+     "name": "Aleksandar Dragovic",
+     "n": "aleksandar dragovic",
+     "s": "dragovic",
+     "v": 4500000.0
+    },
+    {
+     "name": "David Nemeth",
+     "n": "david nemeth",
+     "s": "nemeth",
+     "v": 4000000.0
+    },
+    {
+     "name": "Valentino Lazaro",
+     "n": "valentino lazaro",
+     "s": "lazaro",
+     "v": 3500000.0
+    },
+    {
+     "name": "Emanuel Aiwu",
+     "n": "emanuel aiwu",
+     "s": "aiwu",
+     "v": 3000000.0
+    },
+    {
+     "name": "Kevin Stöger",
+     "n": "kevin stoger",
+     "s": "stoger",
+     "v": 3000000.0
+    },
+    {
+     "name": "Flavius Daniliuc",
+     "n": "flavius daniliuc",
+     "s": "daniliuc",
+     "v": 3000000.0
+    },
+    {
+     "name": "Christoph Klarer",
+     "n": "christoph klarer",
+     "s": "klarer",
+     "v": 3000000.0
+    },
+    {
+     "name": "Yusuf Demir",
+     "n": "yusuf demir",
+     "s": "demir",
+     "v": 2700000.0
+    },
+    {
+     "name": "Florian Kainz",
+     "n": "florian kainz",
+     "s": "kainz",
+     "v": 2500000.0
+    }
+   ]
+  },
+  "JOR": {
+   "xiValue": 0,
+   "median": 0,
+   "players": []
+  },
+  "POR": {
+   "xiValue": 715000000,
+   "median": 31000000,
+   "players": [
+    {
+     "name": "Vitinha",
+     "n": "vitinha",
+     "s": "vitinha",
+     "v": 110000000.0
+    },
+    {
+     "name": "João Neves",
+     "n": "joao neves",
+     "s": "neves",
+     "v": 110000000.0
+    },
+    {
+     "name": "Rafael Leão",
+     "n": "rafael leao",
+     "s": "leao",
+     "v": 90000000.0
+    },
+    {
+     "name": "Nuno Mendes",
+     "n": "nuno mendes",
+     "s": "mendes",
+     "v": 75000000.0
+    },
+    {
+     "name": "Rúben Dias",
+     "n": "ruben dias",
+     "s": "dias",
+     "v": 60000000.0
+    },
+    {
+     "name": "Pedro Neto",
+     "n": "pedro neto",
+     "s": "neto",
+     "v": 60000000.0
+    },
+    {
+     "name": "Gonçalo Inácio",
+     "n": "goncalo inacio",
+     "s": "inacio",
+     "v": 45000000.0
+    },
+    {
+     "name": "Geovany Quenda",
+     "n": "geovany quenda",
+     "s": "quenda",
+     "v": 45000000.0
+    },
+    {
+     "name": "Diogo Jota",
+     "n": "diogo jota",
+     "s": "jota",
+     "v": 40000000.0
+    },
+    {
+     "name": "Diogo Costa",
+     "n": "diogo costa",
+     "s": "costa",
+     "v": 40000000.0
+    },
+    {
+     "name": "Bruno Fernandes",
+     "n": "bruno fernandes",
+     "s": "fernandes",
+     "v": 40000000.0
+    },
+    {
+     "name": "Rodrigo Mora",
+     "n": "rodrigo mora",
+     "s": "mora",
+     "v": 40000000.0
+    },
+    {
+     "name": "Rúben Neves",
+     "n": "ruben neves",
+     "s": "neves",
+     "v": 40000000.0
+    },
+    {
+     "name": "Matheus Nunes",
+     "n": "matheus nunes",
+     "s": "nunes",
+     "v": 38000000.0
+    },
+    {
+     "name": "Francisco Trincão",
+     "n": "francisco trincao",
+     "s": "trincao",
+     "v": 35000000.0
+    },
+    {
+     "name": "Gonçalo Ramos",
+     "n": "goncalo ramos",
+     "s": "ramos",
+     "v": 35000000.0
+    },
+    {
+     "name": "Mateus Fernandes",
+     "n": "mateus fernandes",
+     "s": "fernandes",
+     "v": 32000000.0
+    },
+    {
+     "name": "Pedro Gonçalves",
+     "n": "pedro goncalves",
+     "s": "goncalves",
+     "v": 30000000.0
+    },
+    {
+     "name": "António Silva",
+     "n": "antonio silva",
+     "s": "silva",
+     "v": 30000000.0
+    },
+    {
+     "name": "Francisco Conceição",
+     "n": "francisco conceicao",
+     "s": "conceicao",
+     "v": 30000000.0
+    },
+    {
+     "name": "Diogo Dalot",
+     "n": "diogo dalot",
+     "s": "dalot",
+     "v": 28000000.0
+    },
+    {
+     "name": "Tomás Araújo",
+     "n": "tomas araujo",
+     "s": "araujo",
+     "v": 28000000.0
+    },
+    {
+     "name": "Fábio Silva",
+     "n": "fabio silva",
+     "s": "silva",
+     "v": 28000000.0
+    },
+    {
+     "name": "Bernardo Silva",
+     "n": "bernardo silva",
+     "s": "silva",
+     "v": 27000000.0
+    },
+    {
+     "name": "João Palhinha",
+     "n": "joao palhinha",
+     "s": "palhinha",
+     "v": 25000000.0
+    },
+    {
+     "name": "Otávio",
+     "n": "otavio",
+     "s": "otavio",
+     "v": 25000000.0
+    },
+    {
+     "name": "Renato Veiga",
+     "n": "renato veiga",
+     "s": "veiga",
+     "v": 25000000.0
+    },
+    {
+     "name": "João Félix",
+     "n": "joao felix",
+     "s": "felix",
+     "v": 25000000.0
+    },
+    {
+     "name": "Toti",
+     "n": "toti",
+     "s": "toti",
+     "v": 25000000.0
+    },
+    {
+     "name": "João Cancelo",
+     "n": "joao cancelo",
+     "s": "cancelo",
+     "v": 25000000.0
+    }
+   ]
+  },
+  "COL": {
+   "xiValue": 235000000,
+   "median": 6500000,
+   "players": [
+    {
+     "name": "Luis Díaz",
+     "n": "luis diaz",
+     "s": "diaz",
+     "v": 70000000.0
+    },
+    {
+     "name": "Jhon Durán",
+     "n": "jhon duran",
+     "s": "duran",
+     "v": 32000000.0
+    },
+    {
+     "name": "Daniel Muñoz",
+     "n": "daniel munoz",
+     "s": "munoz",
+     "v": 27000000.0
+    },
+    {
+     "name": "Davinson Sánchez",
+     "n": "davinson sanchez",
+     "s": "sanchez",
+     "v": 18000000.0
+    },
+    {
+     "name": "Cucho Hernández",
+     "n": "cucho hernandez",
+     "s": "hernandez",
+     "v": 18000000.0
+    },
+    {
+     "name": "Jhon Lucumí",
+     "n": "jhon lucumi",
+     "s": "lucumi",
+     "v": 17000000.0
+    },
+    {
+     "name": "Yáser Asprilla",
+     "n": "yaser asprilla",
+     "s": "asprilla",
+     "v": 12000000.0
+    },
+    {
+     "name": "Luis Sinisterra",
+     "n": "luis sinisterra",
+     "s": "sinisterra",
+     "v": 12000000.0
+    },
+    {
+     "name": "Jhon Córdoba",
+     "n": "jhon cordoba",
+     "s": "cordoba",
+     "v": 10000000.0
+    },
+    {
+     "name": "Yerson Mosquera",
+     "n": "yerson mosquera",
+     "s": "mosquera",
+     "v": 10000000.0
+    },
+    {
+     "name": "Jorge Carrascal",
+     "n": "jorge carrascal",
+     "s": "carrascal",
+     "v": 9000000.0
+    },
+    {
+     "name": "Juan Cabal",
+     "n": "juan cabal",
+     "s": "cabal",
+     "v": 9000000.0
+    },
+    {
+     "name": "Mateo Cassierra",
+     "n": "mateo cassierra",
+     "s": "cassierra",
+     "v": 9000000.0
+    },
+    {
+     "name": "Jefferson Lerma",
+     "n": "jefferson lerma",
+     "s": "lerma",
+     "v": 8000000.0
+    },
+    {
+     "name": "Rafael Borré",
+     "n": "rafael borre",
+     "s": "borre",
+     "v": 8000000.0
+    },
+    {
+     "name": "Duván Zapata",
+     "n": "duvan zapata",
+     "s": "zapata",
+     "v": 8000000.0
+    },
+    {
+     "name": "Wilmar Barrios",
+     "n": "wilmar barrios",
+     "s": "barrios",
+     "v": 7000000.0
+    },
+    {
+     "name": "Carlos Cuesta",
+     "n": "carlos cuesta",
+     "s": "cuesta",
+     "v": 6000000.0
+    },
+    {
+     "name": "Alfredo Morelos",
+     "n": "alfredo morelos",
+     "s": "morelos",
+     "v": 6000000.0
+    },
+    {
+     "name": "James Rodríguez",
+     "n": "james rodriguez",
+     "s": "rodriguez",
+     "v": 6000000.0
+    },
+    {
+     "name": "Cristian Arango",
+     "n": "cristian arango",
+     "s": "arango",
+     "v": 5500000.0
+    },
+    {
+     "name": "Matheus Uribe",
+     "n": "matheus uribe",
+     "s": "uribe",
+     "v": 5000000.0
+    },
+    {
+     "name": "Kevin Castaño",
+     "n": "kevin castano",
+     "s": "castano",
+     "v": 5000000.0
+    },
+    {
+     "name": "Andrés Gómez",
+     "n": "andres gomez",
+     "s": "gomez",
+     "v": 5000000.0
+    },
+    {
+     "name": "Deiver Machado",
+     "n": "deiver machado",
+     "s": "machado",
+     "v": 4000000.0
+    },
+    {
+     "name": "Óscar Estupiñán",
+     "n": "oscar estupinan",
+     "s": "estupinan",
+     "v": 4000000.0
+    },
+    {
+     "name": "Steven Alzate",
+     "n": "steven alzate",
+     "s": "alzate",
+     "v": 4000000.0
+    },
+    {
+     "name": "Miguel Borja",
+     "n": "miguel borja",
+     "s": "borja",
+     "v": 3800000.0
+    },
+    {
+     "name": "Luis Suárez",
+     "n": "luis suarez",
+     "s": "suarez",
+     "v": 3500000.0
+    },
+    {
+     "name": "Óscar Cortés",
+     "n": "oscar cortes",
+     "s": "cortes",
+     "v": 3500000.0
+    }
+   ]
+  },
+  "UZB": {
+   "xiValue": 56050000,
+   "median": 600000,
+   "players": [
+    {
+     "name": "Abdukodir Khusanov",
+     "n": "abdukodir khusanov",
+     "s": "khusanov",
+     "v": 35000000.0
+    },
+    {
+     "name": "Abbosbek Fayzullaev",
+     "n": "abbosbek fayzullaev",
+     "s": "fayzullaev",
+     "v": 7000000.0
+    },
+    {
+     "name": "Eldor Shomurodov",
+     "n": "eldor shomurodov",
+     "s": "shomurodov",
+     "v": 5000000.0
+    },
+    {
+     "name": "Jaloliddin Masharipov",
+     "n": "jaloliddin masharipov",
+     "s": "masharipov",
+     "v": 1700000.0
+    },
+    {
+     "name": "Otabek Shukurov",
+     "n": "otabek shukurov",
+     "s": "shukurov",
+     "v": 1600000.0
+    },
+    {
+     "name": "Khusniddin Alikulov",
+     "n": "khusniddin alikulov",
+     "s": "alikulov",
+     "v": 1500000.0
+    },
+    {
+     "name": "Oston Urunov",
+     "n": "oston urunov",
+     "s": "urunov",
+     "v": 1000000.0
+    },
+    {
+     "name": "Bobur Abdikholikov",
+     "n": "bobur abdikholikov",
+     "s": "abdikholikov",
+     "v": 900000.0
+    },
+    {
+     "name": "Rustam Ashurmatov",
+     "n": "rustam ashurmatov",
+     "s": "ashurmatov",
+     "v": 800000.0
+    },
+    {
+     "name": "Ibrokhimkhalil Yuldoshev",
+     "n": "ibrokhimkhalil yuldoshev",
+     "s": "yuldoshev",
+     "v": 800000.0
+    },
+    {
+     "name": "Dostonbek Khamdamov",
+     "n": "dostonbek khamdamov",
+     "s": "khamdamov",
+     "v": 750000.0
+    },
+    {
+     "name": "Azizbek Turgunboev",
+     "n": "azizbek turgunboev",
+     "s": "turgunboev",
+     "v": 700000.0
+    },
+    {
+     "name": "Alisher Odilov",
+     "n": "alisher odilov",
+     "s": "odilov",
+     "v": 700000.0
+    },
+    {
+     "name": "Khozhimat Erkinov",
+     "n": "khozhimat erkinov",
+     "s": "erkinov",
+     "v": 600000.0
+    },
+    {
+     "name": "Umarali Rakhmonaliev",
+     "n": "umarali rakhmonaliev",
+     "s": "rakhmonaliev",
+     "v": 600000.0
+    },
+    {
+     "name": "Ruslanbek Jiyanov",
+     "n": "ruslanbek jiyanov",
+     "s": "jiyanov",
+     "v": 400000.0
+    }
+   ]
+  },
+  "COD": {
+   "xiValue": 113500000,
+   "median": 2650000,
+   "players": [
+    {
+     "name": "Yoane Wissa",
+     "n": "yoane wissa",
+     "s": "wissa",
+     "v": 28000000.0
+    },
+    {
+     "name": "Aaron Wan-Bissaka",
+     "n": "aaron wan bissaka",
+     "s": "wan bissaka",
+     "v": 22000000.0
+    },
+    {
+     "name": "Ngal'ayel Mukau",
+     "n": "ngal'ayel mukau",
+     "s": "mukau",
+     "v": 12000000.0
+    },
+    {
+     "name": "Simon Banza",
+     "n": "simon banza",
+     "s": "banza",
+     "v": 11000000.0
+    },
+    {
+     "name": "Jorthy Mokio",
+     "n": "jorthy mokio",
+     "s": "mokio",
+     "v": 8000000.0
+    },
+    {
+     "name": "Mario Stroeykens",
+     "n": "mario stroeykens",
+     "s": "stroeykens",
+     "v": 8000000.0
+    },
+    {
+     "name": "Théo Bongonda",
+     "n": "theo bongonda",
+     "s": "bongonda",
+     "v": 5000000.0
+    },
+    {
+     "name": "Noah Sadiki",
+     "n": "noah sadiki",
+     "s": "sadiki",
+     "v": 5000000.0
+    },
+    {
+     "name": "Michel-Ange Balikwisha",
+     "n": "michel ange balikwisha",
+     "s": "balikwisha",
+     "v": 5000000.0
+    },
+    {
+     "name": "Axel Tuanzebe",
+     "n": "axel tuanzebe",
+     "s": "tuanzebe",
+     "v": 5000000.0
+    },
+    {
+     "name": "Grady Diangana",
+     "n": "grady diangana",
+     "s": "diangana",
+     "v": 4500000.0
+    },
+    {
+     "name": "Metinho",
+     "n": "metinho",
+     "s": "metinho",
+     "v": 3500000.0
+    },
+    {
+     "name": "Gédéon Kalulu",
+     "n": "gedeon kalulu",
+     "s": "kalulu",
+     "v": 3500000.0
+    },
+    {
+     "name": "Samuel Essende",
+     "n": "samuel essende",
+     "s": "essende",
+     "v": 3500000.0
+    },
+    {
+     "name": "Charles Pickel",
+     "n": "charles pickel",
+     "s": "pickel",
+     "v": 3200000.0
+    },
+    {
+     "name": "Silas",
+     "n": "silas",
+     "s": "silas",
+     "v": 3000000.0
+    },
+    {
+     "name": "Marcel Tisserand",
+     "n": "marcel tisserand",
+     "s": "tisserand",
+     "v": 2800000.0
+    },
+    {
+     "name": "Jackson Muleka",
+     "n": "jackson muleka",
+     "s": "muleka",
+     "v": 2500000.0
+    },
+    {
+     "name": "Joris Kayembe",
+     "n": "joris kayembe",
+     "s": "kayembe",
+     "v": 2500000.0
+    },
+    {
+     "name": "Arthur Masuaku",
+     "n": "arthur masuaku",
+     "s": "masuaku",
+     "v": 2500000.0
+    },
+    {
+     "name": "Merveille Bokadi",
+     "n": "merveille bokadi",
+     "s": "bokadi",
+     "v": 2500000.0
+    },
+    {
+     "name": "Chancel Mbemba",
+     "n": "chancel mbemba",
+     "s": "mbemba",
+     "v": 2500000.0
+    },
+    {
+     "name": "Nathanaël Mbuku",
+     "n": "nathanael mbuku",
+     "s": "mbuku",
+     "v": 2000000.0
+    },
+    {
+     "name": "Gaël Kakuta",
+     "n": "gael kakuta",
+     "s": "kakuta",
+     "v": 1800000.0
+    },
+    {
+     "name": "Pelly Ruddock Mpanzu",
+     "n": "pelly ruddock mpanzu",
+     "s": "mpanzu",
+     "v": 1500000.0
+    },
+    {
+     "name": "Aldo Kalulu",
+     "n": "aldo kalulu",
+     "s": "kalulu",
+     "v": 1500000.0
+    },
+    {
+     "name": "Beni Baningime",
+     "n": "beni baningime",
+     "s": "baningime",
+     "v": 1500000.0
+    },
+    {
+     "name": "Cédric Bakambu",
+     "n": "cedric bakambu",
+     "s": "bakambu",
+     "v": 1400000.0
+    },
+    {
+     "name": "Samuel Moutoussamy",
+     "n": "samuel moutoussamy",
+     "s": "moutoussamy",
+     "v": 1200000.0
+    },
+    {
+     "name": "Dimitry Bertaud",
+     "n": "dimitry bertaud",
+     "s": "bertaud",
+     "v": 1200000.0
+    }
+   ]
+  },
+  "ENG": {
+   "xiValue": 1075000000,
+   "median": 50000000,
+   "players": [
+    {
+     "name": "Jude Bellingham",
+     "n": "jude bellingham",
+     "s": "bellingham",
+     "v": 160000000.0
+    },
+    {
+     "name": "Phil Foden",
+     "n": "phil foden",
+     "s": "foden",
+     "v": 150000000.0
+    },
+    {
+     "name": "Bukayo Saka",
+     "n": "bukayo saka",
+     "s": "saka",
+     "v": 130000000.0
+    },
+    {
+     "name": "Cole Palmer",
+     "n": "cole palmer",
+     "s": "palmer",
+     "v": 120000000.0
+    },
+    {
+     "name": "Declan Rice",
+     "n": "declan rice",
+     "s": "rice",
+     "v": 120000000.0
+    },
+    {
+     "name": "Morgan Rogers",
+     "n": "morgan rogers",
+     "s": "rogers",
+     "v": 70000000.0
+    },
+    {
+     "name": "Trent Alexander-Arnold",
+     "n": "trent alexander arnold",
+     "s": "alexander arnold",
+     "v": 70000000.0
+    },
+    {
+     "name": "Harry Kane",
+     "n": "harry kane",
+     "s": "kane",
+     "v": 65000000.0
+    },
+    {
+     "name": "Morgan Gibbs-White",
+     "n": "morgan gibbs white",
+     "s": "gibbs white",
+     "v": 65000000.0
+    },
+    {
+     "name": "Eberechi Eze",
+     "n": "eberechi eze",
+     "s": "eze",
+     "v": 65000000.0
+    },
+    {
+     "name": "Adam Wharton",
+     "n": "adam wharton",
+     "s": "wharton",
+     "v": 60000000.0
+    },
+    {
+     "name": "Elliot Anderson",
+     "n": "elliot anderson",
+     "s": "anderson",
+     "v": 60000000.0
+    },
+    {
+     "name": "Anthony Gordon",
+     "n": "anthony gordon",
+     "s": "gordon",
+     "v": 60000000.0
+    },
+    {
+     "name": "Marc Guéhi",
+     "n": "marc guehi",
+     "s": "guehi",
+     "v": 55000000.0
+    },
+    {
+     "name": "Levi Colwill",
+     "n": "levi colwill",
+     "s": "colwill",
+     "v": 50000000.0
+    },
+    {
+     "name": "Ivan Toney",
+     "n": "ivan toney",
+     "s": "toney",
+     "v": 50000000.0
+    },
+    {
+     "name": "Mason Greenwood",
+     "n": "mason greenwood",
+     "s": "greenwood",
+     "v": 50000000.0
+    },
+    {
+     "name": "Noni Madueke",
+     "n": "noni madueke",
+     "s": "madueke",
+     "v": 50000000.0
+    },
+    {
+     "name": "Reece James",
+     "n": "reece james",
+     "s": "james",
+     "v": 50000000.0
+    },
+    {
+     "name": "Jarrad Branthwaite",
+     "n": "jarrad branthwaite",
+     "s": "branthwaite",
+     "v": 45000000.0
+    },
+    {
+     "name": "Curtis Jones",
+     "n": "curtis jones",
+     "s": "jones",
+     "v": 40000000.0
+    },
+    {
+     "name": "Nico O'Reilly",
+     "n": "nico o'reilly",
+     "s": "o'reilly",
+     "v": 40000000.0
+    },
+    {
+     "name": "Kobbie Mainoo",
+     "n": "kobbie mainoo",
+     "s": "mainoo",
+     "v": 40000000.0
+    },
+    {
+     "name": "Fikayo Tomori",
+     "n": "fikayo tomori",
+     "s": "tomori",
+     "v": 40000000.0
+    },
+    {
+     "name": "Jamie Gittens",
+     "n": "jamie gittens",
+     "s": "gittens",
+     "v": 40000000.0
+    },
+    {
+     "name": "Jarell Quansah",
+     "n": "jarell quansah",
+     "s": "quansah",
+     "v": 40000000.0
+    },
+    {
+     "name": "Myles Lewis-Skelly",
+     "n": "myles lewis skelly",
+     "s": "lewis skelly",
+     "v": 40000000.0
+    },
+    {
+     "name": "Ethan Nwaneri",
+     "n": "ethan nwaneri",
+     "s": "nwaneri",
+     "v": 40000000.0
+    },
+    {
+     "name": "Dominic Solanke",
+     "n": "dominic solanke",
+     "s": "solanke",
+     "v": 40000000.0
+    },
+    {
+     "name": "Marcus Rashford",
+     "n": "marcus rashford",
+     "s": "rashford",
+     "v": 40000000.0
+    }
+   ]
+  },
+  "CRO": {
+   "xiValue": 280000000,
+   "median": 7000000,
+   "players": [
+    {
+     "name": "Josko Gvardiol",
+     "n": "josko gvardiol",
+     "s": "gvardiol",
+     "v": 70000000.0
+    },
+    {
+     "name": "Luka Vuskovic",
+     "n": "luka vuskovic",
+     "s": "vuskovic",
+     "v": 40000000.0
+    },
+    {
+     "name": "Josip Stanisic",
+     "n": "josip stanisic",
+     "s": "stanisic",
+     "v": 32000000.0
+    },
+    {
+     "name": "Petar Sučić",
+     "n": "petar sucic",
+     "s": "sucic",
+     "v": 30000000.0
+    },
+    {
+     "name": "Marcelo Brozović",
+     "n": "marcelo brozovic",
+     "s": "brozovic",
+     "v": 20000000.0
+    },
+    {
+     "name": "Franjo Ivanović",
+     "n": "franjo ivanovic",
+     "s": "ivanovic",
+     "v": 20000000.0
+    },
+    {
+     "name": "Josip Sutalo",
+     "n": "josip sutalo",
+     "s": "sutalo",
+     "v": 17000000.0
+    },
+    {
+     "name": "Mateo Kovacic",
+     "n": "mateo kovacic",
+     "s": "kovacic",
+     "v": 15000000.0
+    },
+    {
+     "name": "Lovro Majer",
+     "n": "lovro majer",
+     "s": "majer",
+     "v": 15000000.0
+    },
+    {
+     "name": "Dominik Livakovic",
+     "n": "dominik livakovic",
+     "s": "livakovic",
+     "v": 11000000.0
+    },
+    {
+     "name": "Luka Sucic",
+     "n": "luka sucic",
+     "s": "sucic",
+     "v": 10000000.0
+    },
+    {
+     "name": "Nikola Vlašić",
+     "n": "nikola vlasic",
+     "s": "vlasic",
+     "v": 10000000.0
+    },
+    {
+     "name": "Marko Livaja",
+     "n": "marko livaja",
+     "s": "livaja",
+     "v": 8000000.0
+    },
+    {
+     "name": "Petar Musa",
+     "n": "petar musa",
+     "s": "musa",
+     "v": 8000000.0
+    },
+    {
+     "name": "Matija Frigan",
+     "n": "matija frigan",
+     "s": "frigan",
+     "v": 7500000.0
+    },
+    {
+     "name": "Marin Pongracic",
+     "n": "marin pongracic",
+     "s": "pongracic",
+     "v": 7500000.0
+    },
+    {
+     "name": "Igor Matanovic",
+     "n": "igor matanovic",
+     "s": "matanovic",
+     "v": 7000000.0
+    },
+    {
+     "name": "Duje Caleta-Car",
+     "n": "duje caleta car",
+     "s": "caleta car",
+     "v": 7000000.0
+    },
+    {
+     "name": "Mario Pašalić",
+     "n": "mario pasalic",
+     "s": "pasalic",
+     "v": 7000000.0
+    },
+    {
+     "name": "Nikola Moro",
+     "n": "nikola moro",
+     "s": "moro",
+     "v": 6500000.0
+    },
+    {
+     "name": "Kristijan Jakic",
+     "n": "kristijan jakic",
+     "s": "jakic",
+     "v": 6000000.0
+    },
+    {
+     "name": "Dominik Kotarski",
+     "n": "dominik kotarski",
+     "s": "kotarski",
+     "v": 6000000.0
+    },
+    {
+     "name": "Bruno Petkovic",
+     "n": "bruno petkovic",
+     "s": "petkovic",
+     "v": 5000000.0
+    },
+    {
+     "name": "Domagoj Bradarić",
+     "n": "domagoj bradaric",
+     "s": "bradaric",
+     "v": 5000000.0
+    },
+    {
+     "name": "Filip Krovinovic",
+     "n": "filip krovinovic",
+     "s": "krovinovic",
+     "v": 4500000.0
+    },
+    {
+     "name": "Antonio Colak",
+     "n": "antonio colak",
+     "s": "colak",
+     "v": 4000000.0
+    },
+    {
+     "name": "Borna Sosa",
+     "n": "borna sosa",
+     "s": "sosa",
+     "v": 4000000.0
+    },
+    {
+     "name": "Luka Modrić",
+     "n": "luka modric",
+     "s": "modric",
+     "v": 4000000.0
+    },
+    {
+     "name": "Martin Erlić",
+     "n": "martin erlic",
+     "s": "erlic",
+     "v": 4000000.0
+    },
+    {
+     "name": "Dion Beljo",
+     "n": "dion beljo",
+     "s": "beljo",
+     "v": 4000000.0
+    }
+   ]
+  },
+  "GHA": {
+   "xiValue": 243500000,
+   "median": 5000000,
+   "players": [
+    {
+     "name": "Antoine Semenyo",
+     "n": "antoine semenyo",
+     "s": "semenyo",
+     "v": 65000000.0
+    },
+    {
+     "name": "Mohammed Kudus",
+     "n": "mohammed kudus",
+     "s": "kudus",
+     "v": 55000000.0
+    },
+    {
+     "name": "Iñaki Williams",
+     "n": "inaki williams",
+     "s": "williams",
+     "v": 25000000.0
+    },
+    {
+     "name": "Abdul Fatawu",
+     "n": "abdul fatawu",
+     "s": "fatawu",
+     "v": 20000000.0
+    },
+    {
+     "name": "Kamaldeen Sulemana",
+     "n": "kamaldeen sulemana",
+     "s": "sulemana",
+     "v": 18000000.0
+    },
+    {
+     "name": "Ernest Nuamah",
+     "n": "ernest nuamah",
+     "s": "nuamah",
+     "v": 12000000.0
+    },
+    {
+     "name": "Ibrahim Osman",
+     "n": "ibrahim osman",
+     "s": "osman",
+     "v": 12000000.0
+    },
+    {
+     "name": "Mohammed Salisu",
+     "n": "mohammed salisu",
+     "s": "salisu",
+     "v": 10000000.0
+    },
+    {
+     "name": "Joseph Paintsil",
+     "n": "joseph paintsil",
+     "s": "paintsil",
+     "v": 9500000.0
+    },
+    {
+     "name": "Alexander Djiku",
+     "n": "alexander djiku",
+     "s": "djiku",
+     "v": 9000000.0
+    },
+    {
+     "name": "Salis Abdul Samed",
+     "n": "salis abdul samed",
+     "s": "samed",
+     "v": 8000000.0
+    },
+    {
+     "name": "Tariq Lamptey",
+     "n": "tariq lamptey",
+     "s": "lamptey",
+     "v": 8000000.0
+    },
+    {
+     "name": "Osman Bukari",
+     "n": "osman bukari",
+     "s": "bukari",
+     "v": 6500000.0
+    },
+    {
+     "name": "Ibrahim Sulemana",
+     "n": "ibrahim sulemana",
+     "s": "sulemana",
+     "v": 6000000.0
+    },
+    {
+     "name": "Alidu Seidu",
+     "n": "alidu seidu",
+     "s": "seidu",
+     "v": 6000000.0
+    },
+    {
+     "name": "Francis Amuzu",
+     "n": "francis amuzu",
+     "s": "amuzu",
+     "v": 5000000.0
+    },
+    {
+     "name": "Daniel Amartey",
+     "n": "daniel amartey",
+     "s": "amartey",
+     "v": 5000000.0
+    },
+    {
+     "name": "Thomas Partey",
+     "n": "thomas partey",
+     "s": "partey",
+     "v": 5000000.0
+    },
+    {
+     "name": "Joseph Aidoo",
+     "n": "joseph aidoo",
+     "s": "aidoo",
+     "v": 4000000.0
+    },
+    {
+     "name": "Alfred Duncan",
+     "n": "alfred duncan",
+     "s": "duncan",
+     "v": 4000000.0
+    },
+    {
+     "name": "Derrick Köhn",
+     "n": "derrick kohn",
+     "s": "kohn",
+     "v": 4000000.0
+    },
+    {
+     "name": "Augustine Boakye",
+     "n": "augustine boakye",
+     "s": "boakye",
+     "v": 4000000.0
+    },
+    {
+     "name": "Prince Adu",
+     "n": "prince adu",
+     "s": "adu",
+     "v": 3500000.0
+    },
+    {
+     "name": "Christopher Bonsu Baah",
+     "n": "christopher bonsu baah",
+     "s": "baah",
+     "v": 3500000.0
+    },
+    {
+     "name": "Gideon Mensah",
+     "n": "gideon mensah",
+     "s": "mensah",
+     "v": 3500000.0
+    },
+    {
+     "name": "Marvin Senaya",
+     "n": "marvin senaya",
+     "s": "senaya",
+     "v": 3000000.0
+    },
+    {
+     "name": "Aziz Yakubu",
+     "n": "aziz yakubu",
+     "s": "yakubu",
+     "v": 3000000.0
+    },
+    {
+     "name": "Ibrahim Sadiq",
+     "n": "ibrahim sadiq",
+     "s": "sadiq",
+     "v": 3000000.0
+    },
+    {
+     "name": "Mohammed Fuseini",
+     "n": "mohammed fuseini",
+     "s": "fuseini",
+     "v": 3000000.0
+    },
+    {
+     "name": "Nathaniel Adjei",
+     "n": "nathaniel adjei",
+     "s": "adjei",
+     "v": 2500000.0
+    }
+   ]
+  },
+  "PAN": {
+   "xiValue": 0,
+   "median": 0,
+   "players": []
+  }
+ }
+}

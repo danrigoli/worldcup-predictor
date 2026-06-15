@@ -74,4 +74,29 @@ export const BROWSER_UA =
 export const ESPN_SCOREBOARD_URL =
   "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard";
 
+export const ESPN_SUMMARY_URL =
+  "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary";
+
+/**
+ * Lineup-aware match adjustment. When the confirmed XI is published (~30–60 min
+ * pre-kickoff), a team fielding less than its strongest XI is penalised in
+ * proportion to the squad-market-value shortfall.
+ *   penalty = min(CAP, SENSITIVITY * (bestXIValue - fieldedXIValue) / bestXIValue)
+ * The weakened side's expected goals drop by `penalty`; the opponent's rise by
+ * `penalty * OPP_TRANSFER` (they concede more). Only applied to imminent/live
+ * match predictions, not the tournament sim.
+ */
+export const LINEUP_SENSITIVITY = 0.55;
+export const LINEUP_PENALTY_CAP = 0.2;
+export const LINEUP_OPP_TRANSFER = 0.5;
+/**
+ * A "key player" is one worth at least this share of the squad's best-XI market
+ * value. Only key players missing from the confirmed XI drive the penalty — so
+ * ordinary rotation is ignored, and squad depth is rewarded (a €100M player is
+ * a smaller share of a stacked XI than a talisman is of a modest one).
+ */
+export const LINEUP_STAR_SHARE = 0.1;
+/** Pull the XI for upcoming matches kicking off within this many hours. */
+export const LINEUP_WINDOW_HOURS = 3;
+
 export const TOURNAMENT_START = "2026-06-11";

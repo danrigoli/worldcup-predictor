@@ -109,6 +109,7 @@ export const espnScoreboardSchema = z
     events: z.array(
       z
         .object({
+          id: z.string().optional(),
           date: z.string(),
           status: z
             .object({
