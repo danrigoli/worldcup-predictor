@@ -43,6 +43,16 @@ strength_blend:
   fifa: 0.20
   coach: 0.08
 
+# The 0.08 "coach" signal is a composite of three z-scored sub-signals: the
+# coach's win % with this national team, prior World-Cup-finals experience as a
+# manager, and (tenure-capped) time in charge. Tenure is capped so a very long
+# reign doesn't dominate; experience/tenure are secondary to win %.
+coach_weights:
+  win_pct: 0.6
+  prior_wc: 0.25
+  tenure: 0.15
+coach_tenure_cap_days: 1095   # ~3 years; stability saturates beyond this
+
 model:
   objective: poisson
   num_leaves: 16

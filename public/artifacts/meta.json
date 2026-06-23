@@ -20,7 +20,7 @@
     "fifa": 0.2,
     "coach": 0.08
   },
-  "host_boost": 0.123,
+  "host_boost": 0.1229,
   "backtest": {
     "gbm_rps": 0.20053139190894428,
     "baseline_rps": 0.20349462116841222,
@@ -66,7 +66,7 @@
   },
   "calibration": {
     "temperature": 0.688,
-    "favorite_title_prob": 0.164,
+    "favorite_title_prob": 0.163,
     "target": 0.165,
     "sim_count": 10000
   }

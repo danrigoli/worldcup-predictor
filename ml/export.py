@@ -60,21 +60,39 @@ def effective_strength(cfg, final_ratings, squad, coaches):
     log_val = {t: (np.log(v) if (np.isfinite(v) and v > 0) else np.nan)
                for t, v in sval.items()}
 
+    # Coach signal = a composite of win %, prior-WC experience and (capped)
+    # tenure, each z-scored across the 48 teams then weighted and re-normalized.
     if len(coaches) and "coach_win_pct" in coaches.columns:
-        coach_sig = {}
-        for t in teams.ALL_TEAM_IDS:
-            wp = coaches.loc[t, "coach_win_pct"] if t in coaches.index else np.nan
-            prior = coaches.loc[t, "coach_prior_wc"] if t in coaches.index else 0
-            base = wp if np.isfinite(wp) else np.nan
-            coach_sig[t] = base
-        has_coach = any(np.isfinite(v) for v in coach_sig.values())
+        cap = cfg.get("coach_tenure_cap_days", 1095)
+
+        def col(name, default=np.nan):
+            return {
+                t: (coaches.loc[t, name] if t in coaches.index else default)
+                for t in teams.ALL_TEAM_IDS
+            }
+
+        win = col("coach_win_pct")
+        prior = {t: (v if np.isfinite(v) else 0.0) for t, v in col("coach_prior_wc", 0.0).items()}
+        tenure = {
+            t: (min(float(v), cap) if np.isfinite(v) else np.nan)
+            for t, v in col("coach_tenure_days").items()
+        }
+        cw = cfg["coach_weights"]
+        z_win, z_prior, z_ten = _znorm(win), _znorm(prior), _znorm(tenure)
+        composite = {
+            t: cw["win_pct"] * z_win[t]
+            + cw["prior_wc"] * z_prior[t]
+            + cw["tenure"] * z_ten[t]
+            for t in teams.ALL_TEAM_IDS
+        }
+        has_coach = any(np.isfinite(v) for v in win.values())
     else:
-        coach_sig = {t: np.nan for t in teams.ALL_TEAM_IDS}
+        composite = {t: 0.0 for t in teams.ALL_TEAM_IDS}
         has_coach = False
 
     z_elo = _znorm(elo)
     z_fifa = _znorm({t: fifa.get(t, np.nan) for t in teams.ALL_TEAM_IDS})
-    z_coach = _znorm(coach_sig)
+    z_coach = _znorm(composite)  # re-normalize the composite to unit variance
 
     w = dict(cfg["strength_blend"])  # elo, fifa, coach (market value is a feature)
     if not has_coach:
