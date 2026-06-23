@@ -4,7 +4,7 @@ import path from "node:path";
 import { ALL_TEAM_IDS } from "@/lib/names";
 import { blendRatings } from "@/lib/model/blend";
 import { simulate } from "@/lib/engine";
-import type { Match, Overrides, Ratings } from "@/lib/types";
+import type { Match, Ratings } from "@/lib/types";
 
 const ROOT = path.join(__dirname, "..", "..");
 
@@ -66,20 +66,34 @@ describe("tournament simulation (integration)", () => {
     expect(sum("final")).toBeCloseTo(2, 1);
   });
 
-  it("conditions on real results: locking Mexico 2-0 raises Mexico's advance odds", () => {
-    // Strip Mexico's match-1 result, then compare with it present.
-    const withoutResult = fixtures.matches.map((m) =>
-      m.matchNumber === 1
-        ? { ...m, homeScore: null, awayScore: null, winner: null }
-        : m
+  it("conditions on results: forcing an unplayed match shifts advancement the right way", () => {
+    // Robust to tournament progress: take the committed seed as-is (real results
+    // + any bracket slots already filled in) and force the FIRST unplayed group
+    // match. Reaching the R32 = advancing from your group; winning your own
+    // group game can only help/keep that, never lower it (deeper-round odds are
+    // NOT monotone because the bracket slot you land in matters).
+    const target = fixtures.matches.find(
+      (m) =>
+        m.stage === "group" &&
+        m.homeScore === null &&
+        m.home.kind === "team" &&
+        m.away.kind === "team"
     );
-    const a = simulate(withoutResult, preRatings, fifaRank, {}, SIMS, SEED);
+    expect(target).toBeDefined();
+    const home = (target!.home as { team: string }).team;
+    const away = (target!.away as { team: string }).team;
+    const mn = target!.matchNumber;
 
-    const overrideWin: Overrides = { 1: { homeScore: 2, awayScore: 0 } };
-    const b = simulate(withoutResult, preRatings, fifaRank, overrideWin, SIMS, SEED);
+    const homeWin = simulate(fixtures.matches, preRatings, fifaRank, { [mn]: { homeScore: 4, awayScore: 0 } }, SIMS, SEED);
+    const awayWin = simulate(fixtures.matches, preRatings, fifaRank, { [mn]: { homeScore: 0, awayScore: 4 } }, SIMS, SEED);
 
-    // Mexico (MEX) reaching the R32 should be at least as likely with a 2-0 win.
-    expect(b.odds.MEX.r32).toBeGreaterThan(a.odds.MEX.r32);
+    expect(homeWin.odds[home].r32).toBeGreaterThanOrEqual(awayWin.odds[home].r32 - 1e-9);
+    expect(awayWin.odds[away].r32).toBeGreaterThanOrEqual(homeWin.odds[away].r32 - 1e-9);
+    // The override must visibly move the forecast somewhere.
+    const moved = ALL_TEAM_IDS.some(
+      (id) => Math.abs(homeWin.odds[id].r32 - awayWin.odds[id].r32) > 0.005
+    );
+    expect(moved).toBe(true);
   });
 
   it("favorite title odds land in a plausible band (~8-22%)", () => {

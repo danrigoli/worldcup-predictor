@@ -20,53 +20,53 @@
     "fifa": 0.2,
     "coach": 0.08
   },
-  "host_boost": 0.1209,
+  "host_boost": 0.1226,
   "backtest": {
-    "gbm_rps": 0.20094122427351854,
-    "baseline_rps": 0.20349460687184276,
+    "gbm_rps": 0.20053139190894428,
+    "baseline_rps": 0.20349462116841222,
     "per_tournament": [
       {
         "tournament": "WC2014",
         "matches": 64,
-        "gbm_rps": 0.1903783255517787,
-        "baseline_rps": 0.18220922508346318
+        "gbm_rps": 0.18990559423715533,
+        "baseline_rps": 0.18220875545507015
       },
       {
         "tournament": "EURO2016",
         "matches": 51,
-        "gbm_rps": 0.21717603807354294,
-        "baseline_rps": 0.2260351494144508
+        "gbm_rps": 0.21693922264447818,
+        "baseline_rps": 0.22603536596215273
       },
       {
         "tournament": "WC2018",
         "matches": 64,
-        "gbm_rps": 0.20304802864668414,
-        "baseline_rps": 0.20925495115128806
+        "gbm_rps": 0.2014132825414064,
+        "baseline_rps": 0.20925444638192436
       },
       {
         "tournament": "EURO2021",
         "matches": 51,
-        "gbm_rps": 0.17966020522483128,
-        "baseline_rps": 0.18438688744387877
+        "gbm_rps": 0.1801385594480277,
+        "baseline_rps": 0.18438685146819403
       },
       {
         "tournament": "WC2022",
         "matches": 64,
-        "gbm_rps": 0.22075588019732045,
-        "baseline_rps": 0.22216532868690952
+        "gbm_rps": 0.22070134537597494,
+        "baseline_rps": 0.22216625051758299
       },
       {
         "tournament": "EURO2024",
         "matches": 51,
-        "gbm_rps": 0.19462886794695364,
-        "baseline_rps": 0.19691609945106642
+        "gbm_rps": 0.19409034720662305,
+        "baseline_rps": 0.19691605722554906
       }
     ],
     "beats_baseline": true
   },
   "calibration": {
-    "temperature": 0.922,
-    "favorite_title_prob": 0.168,
+    "temperature": 0.723,
+    "favorite_title_prob": 0.167,
     "target": 0.165,
     "sim_count": 10000
   }

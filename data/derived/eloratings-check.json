@@ -1,247 +1,247 @@
 {
   "meanOffset": 93,
-  "offsetCorrectedMeanAbsDiff": 30,
+  "offsetCorrectedMeanAbsDiff": 37,
   "teamsCompared": 48,
   "comparison": {
     "MEX": {
       "ours": 1975,
-      "theirs": 1881,
-      "diff": 94
+      "theirs": 1896,
+      "diff": 79
     },
     "RSA": {
       "ours": 1665,
-      "theirs": 1511,
-      "diff": 154
+      "theirs": 1527,
+      "diff": 138
     },
     "KOR": {
       "ours": 1881,
-      "theirs": 1786,
-      "diff": 95
+      "theirs": 1771,
+      "diff": 110
     },
     "CZE": {
       "ours": 1798,
-      "theirs": 1712,
-      "diff": 86
+      "theirs": 1696,
+      "diff": 102
     },
     "CAN": {
       "ours": 1895,
-      "theirs": 1767,
-      "diff": 128
+      "theirs": 1777,
+      "diff": 118
     },
     "BIH": {
       "ours": 1652,
-      "theirs": 1616,
-      "diff": 36
+      "theirs": 1596,
+      "diff": 56
     },
     "QAT": {
       "ours": 1575,
-      "theirs": 1421,
-      "diff": 154
+      "theirs": 1437,
+      "diff": 138
     },
     "SUI": {
       "ours": 1960,
-      "theirs": 1891,
-      "diff": 69
+      "theirs": 1885,
+      "diff": 75
     },
     "BRA": {
       "ours": 2061,
-      "theirs": 1991,
-      "diff": 70
+      "theirs": 1986,
+      "diff": 75
     },
     "MAR": {
       "ours": 1989,
-      "theirs": 1827,
-      "diff": 162
+      "theirs": 1866,
+      "diff": 123
     },
     "HAI": {
       "ours": 1690,
-      "theirs": 1548,
-      "diff": 142
+      "theirs": 1528,
+      "diff": 162
     },
     "SCO": {
       "ours": 1838,
-      "theirs": 1782,
-      "diff": 56
+      "theirs": 1768,
+      "diff": 70
     },
     "USA": {
       "ours": 1840,
-      "theirs": 1726,
-      "diff": 114
+      "theirs": 1820,
+      "diff": 20
     },
     "PAR": {
       "ours": 1912,
-      "theirs": 1834,
-      "diff": 78
+      "theirs": 1816,
+      "diff": 96
     },
     "AUS": {
       "ours": 1901,
-      "theirs": 1777,
-      "diff": 124
+      "theirs": 1799,
+      "diff": 102
     },
     "TUR": {
       "ours": 1962,
-      "theirs": 1911,
-      "diff": 51
+      "theirs": 1813,
+      "diff": 149
     },
     "GER": {
       "ours": 2012,
-      "theirs": 1932,
-      "diff": 80
+      "theirs": 1954,
+      "diff": 58
     },
     "CUW": {
       "ours": 1599,
-      "theirs": 1434,
-      "diff": 165
+      "theirs": 1453,
+      "diff": 146
     },
     "CIV": {
       "ours": 1815,
-      "theirs": 1695,
-      "diff": 120
+      "theirs": 1728,
+      "diff": 87
     },
     "ECU": {
       "ours": 2021,
-      "theirs": 1938,
-      "diff": 83
+      "theirs": 1864,
+      "diff": 157
     },
     "NED": {
       "ours": 2014,
-      "theirs": 1948,
-      "diff": 66
+      "theirs": 1972,
+      "diff": 42
     },
     "JPN": {
       "ours": 1995,
-      "theirs": 1906,
-      "diff": 89
+      "theirs": 1925,
+      "diff": 70
     },
     "SWE": {
       "ours": 1767,
-      "theirs": 1712,
-      "diff": 55
+      "theirs": 1727,
+      "diff": 40
     },
     "TUN": {
       "ours": 1735,
-      "theirs": 1628,
-      "diff": 107
+      "theirs": 1570,
+      "diff": 165
     },
     "BEL": {
       "ours": 1968,
-      "theirs": 1894,
-      "diff": 74
+      "theirs": 1869,
+      "diff": 99
     },
     "EGY": {
       "ours": 1808,
-      "theirs": 1696,
-      "diff": 112
+      "theirs": 1740,
+      "diff": 68
     },
     "IRN": {
       "ours": 1898,
-      "theirs": 1772,
-      "diff": 126
+      "theirs": 1766,
+      "diff": 132
     },
     "NZL": {
       "ours": 1732,
-      "theirs": 1562,
-      "diff": 170
+      "theirs": 1549,
+      "diff": 183
     },
     "ESP": {
       "ours": 2207,
-      "theirs": 2157,
-      "diff": 50
+      "theirs": 2134,
+      "diff": 73
     },
     "URU": {
       "ours": 1969,
-      "theirs": 1892,
-      "diff": 77
+      "theirs": 1851,
+      "diff": 118
     },
     "KSA": {
       "ours": 1694,
-      "theirs": 1576,
-      "diff": 118
+      "theirs": 1593,
+      "diff": 101
     },
     "CPV": {
       "ours": 1650,
-      "theirs": 1578,
-      "diff": 72
+      "theirs": 1625,
+      "diff": 25
     },
     "FRA": {
       "ours": 2119,
-      "theirs": 2063,
-      "diff": 56
+      "theirs": 2090,
+      "diff": 29
     },
     "SEN": {
       "ours": 1908,
-      "theirs": 1860,
-      "diff": 48
+      "theirs": 1817,
+      "diff": 91
     },
     "NOR": {
       "ours": 1959,
-      "theirs": 1914,
-      "diff": 45
+      "theirs": 1951,
+      "diff": 8
     },
     "IRQ": {
       "ours": 1738,
-      "theirs": 1607,
-      "diff": 131
+      "theirs": 1586,
+      "diff": 152
     },
     "ARG": {
       "ours": 2183,
-      "theirs": 2115,
-      "diff": 68
+      "theirs": 2144,
+      "diff": 39
     },
     "ALG": {
       "ours": 1882,
-      "theirs": 1772,
-      "diff": 110
+      "theirs": 1780,
+      "diff": 102
     },
     "AUT": {
       "ours": 1895,
-      "theirs": 1830,
-      "diff": 65
+      "theirs": 1841,
+      "diff": 54
     },
     "JOR": {
       "ours": 1774,
-      "theirs": 1680,
-      "diff": 94
+      "theirs": 1632,
+      "diff": 142
     },
     "POR": {
       "ours": 2029,
-      "theirs": 1989,
-      "diff": 40
+      "theirs": 1967,
+      "diff": 62
     },
     "COL": {
       "ours": 2058,
-      "theirs": 1982,
-      "diff": 76
+      "theirs": 1998,
+      "diff": 60
     },
     "UZB": {
       "ours": 1823,
-      "theirs": 1714,
-      "diff": 109
+      "theirs": 1698,
+      "diff": 125
     },
     "COD": {
       "ours": 1759,
-      "theirs": 1652,
-      "diff": 107
+      "theirs": 1674,
+      "diff": 85
     },
     "ENG": {
       "ours": 2086,
-      "theirs": 2024,
-      "diff": 62
+      "theirs": 2055,
+      "diff": 31
     },
     "CRO": {
       "ours": 1963,
-      "theirs": 1912,
-      "diff": 51
+      "theirs": 1881,
+      "diff": 82
     },
     "GHA": {
       "ours": 1623,
-      "theirs": 1510,
-      "diff": 113
+      "theirs": 1557,
+      "diff": 66
     },
     "PAN": {
       "ours": 1842,
-      "theirs": 1730,
-      "diff": 112
+      "theirs": 1683,
+      "diff": 159
     }
   }
 }

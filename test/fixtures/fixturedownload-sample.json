@@ -43,9 +43,9 @@
     "HomeTeam": "USA",
     "AwayTeam": "Paraguay",
     "Group": "Group D",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 4,
+    "AwayTeamScore": 1,
+    "Winner": "USA"
   },
   {
     "MatchNumber": 8,
@@ -55,9 +55,9 @@
     "HomeTeam": "Qatar",
     "AwayTeam": "Switzerland",
     "Group": "Group B",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 1,
+    "AwayTeamScore": 1,
+    "Winner": "Draw"
   },
   {
     "MatchNumber": 7,
@@ -67,9 +67,9 @@
     "HomeTeam": "Brazil",
     "AwayTeam": "Morocco",
     "Group": "Group C",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 1,
+    "AwayTeamScore": 1,
+    "Winner": "Draw"
   },
   {
     "MatchNumber": 73,
@@ -100,7 +100,7 @@
     "RoundNumber": 4,
     "DateUtc": "2026-06-29 20:30:00Z",
     "Location": "Boston Stadium",
-    "HomeTeam": "1E",
+    "HomeTeam": "Germany",
     "AwayTeam": "3ABCDF",
     "Group": null,
     "HomeTeamScore": null,
@@ -148,7 +148,7 @@
     "RoundNumber": 4,
     "DateUtc": "2026-07-01 01:00:00Z",
     "Location": "Mexico City Stadium",
-    "HomeTeam": "1A",
+    "HomeTeam": "Mexico",
     "AwayTeam": "3CEFHI",
     "Group": null,
     "HomeTeamScore": null,
@@ -184,7 +184,7 @@
     "RoundNumber": 4,
     "DateUtc": "2026-07-02 00:00:00Z",
     "Location": "San Francisco Bay Area Stadium",
-    "HomeTeam": "1D",
+    "HomeTeam": "USA",
     "AwayTeam": "3BEFIJ",
     "Group": null,
     "HomeTeamScore": null,
@@ -244,7 +244,7 @@
     "RoundNumber": 4,
     "DateUtc": "2026-07-03 22:00:00Z",
     "Location": "Miami Stadium",
-    "HomeTeam": "1J",
+    "HomeTeam": "Argentina",
     "AwayTeam": "2H",
     "Group": null,
     "HomeTeamScore": null,
