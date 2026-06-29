@@ -67,31 +67,44 @@ describe("tournament simulation (integration)", () => {
   });
 
   it("conditions on results: forcing an unplayed match shifts advancement the right way", () => {
-    // Robust to tournament progress: take the committed seed as-is (real results
-    // + any bracket slots already filled in) and force the FIRST unplayed group
-    // match. Reaching the R32 = advancing from your group; winning your own
-    // group game can only help/keep that, never lower it (deeper-round odds are
-    // NOT monotone because the bracket slot you land in matters).
+    // Robust to tournament progress (groups OR knockouts): force the FIRST
+    // unplayed match with two known teams. The only universally monotone effect
+    // of a result is reaching the round that match FEEDS INTO — winning never
+    // lowers it (deeper-round odds aren't monotone, since the bracket slot you
+    // land in matters).
+    const nextStage: Record<
+      string,
+      "r32" | "r16" | "qf" | "sf" | "final" | "winner" | null
+    > = {
+      group: "r32",
+      r32: "r16",
+      r16: "qf",
+      qf: "sf",
+      sf: "final",
+      final: "winner",
+      "third-place": null,
+    };
     const target = fixtures.matches.find(
       (m) =>
-        m.stage === "group" &&
         m.homeScore === null &&
         m.home.kind === "team" &&
-        m.away.kind === "team"
+        m.away.kind === "team" &&
+        nextStage[m.stage] !== null
     );
     expect(target).toBeDefined();
     const home = (target!.home as { team: string }).team;
     const away = (target!.away as { team: string }).team;
     const mn = target!.matchNumber;
+    const stage = nextStage[target!.stage]!;
 
     const homeWin = simulate(fixtures.matches, preRatings, fifaRank, { [mn]: { homeScore: 4, awayScore: 0 } }, SIMS, SEED);
     const awayWin = simulate(fixtures.matches, preRatings, fifaRank, { [mn]: { homeScore: 0, awayScore: 4 } }, SIMS, SEED);
 
-    expect(homeWin.odds[home].r32).toBeGreaterThanOrEqual(awayWin.odds[home].r32 - 1e-9);
-    expect(awayWin.odds[away].r32).toBeGreaterThanOrEqual(homeWin.odds[away].r32 - 1e-9);
+    expect(homeWin.odds[home][stage]).toBeGreaterThanOrEqual(awayWin.odds[home][stage] - 1e-9);
+    expect(awayWin.odds[away][stage]).toBeGreaterThanOrEqual(homeWin.odds[away][stage] - 1e-9);
     // The override must visibly move the forecast somewhere.
     const moved = ALL_TEAM_IDS.some(
-      (id) => Math.abs(homeWin.odds[id].r32 - awayWin.odds[id].r32) > 0.005
+      (id) => Math.abs(homeWin.odds[id].winner - awayWin.odds[id].winner) > 0.003
     );
     expect(moved).toBe(true);
   });

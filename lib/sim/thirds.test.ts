@@ -1,6 +1,4 @@
 import { describe, expect, it } from "vitest";
-import fs from "node:fs";
-import path from "node:path";
 import {
   allocateThirds,
   rankThirds,
@@ -10,8 +8,6 @@ import {
 import type { GroupLetter, TeamId } from "@/lib/types";
 import type { TeamStanding } from "./groups";
 
-const ROOT = path.join(__dirname, "..", "..");
-
 function standing(team: TeamId, points: number, gd: number, gf: number): TeamStanding {
   return { team, played: 3, won: 0, drawn: 0, lost: 0, gf, ga: gf - gd, gd, points };
 }
@@ -20,20 +16,28 @@ function third(team: TeamId, group: GroupLetter, pts: number, gd: number, gf: nu
   return { team, group, standing: standing(team, pts, gd, gf) };
 }
 
-/** The 8 third-pool R32 slots, read from the committed fixtures seed. */
+/**
+ * The 8 third-pool R32 slots, fixed by the FIFA 2026 bracket format. Hard-coded
+ * (not read from the fixtures seed) because the live feed replaces these
+ * placeholder pools with concrete qualifiers as groups finish — so mid-
+ * tournament the seed has zero third-pool slots. Verified against the original
+ * fixturedownload feed (#74 "3ABCDF" … #87 "3DEIJL").
+ */
 function feedThirdSlots(): ThirdSlot[] {
-  const fixtures = JSON.parse(
-    fs.readFileSync(path.join(ROOT, "data/seeds/fixtures-2026.json"), "utf-8")
-  );
-  const slots: ThirdSlot[] = [];
-  for (const m of fixtures.matches) {
-    for (const side of [m.home, m.away]) {
-      if (side.kind === "third-pool") {
-        slots.push({ matchNumber: m.matchNumber, pool: side.groups });
-      }
-    }
-  }
-  return slots;
+  const pools: Record<number, GroupLetter[]> = {
+    74: ["A", "B", "C", "D", "F"],
+    77: ["C", "D", "F", "G", "H"],
+    79: ["C", "E", "F", "H", "I"],
+    80: ["E", "H", "I", "J", "K"],
+    81: ["B", "E", "F", "I", "J"],
+    82: ["A", "E", "H", "I", "J"],
+    85: ["E", "F", "G", "I", "J"],
+    87: ["D", "E", "I", "J", "L"],
+  };
+  return Object.entries(pools).map(([mn, pool]) => ({
+    matchNumber: Number(mn),
+    pool,
+  }));
 }
 
 describe("rankThirds", () => {
@@ -53,8 +57,9 @@ describe("rankThirds", () => {
 describe("allocateThirds (against the real feed pools)", () => {
   const slots = feedThirdSlots();
 
-  it("the feed has exactly 8 third-pool slots", () => {
+  it("has exactly 8 third-pool slots, each a 5-group pool", () => {
     expect(slots).toHaveLength(8);
+    for (const s of slots) expect(s.pool).toHaveLength(5);
   });
 
   it("assigns 8 thirds bijectively, each within its pool", () => {

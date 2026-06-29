@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-06-23T14:07:09.798Z",
+  "capturedAt": "2026-06-29T20:47:16.425Z",
   "matches": [
     {
       "matchNumber": 1,
@@ -852,8 +852,8 @@
         "kind": "team",
         "team": "GHA"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 0,
       "winner": null
     },
     {
@@ -871,9 +871,9 @@
         "kind": "team",
         "team": "CRO"
       },
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null
+      "homeScore": 0,
+      "awayScore": 1,
+      "winner": "CRO"
     },
     {
       "matchNumber": 47,
@@ -890,9 +890,9 @@
         "kind": "team",
         "team": "UZB"
       },
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null
+      "homeScore": 5,
+      "awayScore": 0,
+      "winner": "POR"
     },
     {
       "matchNumber": 48,
@@ -909,9 +909,9 @@
         "kind": "team",
         "team": "COD"
       },
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null
+      "homeScore": 1,
+      "awayScore": 0,
+      "winner": "COL"
     },
     {
       "matchNumber": 49,
@@ -928,9 +928,9 @@
         "kind": "team",
         "team": "BRA"
       },
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null
+      "homeScore": 0,
+      "awayScore": 3,
+      "winner": "BRA"
     },
     {
       "matchNumber": 50,
@@ -947,9 +947,9 @@
         "kind": "team",
         "team": "HAI"
       },
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null
+      "homeScore": 4,
+      "awayScore": 2,
+      "winner": "MAR"
     },
     {
       "matchNumber": 51,
@@ -966,9 +966,9 @@
         "kind": "team",
         "team": "CAN"
       },
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null
+      "homeScore": 2,
+      "awayScore": 1,
+      "winner": "SUI"
     },
     {
       "matchNumber": 52,
@@ -985,9 +985,9 @@
         "kind": "team",
         "team": "QAT"
       },
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null
+      "homeScore": 3,
+      "awayScore": 1,
+      "winner": "BIH"
     },
     {
       "matchNumber": 53,
@@ -1004,9 +1004,9 @@
         "kind": "team",
         "team": "MEX"
       },
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null
+      "homeScore": 0,
+      "awayScore": 3,
+      "winner": "MEX"
     },
     {
       "matchNumber": 54,
@@ -1023,9 +1023,9 @@
         "kind": "team",
         "team": "KOR"
       },
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null
+      "homeScore": 1,
+      "awayScore": 0,
+      "winner": "RSA"
     },
     {
       "matchNumber": 55,
@@ -1042,9 +1042,9 @@
         "kind": "team",
         "team": "CIV"
       },
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null
+      "homeScore": 0,
+      "awayScore": 2,
+      "winner": "CIV"
     },
     {
       "matchNumber": 56,
@@ -1061,9 +1061,9 @@
         "kind": "team",
         "team": "GER"
       },
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null
+      "homeScore": 2,
+      "awayScore": 1,
+      "winner": "ECU"
     },
     {
       "matchNumber": 57,
@@ -1080,8 +1080,8 @@
         "kind": "team",
         "team": "SWE"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 1,
+      "awayScore": 1,
       "winner": null
     },
     {
@@ -1099,9 +1099,9 @@
         "kind": "team",
         "team": "NED"
       },
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null
+      "homeScore": 1,
+      "awayScore": 3,
+      "winner": "NED"
     },
     {
       "matchNumber": 59,
@@ -1118,9 +1118,9 @@
         "kind": "team",
         "team": "USA"
       },
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null
+      "homeScore": 3,
+      "awayScore": 2,
+      "winner": "TUR"
     },
     {
       "matchNumber": 60,
@@ -1137,8 +1137,8 @@
         "kind": "team",
         "team": "AUS"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 0,
       "winner": null
     },
     {
@@ -1156,9 +1156,9 @@
         "kind": "team",
         "team": "FRA"
       },
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null
+      "homeScore": 1,
+      "awayScore": 4,
+      "winner": "FRA"
     },
     {
       "matchNumber": 62,
@@ -1175,9 +1175,9 @@
         "kind": "team",
         "team": "IRQ"
       },
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null
+      "homeScore": 5,
+      "awayScore": 0,
+      "winner": "SEN"
     },
     {
       "matchNumber": 63,
@@ -1194,8 +1194,8 @@
         "kind": "team",
         "team": "IRN"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 1,
+      "awayScore": 1,
       "winner": null
     },
     {
@@ -1213,9 +1213,9 @@
         "kind": "team",
         "team": "BEL"
       },
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null
+      "homeScore": 1,
+      "awayScore": 5,
+      "winner": "BEL"
     },
     {
       "matchNumber": 65,
@@ -1232,8 +1232,8 @@
         "kind": "team",
         "team": "KSA"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 0,
       "winner": null
     },
     {
@@ -1251,9 +1251,9 @@
         "kind": "team",
         "team": "ESP"
       },
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null
+      "homeScore": 0,
+      "awayScore": 1,
+      "winner": "ESP"
     },
     {
       "matchNumber": 67,
@@ -1270,9 +1270,9 @@
         "kind": "team",
         "team": "ENG"
       },
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null
+      "homeScore": 0,
+      "awayScore": 2,
+      "winner": "ENG"
     },
     {
       "matchNumber": 68,
@@ -1289,9 +1289,9 @@
         "kind": "team",
         "team": "GHA"
       },
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null
+      "homeScore": 2,
+      "awayScore": 1,
+      "winner": "CRO"
     },
     {
       "matchNumber": 69,
@@ -1308,8 +1308,8 @@
         "kind": "team",
         "team": "AUT"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 3,
+      "awayScore": 3,
       "winner": null
     },
     {
@@ -1327,9 +1327,9 @@
         "kind": "team",
         "team": "ARG"
       },
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null
+      "homeScore": 1,
+      "awayScore": 3,
+      "winner": "ARG"
     },
     {
       "matchNumber": 71,
@@ -1346,8 +1346,8 @@
         "kind": "team",
         "team": "POR"
       },
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 0,
       "winner": null
     },
     {
@@ -1365,9 +1365,9 @@
         "kind": "team",
         "team": "UZB"
       },
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null
+      "homeScore": 3,
+      "awayScore": 1,
+      "winner": "COD"
     },
     {
       "matchNumber": 73,
@@ -1377,18 +1377,16 @@
       "venue": "Los Angeles Stadium",
       "hostCountry": "United States",
       "home": {
-        "kind": "group-rank",
-        "group": "A",
-        "rank": 2
+        "kind": "team",
+        "team": "RSA"
       },
       "away": {
-        "kind": "group-rank",
-        "group": "B",
-        "rank": 2
+        "kind": "team",
+        "team": "CAN"
       },
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null
+      "homeScore": 0,
+      "awayScore": 1,
+      "winner": "CAN"
     },
     {
       "matchNumber": 74,
@@ -1402,14 +1400,8 @@
         "team": "GER"
       },
       "away": {
-        "kind": "third-pool",
-        "groups": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "F"
-        ]
+        "kind": "team",
+        "team": "PAR"
       },
       "homeScore": null,
       "awayScore": null,
@@ -1423,14 +1415,12 @@
       "venue": "Monterrey Stadium",
       "hostCountry": "Mexico",
       "home": {
-        "kind": "group-rank",
-        "group": "F",
-        "rank": 1
+        "kind": "team",
+        "team": "NED"
       },
       "away": {
-        "kind": "group-rank",
-        "group": "C",
-        "rank": 2
+        "kind": "team",
+        "team": "MAR"
       },
       "homeScore": null,
       "awayScore": null,
@@ -1444,18 +1434,16 @@
       "venue": "Houston Stadium",
       "hostCountry": "United States",
       "home": {
-        "kind": "group-rank",
-        "group": "C",
-        "rank": 1
+        "kind": "team",
+        "team": "BRA"
       },
       "away": {
-        "kind": "group-rank",
-        "group": "F",
-        "rank": 2
+        "kind": "team",
+        "team": "JPN"
       },
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null
+      "homeScore": 2,
+      "awayScore": 1,
+      "winner": "BRA"
     },
     {
       "matchNumber": 77,
@@ -1465,19 +1453,12 @@
       "venue": "New York/New Jersey Stadium",
       "hostCountry": "United States",
       "home": {
-        "kind": "group-rank",
-        "group": "I",
-        "rank": 1
+        "kind": "team",
+        "team": "FRA"
       },
       "away": {
-        "kind": "third-pool",
-        "groups": [
-          "C",
-          "D",
-          "F",
-          "G",
-          "H"
-        ]
+        "kind": "team",
+        "team": "SWE"
       },
       "homeScore": null,
       "awayScore": null,
@@ -1491,14 +1472,12 @@
       "venue": "Dallas Stadium",
       "hostCountry": "United States",
       "home": {
-        "kind": "group-rank",
-        "group": "E",
-        "rank": 2
+        "kind": "team",
+        "team": "CIV"
       },
       "away": {
-        "kind": "group-rank",
-        "group": "I",
-        "rank": 2
+        "kind": "team",
+        "team": "NOR"
       },
       "homeScore": null,
       "awayScore": null,
@@ -1516,14 +1495,8 @@
         "team": "MEX"
       },
       "away": {
-        "kind": "third-pool",
-        "groups": [
-          "C",
-          "E",
-          "F",
-          "H",
-          "I"
-        ]
+        "kind": "team",
+        "team": "ECU"
       },
       "homeScore": null,
       "awayScore": null,
@@ -1537,19 +1510,12 @@
       "venue": "Atlanta Stadium",
       "hostCountry": "United States",
       "home": {
-        "kind": "group-rank",
-        "group": "L",
-        "rank": 1
+        "kind": "team",
+        "team": "ENG"
       },
       "away": {
-        "kind": "third-pool",
-        "groups": [
-          "E",
-          "H",
-          "I",
-          "J",
-          "K"
-        ]
+        "kind": "team",
+        "team": "COD"
       },
       "homeScore": null,
       "awayScore": null,
@@ -1567,14 +1533,8 @@
         "team": "USA"
       },
       "away": {
-        "kind": "third-pool",
-        "groups": [
-          "B",
-          "E",
-          "F",
-          "I",
-          "J"
-        ]
+        "kind": "team",
+        "team": "BIH"
       },
       "homeScore": null,
       "awayScore": null,
@@ -1588,19 +1548,12 @@
       "venue": "Seattle Stadium",
       "hostCountry": "United States",
       "home": {
-        "kind": "group-rank",
-        "group": "G",
-        "rank": 1
+        "kind": "team",
+        "team": "BEL"
       },
       "away": {
-        "kind": "third-pool",
-        "groups": [
-          "A",
-          "E",
-          "H",
-          "I",
-          "J"
-        ]
+        "kind": "team",
+        "team": "SEN"
       },
       "homeScore": null,
       "awayScore": null,
@@ -1614,14 +1567,12 @@
       "venue": "Toronto Stadium",
       "hostCountry": "Canada",
       "home": {
-        "kind": "group-rank",
-        "group": "K",
-        "rank": 2
+        "kind": "team",
+        "team": "POR"
       },
       "away": {
-        "kind": "group-rank",
-        "group": "L",
-        "rank": 2
+        "kind": "team",
+        "team": "CRO"
       },
       "homeScore": null,
       "awayScore": null,
@@ -1635,14 +1586,12 @@
       "venue": "Los Angeles Stadium",
       "hostCountry": "United States",
       "home": {
-        "kind": "group-rank",
-        "group": "H",
-        "rank": 1
+        "kind": "team",
+        "team": "ESP"
       },
       "away": {
-        "kind": "group-rank",
-        "group": "J",
-        "rank": 2
+        "kind": "team",
+        "team": "AUT"
       },
       "homeScore": null,
       "awayScore": null,
@@ -1656,19 +1605,12 @@
       "venue": "BC Place Vancouver",
       "hostCountry": "Canada",
       "home": {
-        "kind": "group-rank",
-        "group": "B",
-        "rank": 1
+        "kind": "team",
+        "team": "SUI"
       },
       "away": {
-        "kind": "third-pool",
-        "groups": [
-          "E",
-          "F",
-          "G",
-          "I",
-          "J"
-        ]
+        "kind": "team",
+        "team": "ALG"
       },
       "homeScore": null,
       "awayScore": null,
@@ -1686,9 +1628,8 @@
         "team": "ARG"
       },
       "away": {
-        "kind": "group-rank",
-        "group": "H",
-        "rank": 2
+        "kind": "team",
+        "team": "CPV"
       },
       "homeScore": null,
       "awayScore": null,
@@ -1702,19 +1643,12 @@
       "venue": "Kansas City Stadium",
       "hostCountry": "United States",
       "home": {
-        "kind": "group-rank",
-        "group": "K",
-        "rank": 1
+        "kind": "team",
+        "team": "COL"
       },
       "away": {
-        "kind": "third-pool",
-        "groups": [
-          "D",
-          "E",
-          "I",
-          "J",
-          "L"
-        ]
+        "kind": "team",
+        "team": "GHA"
       },
       "homeScore": null,
       "awayScore": null,
@@ -1728,14 +1662,12 @@
       "venue": "Dallas Stadium",
       "hostCountry": "United States",
       "home": {
-        "kind": "group-rank",
-        "group": "D",
-        "rank": 2
+        "kind": "team",
+        "team": "AUS"
       },
       "away": {
-        "kind": "group-rank",
-        "group": "G",
-        "rank": 2
+        "kind": "team",
+        "team": "EGY"
       },
       "homeScore": null,
       "awayScore": null,
@@ -1768,8 +1700,8 @@
       "venue": "Houston Stadium",
       "hostCountry": "United States",
       "home": {
-        "kind": "match-winner",
-        "matchNumber": 73
+        "kind": "team",
+        "team": "CAN"
       },
       "away": {
         "kind": "match-winner",
@@ -1787,8 +1719,8 @@
       "venue": "New York/New Jersey Stadium",
       "hostCountry": "United States",
       "home": {
-        "kind": "match-winner",
-        "matchNumber": 76
+        "kind": "team",
+        "team": "BRA"
       },
       "away": {
         "kind": "match-winner",
